@@ -27,6 +27,6 @@ Typos found:
 ## Stretch Goals
 
 - Add the ability for the user to specify custom words and phrases that shouldn't trigger an error
-- Make it interactive with corrections!
-- Make a GUI!
-- Smart detection of metadata and technical things like links and HTML and CSS.
+- Smart detection of metadata and technical things like links and HTML and CSS and code fences in Markdown
+- Make it interactive with corrections
+- Make a GUI

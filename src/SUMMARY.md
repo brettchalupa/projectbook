@@ -7,12 +7,12 @@
 - [Introduction](./command-line-interfaces/_introduction.md)
 - [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
 - [Find and Replace](./command-line-interfaces/find-and-replace.md)
-- [GNU Commands](./command-line-interfaces/gnu-commands.md)
 - [Markdown Processor](./command-line-interfaces/markdown-processor.md)
 - [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
 - [Spell Checker](./command-line-interfaces/spell-checker.md)
 - [Static Site Generator](./command-line-interfaces/static-site-generator.md)
 - [Text Editor](./command-line-interfaces/text-editor.md)
+- [Unix Utilities](./command-line-interfaces/unix-utilities.md)
 
 # Websites
 

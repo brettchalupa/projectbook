@@ -1,6 +1,8 @@
 # Simple Podcast Hosting
 
-Bring Your Own Hosting Podcast Tool
+a.k.a. _PodBud_
+
+a.k.a. _Bring Your Own Hosting Podcast Tool_
 
 Podcasts are a truly wonderfully simple format. They leverage a feed, usually RSS, that can be consumed by clients who check regularly for new episodes and then add them to a library for a user to listen to.
 
@@ -8,7 +10,7 @@ The RSS feed contains the episodes and a link to the audio file and a bunch of m
 
 So what if there was a simple way to build and host a podcast RSS feed and files (and any other files, like a simple website) all from the command line without using a hosting platform?
 
-It's sort of like the [Static Site Generator] but more focused on podcasts in particular and less on written content in Markdown.
+It's sort of like the [Static Site Generator](./static-site-generator.md) but more focused on podcasts in particular and less on written content in Markdown.
 
 ## Spec
 
@@ -52,7 +54,7 @@ an `episode.toml`:
 
 ``` toml
 title = "Episode 00: Suit of Vomit"
-publish_date = # proper format
+publish_date = 2011-09-09T07:32:00-08:00
 description = """
 Our pilot episode.
 
@@ -62,7 +64,7 @@ Pretty much what you’d expect.
 """ # supports Markdown, HTML, or just plain ole text
 ```
 
-[TODO: flesh out all of the details and those that are supported]
+[TODO: add all of the details and those that are supported]
 
 ## References
 
@@ -80,7 +82,7 @@ Pretty much what you’d expect.
 
 I'm particular interested in using Rust and TOML for this as I think it'd make it nice and portable. Go would be a good fit too, but really any general purpose programming language would work.
 
-## Stretch Goals
+## Extra Credit
 
 - Support different hosts and make it configurable
 - Add commands to CLI for creating an episode file
@@ -88,3 +90,7 @@ I'm particular interested in using Rust and TOML for this as I think it'd make i
 - GUI that makes it even easier to work with and manage ones podcast.
 - Add the ability to render the episodes on a website with a page for each episode and a general layout (maybe parse the RSS feed or just do it as part of the RSS building process)
 - Newer Podcast metadata attrs
+
+## See Also
+
+- [Static Site Generator](./static-site-generator.md) — similar in nature of processing files and converting into a specific format that then gets deployed to a host to be served over HTTP

@@ -2,7 +2,7 @@
 
 There are _so_ many of these. Nearly every modern language has one. It's largely a solved problem, but I bet there's still some space for innovation and experimentation. Plus, it's a really great learning project.
 
-There's basically no GUI. It's a command line app. Or well I guess you could have a GUI, that'd be a unique offering that most of the static site generators don't offer since their command line apps. 
+There's basically no GUI. It's a command line app. Or well I guess you could have a GUI, that'd be a unique offering that most of the static site generators don't offer since their command line apps.
 
 But the gist is that a static site generator takes a collection of text files and generates HTML pages that form a website. There's usually some form of processing from the input language to HTML (parsing) and then handling the templating.
 

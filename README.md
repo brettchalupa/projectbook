@@ -2,6 +2,8 @@
 
 **Learn By Doing**
 
+![Cover](src/cover-landscape.webp)
+
 A collection of over 50+ project ideas for learning new programming languages, frameworks, and libraries.
 
 Browse around, dig in, make something, and share it!

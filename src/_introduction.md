@@ -1,5 +1,7 @@
 # Projectbook Introduction
 
+![Cover](./cover-landscape.webp)
+
 **Learn By Doing**
 
 ~or~

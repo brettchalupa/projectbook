@@ -12,3 +12,7 @@ Install:
 Run the book server with : `mdbook serve --open`
 
 [TODO: make install via binary simpler and more clear]
+
+## Hosting
+
+Hosted on GitHub Pages, deployed via [GitHub Action](https://github.com/peaceiris/actions-mdbook) when pushed to `main` branch.

@@ -34,3 +34,7 @@ Users should have the ability to:
 - Support deleting a list or making a list private
 - Ensuring the URLs are properly formatted
 - Sanitizing input for potential non-safe data
+
+## See Also
+
+- [Link List](../websites/link-list.md) -- not quite ready for a full stack web app? That's okay! What if you instead just build a static website?

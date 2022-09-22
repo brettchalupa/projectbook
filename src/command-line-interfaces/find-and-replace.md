@@ -1,6 +1,6 @@
 # Find and Replace (far)
 
-As a Vim user, I'm pretty much always sweating large scale find and replace in my code. I'm going to be honest. I usually open up Sublime just for this since I find it works pretty darn well. I know, I know, I'm probably doing Vim wrong.
+As a Vim user, I'm pretty much always sweating large scale find and replace in my code. I'm going to be honest with you, I usually open up Sublime just for this since it's easy and works well. I know, I know, I'm probably doing Vim wrong.
 
 But you know what? I'm over that! Well, I want to be over that. That's where this project comes into play.
 
@@ -10,17 +10,19 @@ I think about it as a command-line app, but I think it could also have a graphic
 
 ## Example Usage
 
-replace all instances of "Foo" with "Bar" in the current directory and below
+Replace all instances of "Foo" with "Bar" in the current directory (and its children):
 
 ```
 far Foo Bar
 ```
+
+Or specify a glob of files in a given directory:
 
 ```
 far Foo Bar src/**/*.rs
 ```
 
-far Foo Bar
+## Spec
 
 - globs
 - targeting specific files
@@ -39,9 +41,11 @@ These are my top runners:
 
 tk-rs for the GUI would, in particular, match well with Rust for the library aspect of this.
 
-## Wireframes 
+## GUI Find and Replace
 
-[screenshots of existing GUI too]
+Here's a screenshot of Sublime's Find and Replace interface:
+
+![screenshot of Sublime's find and replace](./img/subllime-find-and-replace.webp)
 
 ## Stretch Goals
 

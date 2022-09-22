@@ -15,3 +15,6 @@
 - [ ] add additional resources for various types of projects to help me and those who are curious
 - [ ] export and distribute PDF as releases
 - [ ] establish changelog for major additions and such
+- [ ] address TODOs
+- [ ] use smart dashes and quotes where useful
+- [ ] learn about mdbook sitemap and see if that exists, if so, submit to search engines

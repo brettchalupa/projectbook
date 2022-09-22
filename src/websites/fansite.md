@@ -18,3 +18,4 @@ Things I want to make fansites for:
 
 - [The GBVSongbook](https://gbvsongbook.neocities.org) -- fansite for Guided By Voices song tabs
 - [Digital Emelas](https://www.digitalemelas.com) -- _Ys_ game series fansite
+- [Distant Skies](https://distantskies.neocities.org) -- a _Crystalis_ game fansite

@@ -6,6 +6,8 @@ For this project, build out a website to keep track of media you've finished. Yo
 
 Would a table be nice for rendering columnar data like when you finished it, your rating, the author, etc.? Or maybe just a simple list?
 
+[TODO: add screenie and code up a simple one for reference]
+
 ## Reference
 
 - [Art Garfunkel's read books list (2009-2014)](https://www.artgarfunkel.com/library/list9.html)

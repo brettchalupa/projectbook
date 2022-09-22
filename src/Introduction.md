@@ -1,8 +1,12 @@
 # Projectbook Introduction
 
+**Learn By Doing**
+
+~or~
+
 **The Great Big List of Software Project Ideas**
 
-A collection of software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise. 
+_Projectbook_ is a collection of over 50 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
 
 My goal with this collection is to provide detailed enough specifications for what could exist to complete a project or gibe enough detail to get started.
 
@@ -49,11 +53,19 @@ Don't worry too much about it looking generic or boring when you're learning, un
 
 ## Who the Heck Am I?
 
+![animated gif of rotating cartoon head that looks like brett in the style of Nintendo's Mii](./brett-mii.png)
+
 I am Brett! Nice to meet you. Thanks for checking this out. I'm a software programmer who has been doing some form of coding since I was 13. Professionally, I build web applications and APIs with Ruby, Rails, TypeScript, GraphQL, and web components. Personally, I dabble with all sorts of programming, from CLIs to game dev. I like checking out new languages and frameworks on the regular.
 
 Since I'm not, let's say, a software programmer for smart refridgerators, there aren't a ton of ideas related to smart refridgerators. The focus is more on the software I use regularly or have to build. This is great because I understand the needs and functionality, which means I don't have to think too much about why something needs to do something and can instead focus on learning the technology.
 
 I'd love to have more project ideas for different types of programming, like network programming and embedded hardware and such. Hopefully in the future!
+
+Want to connect or follow along with other things I do?
+
+- [Check out my website](https://code.brettchalupa.com)
+- [Follow me on Twitter @brett_codes](https://twitter.com/brett_codes)
+- [Watch my screencasts](https://www.youtube.com/channel/UCQXaIyeRqHjK9EK41b8J3yQ)
 
 ## Rights & Such
 
@@ -68,3 +80,7 @@ Also, ideas aren't worth much. What matters is what you make from those ideas!
 Do you have an idea for a project? Contribute it!
 
 Did you code an open source version of one of the projects and are comfortable sharing the source? Well, add it! That'll help people who are stuck or what to take it further or contribute.
+
+## Dig In!
+
+View the projects in the sidebar or browse through. Make some cool things. Learn a lot. And share along the way.

@@ -1,0 +1,6 @@
+[book]
+authors = ["Brett Chalupa"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Projectbook"

@@ -1,0 +1,1059 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Projectbook</title>
+                <meta name="robots" content="noindex" />
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="favicon.svg">
+                        <link rel="shortcut icon" href="favicon.png">
+                <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+                <link rel="stylesheet" href="css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Command Line Interfaces (CLIs)</li><li class="chapter-item expanded "><a href="command-line-interfaces/_introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/custom-markup-language.html"><strong aria-hidden="true">2.</strong> Custom Markup Language</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/find-and-replace.html"><strong aria-hidden="true">3.</strong> Find and Replace</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/gnu-commands.html"><strong aria-hidden="true">4.</strong> GNU Commands</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/markdown-processor.html"><strong aria-hidden="true">5.</strong> Markdown Processor</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/simple-podcast-hosting.html"><strong aria-hidden="true">6.</strong> Simple Podcast Hosting</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/spell-checker.html"><strong aria-hidden="true">7.</strong> Spell Checker</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/static-site-generator.html"><strong aria-hidden="true">8.</strong> Static Site Generator</a></li><li class="chapter-item expanded "><a href="command-line-interfaces/text-editor.html"><strong aria-hidden="true">9.</strong> Text Editor</a></li><li class="chapter-item expanded affix "><li class="part-title">Websites</li><li class="chapter-item expanded "><a href="websites/_introduction.html"><strong aria-hidden="true">10.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="websites/link-list.html"><strong aria-hidden="true">11.</strong> Link List</a></li><li class="chapter-item expanded "><a href="websites/homepage.html"><strong aria-hidden="true">12.</strong> Personal Home Page</a></li><li class="chapter-item expanded "><a href="websites/media-log.html"><strong aria-hidden="true">13.</strong> Media Log</a></li><li class="chapter-item expanded "><a href="websites/product-page.html"><strong aria-hidden="true">14.</strong> Product Page</a></li><li class="chapter-item expanded "><a href="websites/fansite.html"><strong aria-hidden="true">15.</strong> Fansite</a></li><li class="chapter-item expanded "><a href="websites/blog.html"><strong aria-hidden="true">16.</strong> Blog</a></li><li class="chapter-item expanded affix "><li class="part-title">Web Apps</li><li class="chapter-item expanded "><a href="web-apps/_introduction.html"><strong aria-hidden="true">17.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="web-apps/blogging-platform.html"><strong aria-hidden="true">18.</strong> Blogging Platform</a></li><li class="chapter-item expanded "><a href="web-apps/class-scheduler.html"><strong aria-hidden="true">19.</strong> Class Scheduler</a></li><li class="chapter-item expanded "><a href="web-apps/content-management-system.html"><strong aria-hidden="true">20.</strong> Content Management System</a></li><li class="chapter-item expanded "><a href="web-apps/help-site-manager.html"><strong aria-hidden="true">21.</strong> Help Site Manager</a></li><li class="chapter-item expanded "><a href="web-apps/linkbud.html"><strong aria-hidden="true">22.</strong> Linkbud</a></li><li class="chapter-item expanded "><a href="web-apps/recipehub.html"><strong aria-hidden="true">23.</strong> Recipe Hub</a></li><li class="chapter-item expanded "><a href="web-apps/restaurant-ordering-platform.html"><strong aria-hidden="true">24.</strong> Restaurant Ordering Platform</a></li><li class="chapter-item expanded "><a href="web-apps/simple-commerce.html"><strong aria-hidden="true">25.</strong> Simple Commerce</a></li><li class="chapter-item expanded "><a href="web-apps/social-network.html"><strong aria-hidden="true">26.</strong> Social Network</a></li><li class="chapter-item expanded "><a href="web-apps/story-publishing-platform.html"><strong aria-hidden="true">27.</strong> Story Publishing Platform</a></li><li class="chapter-item expanded "><a href="web-apps/url-shortener.html"><strong aria-hidden="true">28.</strong> URL Shortener</a></li><li class="chapter-item expanded "><a href="web-apps/videotube.html"><strong aria-hidden="true">29.</strong> VideoTube</a></li><li class="chapter-item expanded "><a href="web-apps/vinyl-code-redeemer.html"><strong aria-hidden="true">30.</strong> Vinyl Code Redeemer</a></li><li class="chapter-item expanded "><a href="web-apps/web-comic-platform.html"><strong aria-hidden="true">31.</strong> Web Comic Publishing Platform</a></li><li class="chapter-item expanded "><a href="web-apps/website-builder.html"><strong aria-hidden="true">32.</strong> Website Builder</a></li><li class="chapter-item expanded "><a href="web-apps/wishlist.html"><strong aria-hidden="true">33.</strong> Wishlist</a></li><li class="chapter-item expanded affix "><li class="part-title">Web Components</li><li class="chapter-item expanded "><a href="web-components/_introduction.html"><strong aria-hidden="true">34.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="web-components/image-gallery.html"><strong aria-hidden="true">35.</strong> Image Gallery</a></li><li class="chapter-item expanded "><a href="web-components/music-player.html"><strong aria-hidden="true">36.</strong> Music Player</a></li><li class="chapter-item expanded "><a href="web-components/prose-renderer.html"><strong aria-hidden="true">37.</strong> Prose Renderer</a></li><li class="chapter-item expanded "><a href="web-components/responsive-youtube-embed.html"><strong aria-hidden="true">38.</strong> Responsive YouTube Embed</a></li><li class="chapter-item expanded "><a href="web-components/video-player.html"><strong aria-hidden="true">39.</strong> Video Player</a></li><li class="chapter-item expanded affix "><li class="part-title">General Graphical Apps</li><li class="chapter-item expanded "><a href="general-graphical-apps/_introduction.html"><strong aria-hidden="true">40.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/book-authoring-tool.html"><strong aria-hidden="true">41.</strong> Book Authoring Tool</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/book-library.html"><strong aria-hidden="true">42.</strong> Book Library</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/calculator.html"><strong aria-hidden="true">43.</strong> Calculator</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/comic-reader.html"><strong aria-hidden="true">44.</strong> Comic Reader</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/diff-comparison.html"><strong aria-hidden="true">45.</strong> Diff Comparison</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/file-sync.html"><strong aria-hidden="true">46.</strong> File Sync</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/flash-cards.html"><strong aria-hidden="true">47.</strong> Flash Cards</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/journal.html"><strong aria-hidden="true">48.</strong> Journal</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/music-player.html"><strong aria-hidden="true">49.</strong> Music Player</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/notebook.html"><strong aria-hidden="true">50.</strong> Notebook</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/password-manager.html"><strong aria-hidden="true">51.</strong> Password Manager</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/photo-viewer.html"><strong aria-hidden="true">52.</strong> Photo Viewer</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/rss-reader.html"><strong aria-hidden="true">53.</strong> RSS Reeder</a></li><li class="chapter-item expanded "><a href="general-graphical-apps/video-library.html"><strong aria-hidden="true">54.</strong> Video Library</a></li><li class="chapter-item expanded affix "><li class="part-title">Games</li><li class="chapter-item expanded "><a href="games/_introduction.html"><strong aria-hidden="true">55.</strong> Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">56.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="license.html"><strong aria-hidden="true">57.</strong> License</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Projectbook</h1>
+
+                    <div class="right-buttons">
+                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="command-line-interfaces"><a class="header" href="#command-line-interfaces">Command Line Interfaces</a></h1>
+<p>These programs are run from the terminal or command prompt. They could have graphical interfaces too, but they're generally for being used as development tools alongside an editor and other commands.</p>
+<p>Building out command line interfaces (CLIs) are great for learning a new language because you don't have to worry about the graphical interface and visual design. You can instead focus on the interactions and the work the program does. This simplifies things quite a bit. It also lets you learn a language's standard library and even third-party packages well. </p>
+<p>If you use a lot of command line apps, then I imagine you'll be drawn to writing them. It's a lot of fun. And no matter how simple it is, all that matters is that it's useful. The Unix philosophy of small programs that can be chained together is really great for learning and building tools and commands.</p>
+<h2 id="mindset--targets"><a class="header" href="#mindset--targets">Mindset / Targets</a></h2>
+<p>Pretty much any language you want to work will have some way of writing command line apps, from Ruby to Python to Node.js to C to Rust to Go. Especially when it comes to learning, you can just go for it and not worry much about technology choices.</p>
+<p>But I think certain languages are better candidates for command line apps than others. Specifically languages that compile to a small, portable binary that's easy to install for users. </p>
+<p>Let me break that down a bit more.</p>
+<p>Let's take Ruby for example. Ruby is a scripting language that requires an installation of Ruby to be present to run. This means that if I write a Ruby program, for you to run it, you need to have Ruby installed. Or I need to package Ruby up and distribute it with the program. Ruby (and most programming languages) aren't small and super portable, so that's not really that fun. And installing Ruby is kind of a pain in the butt.</p>
+<p>You know what'd be nice? If I could just provide you with a single file that you could run. And hopefully that file is pretty small. I don't want to waste your disk space or anything.</p>
+<p>Well, that's what's called compiling down to a binary. The binary file is a packaged up version that can run on a lot of different computer operating systems without needing to have the language installed. Yay! Go and Rust in particular are really fantastic at this. You run some commands to compile the program and it can be used by others on the same OS as you. And it's not too difficult to generate it for other operating systems either.</p>
+<p>So, it's not that Ruby isn't good for writing CLIs. I think the opposite! It's got a great standard library for it, and I find it quite intuitive and fun, especially for smaller scripts. Using Ruby for a CLI is great if you want to learn Ruby and that sort of programming. But it's not great for building programs you want to distrubte to others unless you know they will also have Ruby installed.</p>
+<p>If I was to take on a CLI project, I'd likely choose Rust or Go because I know it'd be possible to build and distribute the compiled version cross-platform.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="custom-markup-language"><a class="header" href="#custom-markup-language">Custom Markup Language</a></h1>
+<p>There are a lot of these, like TOML, YAML, Markdown, etc. But it'd be fun to write your own. There are lots of other markup language project ideas in here, so this is one of many.</p>
+<p>You'd want to:</p>
+<ol>
+<li>define the spec</li>
+<li>write out some examples</li>
+<li>build code that can read it and load it and do whatever with it</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="find-and-replace-far"><a class="header" href="#find-and-replace-far">Find and Replace (far)</a></h1>
+<p>As a Vim user, I'm pretty much always sweating large scale find and replace in my code. I'm going to be honest with you, I usually open up Sublime just for this since it's easy and works well. I know, I know, I'm probably doing Vim wrong.</p>
+<p>But you know what? I'm over that! Well, I want to be over that. That's where this project comes into play.</p>
+<p>I call it <code>far</code> in my head, for &quot;(f)ind (a)nd (r)eplace&quot;.</p>
+<p>I think about it as a command-line app, but I think it could also have a graphical desktop wrapper too for those who would want that.</p>
+<h2 id="example-usage"><a class="header" href="#example-usage">Example Usage</a></h2>
+<p>Replace all instances of &quot;Foo&quot; with &quot;Bar&quot; in the current directory (and its children):</p>
+<pre><code>far Foo Bar
+</code></pre>
+<p>Or specify a glob of files in a given directory:</p>
+<pre><code>far Foo Bar src/**/*.rs
+</code></pre>
+<h2 id="spec"><a class="header" href="#spec">Spec</a></h2>
+<ul>
+<li>globs</li>
+<li>targeting specific files</li>
+<li>confirm interface</li>
+<li>respect the existing capitalization, like <code>far foo bar --respect-caps</code> would do both upper and lowercase variations of the words</li>
+<li>support regex</li>
+<li>do a dry run that outputs what would have changed but without doing it</li>
+</ul>
+<h2 id="tech-on-my-mind"><a class="header" href="#tech-on-my-mind">Tech On My Mind</a></h2>
+<p>Really any programming language would work that can all out to the system IO. But what would make this project really ideal would be the abiliy to compile it easily into a dependency-free cross-platform binary that's easy to distribute.</p>
+<p>These are my top runners:</p>
+<ul>
+<li>Go</li>
+<li>Rust</li>
+</ul>
+<p>tk-rs for the GUI would, in particular, match well with Rust for the library aspect of this.</p>
+<h2 id="gui-find-and-replace"><a class="header" href="#gui-find-and-replace">GUI Find and Replace</a></h2>
+<p>Here's a screenshot of Sublime's Find and Replace interface:</p>
+<p><img src="command-line-interfaces/./img/subllime-find-and-replace.webp" alt="screenshot of Sublime's find and replace" /></p>
+<h2 id="stretch-goals"><a class="header" href="#stretch-goals">Stretch Goals</a></h2>
+<ul>
+<li>Respect the <code>.gitignore</code> locally and globally</li>
+<li>Concurrency for files within a directory</li>
+<li>Able to efficiently process extremely large text files</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="gnu-utilities"><a class="header" href="#gnu-utilities">GNU Utilities</a></h1>
+<p>[TODO: verify GNU Utilities is the proper name for these]</p>
+<p>When working with the command line, it's likely you have used of the core GNU utilities like <code>grep</code>, <code>cat</code>, <code>less</code>, <code>tail</code>, <code>sort</code>, and more.</p>
+<p>One way to learn a language is to rewrite those existing tools' functionality. Who knows, you might end up making a faster or better version.</p>
+<p>One of the main concepts is being able to pipe data and chain together the commands. <code>cat foo.txt | grep bar</code>, that sort of thing.</p>
+<p>Here are some simpler utilities that would be good candidates for building:</p>
+<ul>
+<li><code>cat</code> -- output the contents of a file, line by line, to stdout</li>
+<li><code>ls</code> -- list the files of the current or passed in directory</li>
+<li><code>less</code> -- read-only file viewer, particulary useful for longer files</li>
+<li><code>sort</code> -- order lines alphanumerically</li>
+<li><code>search</code> -- idk what that does</li>
+<li><code>tail</code> -- print last n lines of a file, can follow output, useful for logs</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="markdown-processor"><a class="header" href="#markdown-processor">Markdown Processor</a></h1>
+<p>Build a library and command-line tool that takes a Markdown file and converts it to HTML.</p>
+<p>There will definitely be libraries out there that already do this for a given language, usually many of them. But the fun here is in taking a pretty manageable specification like Common Mark [TODO: check name] and writing your own parser and translator to HTML.</p>
+<h2 id="spec-1"><a class="header" href="#spec-1">Spec</a></h2>
+<p>Let's call the program and lib <code>marcus</code>. </p>
+<p>Command line:</p>
+<pre><code>marcus foo.md foo.html
+</code></pre>
+<p>It'd be great if you could send it via pipes too, like <code>cat foo.md | marcus &gt; foo.html</code> [TODO: determine proper interface here]</p>
+<p>If you're building the CLI out, it'd also be nice to have a library that you can use in that language as well.</p>
+<pre><code>Marus.to_html(&quot;# Hi\n[my link](/bye)\n&quot;)
+</code></pre>
+<p>Would output:</p>
+<pre><code class="language-html">&lt;h1&gt;Hi&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;/bye&quot;&gt;my link&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+<h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
+<ul>
+<li>Parsing text into a data structure and converting it into HTML</li>
+<li>Pipes and CLI if you go that route</li>
+</ul>
+<h2 id="stretch-goals-1"><a class="header" href="#stretch-goals-1">Stretch Goals</a></h2>
+<ul>
+<li>Support converting HTML to MD</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="simple-podcast-hosting"><a class="header" href="#simple-podcast-hosting">Simple Podcast Hosting</a></h1>
+<p>Bring Your Own Hosting Podcast Tool</p>
+<p>Podcasts are a truly wonderfully simple format. They leverage a feed, usually RSS, that can be consumed by clients who check regularly for new episodes and then add them to a library for a user to listen to.</p>
+<p>The RSS feed contains the episodes and a link to the audio file and a bunch of metadata.</p>
+<p>So what if there was a simple way to build and host a podcast RSS feed and files (and any other files, like a simple website) all from the command line without using a hosting platform?</p>
+<p>It's sort of like the [Static Site Generator] but more focused on podcasts in particular and less on written content in Markdown.</p>
+<h2 id="spec-2"><a class="header" href="#spec-2">Spec</a></h2>
+<p>Directory contains something like:</p>
+<pre><code>podcast.toml
+assets/
+  audio/
+    1-title-slug-here.mp3
+  images/
+    1-title-slug-here.jpg
+    artwork.jpg
+episodes/
+  1-title-slug-here.toml
+  2-title-slug-here.toml
+  3-title-slug-here.toml
+README.md
+</code></pre>
+<p>The <code>podcast.toml</code> contains the global show details and info.</p>
+<p>When the program is run, let's say it's called <code>podbud build</code> or something like that, then it would generate a <code>_build</code> directory that contains the RSS feed, the audio and image assets, and the episode TOML files.</p>
+<p>The program would then have support for something like <code>podbud deploy</code> that would push the generated directory to something like Amazon AWS S3 or your own server or whatever for public consumption.</p>
+<p>The process and flow would be ideal for using with some sort of CI service that builds and deploys whenever the show source is pushed somewhere or an episode is marked as published.</p>
+<p><code>show.toml</code>:</p>
+<pre><code class="language-toml">title = &quot;Roderick on the Line&quot;
+description = &quot;Merlin Mann's frank &amp; candid weekly phone call with John Roderick of The Long Winters&quot;
+url = &quot;http://www.merlinmann.com/roderick/&quot;
+artwork = &quot;assets/images/artwork.jpg&quot; # defaults to this
+language = &quot;en&quot;
+# more of the required ones
+</code></pre>
+<p>an <code>episode.toml</code>:</p>
+<pre><code class="language-toml">title = &quot;Episode 00: Suit of Vomit&quot;
+publish_date = # proper format
+description = &quot;&quot;&quot;
+Our pilot episode.
+
+Steak, Babies, Hitler, Molecules, Hearing Loss, and the Best of the Liberal Arts.
+
+Pretty much what you’d expect.
+&quot;&quot;&quot; # supports Markdown, HTML, or just plain ole text
+</code></pre>
+<p>[TODO: flesh out all of the details and those that are supported]</p>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<ul>
+<li>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</li>
+<li>https://podcasters.apple.com/support/823-podcast-requirements</li>
+<li>http://feeds.feedburner.com/RoderickOnTheLine</li>
+<li>https://toml.io/en/</li>
+</ul>
+<h2 id="concepts-1"><a class="header" href="#concepts-1">Concepts</a></h2>
+<ul>
+<li>RSS feed generation</li>
+<li>Reading from file system</li>
+</ul>
+<h2 id="technologies"><a class="header" href="#technologies">Technologies</a></h2>
+<p>I'm particular interested in using Rust and TOML for this as I think it'd make it nice and portable. Go would be a good fit too, but really any general purpose programming language would work.</p>
+<h2 id="stretch-goals-2"><a class="header" href="#stretch-goals-2">Stretch Goals</a></h2>
+<ul>
+<li>Support different hosts and make it configurable</li>
+<li>Add commands to CLI for creating an episode file</li>
+<li>Add support for an audio compressor/processor into the publishing chain to reduce audio file size load</li>
+<li>GUI that makes it even easier to work with and manage ones podcast.</li>
+<li>Add the ability to render the episodes on a website with a page for each episode and a general layout (maybe parse the RSS feed or just do it as part of the RSS building process)</li>
+<li>Newer Podcast metadata attrs</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="spell-checker"><a class="header" href="#spell-checker">Spell Checker</a></h1>
+<p>CLI for checking a document or given folder of documents of plain text for typos.</p>
+<p>An exercise in leveraging an existing dictionary and then reading files, checking them, and letting the user know about the issue and where it is.</p>
+<p>If a typo is found, the program should exit with a non-zero status so it could be used as part of a CI pipeline or something.</p>
+<p>It'd also be great if it could text in text via stdin via piping and such too!</p>
+<h2 id="spec--examples"><a class="header" href="#spec--examples">Spec / Examples</a></h2>
+<pre><code>sc blog/2020-10-23-my-favorite-albums.md
+</code></pre>
+<p>If it has no detected typos, then it would exit with a 0 status and not output anything. Silence is golden/no news is good news.</p>
+<p>Let's say it has a typo, then it'd be non-zero and output to stderr:</p>
+<pre><code>Typos found:
+- Line 4, Col 45: &quot;teh&quot; appears to be a typo
+- Line 8, Col 4: &quot;Borwsre&quot; appears to be a typo
+</code></pre>
+<h2 id="stretch-goals-3"><a class="header" href="#stretch-goals-3">Stretch Goals</a></h2>
+<ul>
+<li>Add the ability for the user to specify custom words and phrases that shouldn't trigger an error</li>
+<li>Make it interactive with corrections!</li>
+<li>Make a GUI!</li>
+<li>Smart detection of metadata and technical things like links and HTML and CSS.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="static-site-generator"><a class="header" href="#static-site-generator">Static Site Generator</a></h1>
+<p>There are <em>so</em> many of these. Nearly every modern language has one. It's largely a solved problem, but I bet there's still some space for innovation and experimentation. Plus, it's a really great learning project.</p>
+<p>There's basically no GUI. It's a command line app. Or well I guess you could have a GUI, that'd be a unique offering that most of the static site generators don't offer since their command line apps. </p>
+<p>But the gist is that a static site generator takes a collection of text files and generates HTML pages that form a website. There's usually some form of processing from the input language to HTML (parsing) and then handling the templating.</p>
+<p>You could only use the standard library for this or make use of existing packages by other developers. Whatever you want to learn.</p>
+<p>But the output of the command would be site's HTML and any other assets that are needed and could then be deployed to a server and accessed.</p>
+<p>There's also usually a need for specifying metadata as part of a given file.</p>
+<p>The benefits of a static site generator is that the people building the site can author the content in a friendly, less cumbersome format than HTML like Markdown. And then the generated files can be hosted pretty much anywhere. You don't need to run a server yourself and deal with various requests. </p>
+<p>Let's say the tool is called <code>ssg</code> and you had a folder with the following files for a band website:</p>
+<pre><code>index.md
+about.md
+albums.md
+tour.md
+merch.md
+</code></pre>
+<p>When you run <code>ssg .</code> or just <code>ssg</code> it takes those files, converts them to HTML, and outputs them into the <code>build</code> directory or <code>site</code> dir or <code>_build</code>. Whatever you want to call it. Then that folder could be pushed somewhere for access.</p>
+<p>There'd be:</p>
+<pre><code>build/
+  index.html
+  about.html
+  albums.html
+  tour.html
+  merch.html
+</code></pre>
+<p>And they'd be rendered with the proper semantic HTML with support for speciying metadata for the page. Starting with <code>title</code> and the meta <code>description</code> is enough to get started!</p>
+<h2 id="concepts-2"><a class="header" href="#concepts-2">Concepts</a></h2>
+<ul>
+<li>Reading files from the file system</li>
+<li>Processing them with some sort of language</li>
+<li>Writing the files to the disk</li>
+<li>Command-line interface</li>
+</ul>
+<h2 id="features"><a class="header" href="#features">Features</a></h2>
+<ul>
+<li>Markdown (or whatever) in</li>
+<li>HTML out</li>
+<li>Layout with a templating language that the Markdown for each page gets rendered in</li>
+<li>Ability to specify metadata for a given page like <code>title</code> and the meta description</li>
+</ul>
+<h2 id="stretch-goals-4"><a class="header" href="#stretch-goals-4">Stretch Goals</a></h2>
+<ul>
+<li>Support external CSS and JS, maybe even processors for those like Sass and TypeScript</li>
+<li>Add support for a server command, like <code>ssg serve</code> that watches for changes to the site on the filesystem, regenerates the site, and then serves the build dir over HTTP</li>
+<li>Handle multiple input types and processors or define your own mark-up language! That'd be fun</li>
+</ul>
+<h2 id="references-1"><a class="header" href="#references-1">References</a></h2>
+<ul>
+<li>Jekyll</li>
+<li>Zola</li>
+<li>Hugo</li>
+<li>That JAMStack website</li>
+</ul>
+<h2 id="examples"><a class="header" href="#examples">Examples</a></h2>
+<ul>
+<li><a href="https://github.com/brettchalupa/soy">Soy</a> -- a functional but barebones static site generator I made in Ruby; I had intentions for it being more finished, but a useful exercise in learning</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="text-editor"><a class="header" href="#text-editor">Text Editor</a></h1>
+<p>Building something like <code>nano</code> or similar that opens a file into a buffer and allows you to navigate it and edit it.</p>
+<p>No clue what this would take or be like. But it's really appealling and interesting to think about and try to take on.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="websites"><a class="header" href="#websites">Websites</a></h1>
+<p>What follows are ideas for websites that you could build that don't require any back-end. This means there's no need for a database or a server to manage the requests. These are great ideas for getting started with web development by focusing on HTML, CSS, a little JavaScript, and some templating.</p>
+<h2 id="starting-out"><a class="header" href="#starting-out">Starting Out</a></h2>
+<p>You'll need an editor and a browser! That's it. That's part of the joy of building software for the web. There's not too much you need. Start with editing HTML and CSS directly. Don't worry about content management systems like Wordpress or creating themes or templates. Start with the basics and go from there.</p>
+<p><a href="https://code.visualstudio.com">Visual Studio Code</a> is a commonly used and free editor. I'd suggest starting there.</p>
+<p>With these projects, you'll learn about semantic structure, organizing information, making it look nice, and adding some light interactivity.</p>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<p>Once your comfortable with the bare basics of HTML and CSS, the best resource is your web browser's Developer Tools for inspecting the source and seeing how other sites do it. Any website that loads in your browser has source code you can look at to understand the elements being used and the styles that are applied to it.</p>
+<h3 id="tutorials"><a class="header" href="#tutorials">Tutorials</a></h3>
+<ul>
+<li><a href="https://neocities.org/tutorials">Neocities tutorial &amp; collected resources</a></li>
+</ul>
+<h3 id="hosting"><a class="header" href="#hosting">Hosting</a></h3>
+<p>I'd start with <a href="https://neocities.org">Neocities</a>. It's a free website host where you can build simple websites and share them with others. It's fun, got a good interface, and won't bog you down with a bunch of extra stuff, which is great when you're just getting started.</p>
+<p>Other options that are also free and pretty friendly to use:</p>
+<ul>
+<li>GitHub Pages</li>
+<li>Netlify</li>
+</ul>
+<h3 id="static-site-generators"><a class="header" href="#static-site-generators">Static Site Generators</a></h3>
+<p>When you're building more complex websites beyond just a few pages, a static site generator (SSG) will be massively helpful for sharing page HTML across reuseable templates, authoring content in something other than HTML, and organizing the content.</p>
+<p>There are <em>so</em> many static site generators that it's pretty exhausting. The nice thing is that they usuall y don't require you to know another language aside from whatever templating language they use (usually an extended HTML language).</p>
+<p>Here are some of the ones I've used:</p>
+<ul>
+<li>[Jekyll]</li>
+<li>[Hugo]</li>
+<li>[Zola]</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="link-list"><a class="header" href="#link-list">Link List</a></h1>
+<p>A Link List is a website that's just a list of links. Pretty simple! It's useful as a simple homepage or landing page for someone to use to collect all of their profiles online. I also call them Link Trees and Link-in-Bio websites.</p>
+<p>A Link List is an ideal candidate for a learning project because it's simple (only one page and a few elements) and it's actually useful. You could build this and host it and actually use it for your own needs.</p>
+<p>Here's a screenshot of https://brettchalupa.neocities.org -- a Link List I build for myself as an example.</p>
+<p><img src="websites/./img/link-list-example.webp" alt="screenshot of a link list website showing four links" /></p>
+<h2 id="concepts-3"><a class="header" href="#concepts-3">Concepts</a></h2>
+<ul>
+<li>HTML and CSS basics</li>
+</ul>
+<h2 id="resources-1"><a class="header" href="#resources-1">Resources</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=q6P-CJ4cPMQ&amp;t=1368s">Link-in-Bio website screencast</a> -- I made this video to introduce the basics of HTML and CSS.</li>
+<li><a href="https://github.com/brettchalupa/screencasts/tree/4577bfe139918a7fbb7d2cdb545e84e61dcfa827/linktree">View the source code for my site above.</a></li>
+</ul>
+<h2 id="see-also"><a class="header" href="#see-also">See Also</a></h2>
+<ul>
+<li><a href="websites/../web-apps/linkbud.html">Linkbud</a> -- if you want to build an app to dynamically build lists and manage them, check out this project.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="personal-home-page"><a class="header" href="#personal-home-page">Personal Home Page</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="media-log"><a class="header" href="#media-log">Media Log</a></h1>
+<p>I love keeping track of the books and movies I've watched. Sure, there are sites like Letterboxd and Goodreads to keep track of them, and they have all kinds of information and covers and such. But who needs all that?</p>
+<p>For this project, build out a website to keep track of media you've finished. You could have a list of games you played, books you've read, your favorite albums, movies you've watched.</p>
+<p>Would a table be nice for rendering columnar data like when you finished it, your rating, the author, etc.? Or maybe just a simple list?</p>
+<p>[TODO: add screenie and code up a simple one for reference]</p>
+<h2 id="reference"><a class="header" href="#reference">Reference</a></h2>
+<ul>
+<li><a href="https://www.artgarfunkel.com/library/list9.html">Art Garfunkel's read books list (2009-2014)</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="product-page"><a class="header" href="#product-page">Product Page</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fansite"><a class="header" href="#fansite">Fansite</a></h1>
+<p>What's something you absolutely love? The thing you know every single little detail about? The thing you won't stop talking to your friends about?</p>
+<p>Take that idea and make a fansite. The fansite can be as complex or simple as you want it to be. Whether you code it by hand or use a static site generator, it's totally up to you. But the nice thing about a fansite is that you can build it and it can be done and exist. Sure, maybe you could update it from time to time, or you could just let it exist and share it with the world.</p>
+<p>A fansite is the first thing I ever made on the web. When I was a teen, I used Geocities to make a fansite for the <em>Trigun</em> anime series, a show I was particularly obsessed with at the time. That was my first exposure to building websites, and I haven't stopped since. There's a real joy to writing about something you love.</p>
+<p>A great fansite makes use of text and images and even videos. What sets it apart from something like Wikipedia is that it's about your fandom, not the facts. Write about what the thing means to you and how it has impacted you. Share your stories and thoughts.</p>
+<p>Things I want to make fansites for:</p>
+<ul>
+<li>Bright Eyes / Conor Oberst -- my favorite band! I'd review each album and write about why I love his music so much</li>
+<li>Twin Peaks -- my favorite show! I guess maybe even just a David Lynch fansite would do</li>
+<li>Haruki Murakami -- my favorite author! I've read most of his books, and I'd be happy to write about him and what they mean to me</li>
+</ul>
+<h2 id="reference-1"><a class="header" href="#reference-1">Reference</a></h2>
+<ul>
+<li><a href="https://gbvsongbook.neocities.org">The GBVSongbook</a> -- fansite for Guided By Voices song tabs</li>
+<li><a href="https://www.digitalemelas.com">Digital Emelas</a> -- <em>Ys</em> game series fansite</li>
+<li><a href="https://distantskies.neocities.org">Distant Skies</a> -- a <em>Crystalis</em> game fansite</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
+<p>Blog is short for web log. It's a way to write updates, like a journal, and publish them online. While fancy blogging platforms exist like Wordpress that handle managing the content and rendering the HTML that readers load, you could, you know, just write it all by hand. That's what this project is!</p>
+<p>Create a blog where you write your pages by hand.</p>
+<h2 id="specs"><a class="header" href="#specs">Specs</a></h2>
+<ul>
+<li>Home page that lists your blog posts</li>
+<li>Write multiple blog posts in HTML</li>
+<li>Share styles across pages with one CSS file</li>
+</ul>
+<h2 id="to-consider"><a class="header" href="#to-consider">To Consider</a></h2>
+<ul>
+<li>How's writing the content directly in HTML?</li>
+<li>What's tedious about managing all of the posts and URLs directly?</li>
+</ul>
+<h2 id="see-also-1"><a class="header" href="#see-also-1">See Also</a></h2>
+<ul>
+<li><a href="websites/../web-apps/blogging-platform.html">Blogging Platform</a> -- build out your own blog authoring web app</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blogging-platform"><a class="header" href="#blogging-platform">Blogging Platform</a></h1>
+<p>Allow users to author long form content in Markdown and render the posts as web pages.</p>
+<h2 id="references-2"><a class="header" href="#references-2">References</a></h2>
+<ul>
+<li>Wordpress</li>
+<li>Ghost</li>
+</ul>
+<h2 id="stretch-goals-5"><a class="header" href="#stretch-goals-5">Stretch Goals</a></h2>
+<ul>
+<li></li>
+<li>Allow posts to be tagged for readers to browse posts by tag</li>
+<li>Search</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="help-site-manager"><a class="header" href="#help-site-manager">Help Site Manager</a></h1>
+<p>I think an open source tool for a company to build out and manage their Help site would be really rad and fun to build. It's more specific than a <a href="web-apps/./content-management-system.html">Content Management System</a>, while also having a lot of the similar needs.</p>
+<h2 id="specs-1"><a class="header" href="#specs-1">Specs</a></h2>
+<ul>
+<li>Admin area with accounts to manage the articles</li>
+<li>Ability to add, edit, and delete articles, which likely have a title and body</li>
+<li>Rich text editor for adding screenshots and a variety of text</li>
+<li>Public facing website for viewing the articles</li>
+</ul>
+<h2 id="reference-2"><a class="header" href="#reference-2">Reference</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="linkbud"><a class="header" href="#linkbud">Linkbud</a></h1>
+<p>A web application for building out a simple list of a links for a given profile. This is useful for people linking to various profiles on social media, sharing an album on multiple streaming services, or even serving as a simple home page for someone.</p>
+<p>Users should have the ability to:</p>
+<ul>
+<li>Sign up / sign in</li>
+<li>Create a list of links with a name</li>
+<li>Add, edit, delete, and reorder links on their list</li>
+<li>View their list publicly</li>
+</ul>
+<h2 id="concepts-4"><a class="header" href="#concepts-4">Concepts</a></h2>
+<ul>
+<li>Authentication</li>
+<li>Authorization (access control) -- public vs private</li>
+<li>A non-trivial UI </li>
+<li>Data modeling</li>
+<li>Rendering a web page from user entered data</li>
+</ul>
+<h2 id="wireframes"><a class="header" href="#wireframes">Wireframes</a></h2>
+<h2 id="references-3"><a class="header" href="#references-3">References</a></h2>
+<ul>
+<li><a href="https://linktr.ee">Linktree</a></li>
+<li>non-dynamic version I made</li>
+</ul>
+<h2 id="stretch-goals--extra-credit"><a class="header" href="#stretch-goals--extra-credit">Stretch Goals / Extra Credit</a></h2>
+<ul>
+<li>Email verification if signing up via email</li>
+<li>Sign up / sign in via a third-party service like Twitter, Facebook, Google, etc.</li>
+<li>Add description with a rich text editor or Markdown support to lists to give more context</li>
+<li>Display icons for links to common locations like YouTube, Twitter, Reddit, etc.</li>
+<li>Support multiple lists</li>
+<li>Customize the list's display with a photo, colors, font, etc.</li>
+<li>Support deleting a list or making a list private</li>
+<li>Ensuring the URLs are properly formatted</li>
+<li>Sanitizing input for potential non-safe data</li>
+</ul>
+<h2 id="see-also-2"><a class="header" href="#see-also-2">See Also</a></h2>
+<ul>
+<li><a href="web-apps/../websites/link-list.html">Link List</a> -- not quite ready for a full stack web app? That's okay! What if you instead just build a static website?</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="recipehub"><a class="header" href="#recipehub">RecipeHub</a></h1>
+<p>GitHub for recipes! Open source recipes. But for food, not software.</p>
+<h2 id="specs-2"><a class="header" href="#specs-2">Specs</a></h2>
+<ul>
+<li>User accounts (authentication)</li>
+<li>Recipe management
+<ul>
+<li>Data model for a recipe:
+<ul>
+<li>Name</li>
+<li>Description</li>
+<li>Ingredients</li>
+<li>Instructions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Viewing another user's recipes</li>
+<li>Fork a recipe (make a copy to edit and adjust to your liking)</li>
+</ul>
+<h2 id="extra-credit"><a class="header" href="#extra-credit">Extra Credit</a></h2>
+<ul>
+<li>Favoriting another user's recipes</li>
+<li>More metadata like prep time and cooking time (and thus total time)</li>
+<li>Image upload for a recipe</li>
+<li>Tags for things like vegan, breakfast, etc.</li>
+<li>Private vs public recipes</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="restaurant-ordering-platform"><a class="header" href="#restaurant-ordering-platform">Restaurant Ordering Platform</a></h1>
+<p>The scope of this could really vary in its breadth! But the gist is to create a web app that allows restuarants to create a website that lets their patrons order online for pick-up. It would allow them to add menu items with their price and optional description.</p>
+<p>Patrons could then view the website for the restaurant, add menu items to their order, and then pay for it to play it.</p>
+<p>When an order is placed, the restuarant would then see in their dashboard an order has been placed. They can mark it as ready for pick up when it's been completed.</p>
+<p>This would then notify the patron their food is ready for pick up.</p>
+<p>I'd call this GrubBud, or maybe that's too close to the real thing. How about iMenu and get all 2000s Steve Jobs on it??? Call it what ya' want!</p>
+<h2 id="wireframes-1"><a class="header" href="#wireframes-1">Wireframes</a></h2>
+<h2 id="concepts-5"><a class="header" href="#concepts-5">Concepts</a></h2>
+<ul>
+<li>Admin for restuarant to manage their menu</li>
+<li>Public website for ordering w/ a cart with line items</li>
+<li>Payment processing</li>
+<li>State managing for the order with effects at various state changes (sounds like a state machine to me!)</li>
+</ul>
+<h2 id="scope"><a class="header" href="#scope">Scope</a></h2>
+<p>This is basically a full stack web app. For learning purposes, you could have it just be for one restaurant with HTTP basic auth for the Admin area. Or build out an entire sign up flow! Whatever you want.</p>
+<p>But there's a lot to this.</p>
+<p>If I was an educator who was teaching a course or writing a book on building web apps, I would use this as a class project because it is non-trivial, has levels of access control, includes interacting with APIs for payment process and notifications, has state management, and very likely has a database. It's also not just another blogging engine or Twitter clone or todo app. Plus! A lot of people can relate to and understand the concepts behind this because they've placed orders for food online. And if they haven't, if they've eaten out, the concepts are close enough to map to the technological needs. </p>
+<h2 id="stretch-goals-6"><a class="header" href="#stretch-goals-6">Stretch Goals</a></h2>
+<ul>
+<li>Payment processing with Stripe or something similar</li>
+<li>Order receipt web page with current status, could even poll or use websockets</li>
+</ul>
+<p>There are so many business needs that could exist to make this more complex:</p>
+<ul>
+<li>Hours of business</li>
+<li>Line item customizations/requests</li>
+<li>Uploading restaurant branding</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="simple-commerce"><a class="header" href="#simple-commerce">Simple Commerce</a></h1>
+<p>The gist: build out a web app that allows sellers to add products that can be purchased on a public website. When a product is purchased, it creates an order for the seller to fulfill.</p>
+<p>An eCommerce platform is simple to grasp since we use them on the regular, but there's a lot of complexity under the surface. It is certainly possible to build a simplified version, especially for learning purposes.</p>
+<p>If you're interested in learning a new web technology, this project covers a lot of what you'd need to learn. Whether it's a server-rendered web app or a static site that works with an API, there's a lot going on.</p>
+<h2 id="specs-3"><a class="header" href="#specs-3">Specs</a></h2>
+<ul>
+<li>Seller authentication</li>
+<li>Add products in admin</li>
+<li>List products in storefront</li>
+<li>Add items to a cart</li>
+<li>Accept payment to pay for items, <a href="https://stripe.com">Stripe</a> is great for this!</li>
+<li>Create an order for the purchased products that's visible in the admin</li>
+</ul>
+<h2 id="concepts-6"><a class="header" href="#concepts-6">Concepts</a></h2>
+<ul>
+<li>Non-trivial data models</li>
+<li>Storing data in the database</li>
+<li>Payment processing</li>
+<li>Authorization (admin access vs public storefront)</li>
+<li>Admin management area</li>
+<li>Public rendering of data</li>
+</ul>
+<h2 id="stretch-goals-7"><a class="header" href="#stretch-goals-7">Stretch Goals</a></h2>
+<ul>
+<li>Associate photos with a product</li>
+<li>Digital file uploading &amp; delivery</li>
+<li>Inventory management system</li>
+<li>Emails for both seller and buyer</li>
+<li>Allow sellers to customize their web storefront</li>
+</ul>
+<h2 id="references-4"><a class="header" href="#references-4">References</a></h2>
+<ul>
+<li>Open source
+<ul>
+<li><a href="https://github.com/spree/spree">Spree</a> (Ruby)</li>
+<li><a href="https://solidus.io">Solidus</a></li>
+</ul>
+</li>
+<li>Closed source
+<ul>
+<li>Big Cartel</li>
+<li>Shopify</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="social-network"><a class="header" href="#social-network">Social Network</a></h1>
+<p>Allow users to sign up for an account and author simple text-based updates with a maximum length of 256 characters.</p>
+<p>Features:</p>
+<ul>
+<li>Authentication + sign up</li>
+<li>Create, edit, delete posts</li>
+<li>View a profile</li>
+<li>Follow a user to see their posts in your timeline</li>
+</ul>
+<h2 id="examples-1"><a class="header" href="#examples-1">Examples</a></h2>
+<ul>
+<li>micro.blog</li>
+<li>twitter.com</li>
+<li>Mastadon</li>
+</ul>
+<h2 id="concepts-7"><a class="header" href="#concepts-7">Concepts</a></h2>
+<h2 id="stretch-goals-8"><a class="header" href="#stretch-goals-8">Stretch Goals</a></h2>
+<ul>
+<li>Reply to posts to notify other user</li>
+<li>Favorite posts</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="story-publishing-platform"><a class="header" href="#story-publishing-platform">Story Publishing Platform</a></h1>
+<p>Name idea: StoryHub
+GitHub for stories!</p>
+<h2 id="references-5"><a class="header" href="#references-5">References</a></h2>
+<ul>
+<li>Wattpad</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="url-shortener"><a class="header" href="#url-shortener">URL Shortener</a></h1>
+<p>Allow users to create short versions of links to make them easier to speak and share. For example, https://some.place.example.com/foo/bar/biz being shorted to https://short.ly/abc123</p>
+<h2 id="reference-3"><a class="header" href="#reference-3">Reference</a></h2>
+<ul>
+<li>bit.ly</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="videotube"><a class="header" href="#videotube">VideoTube</a></h1>
+<p>Essentially a YouTube clone! Allow users to sign up for an account and upload videos to their account.</p>
+<h2 id="concepts-8"><a class="header" href="#concepts-8">Concepts</a></h2>
+<ul>
+<li>Processing large files, specifically videos</li>
+<li>Hosting files, then rendering them</li>
+<li>GUI for playing the media in the browser</li>
+<li>Authentication</li>
+</ul>
+<h2 id="references-6"><a class="header" href="#references-6">References</a></h2>
+<ul>
+<li>YouTube</li>
+<li>TikTok</li>
+</ul>
+<h2 id="stretch-goals-9"><a class="header" href="#stretch-goals-9">Stretch Goals</a></h2>
+<ul>
+<li>Encode a variety of video formats into a consistent one</li>
+<li>Encode videos into multiple resolutions</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="vinyl-code-redeemer"><a class="header" href="#vinyl-code-redeemer">Vinyl Code Redeemer</a></h1>
+<p>The Gist: users can enter a code they received with their vinyl purchase to download the digital version of the album.</p>
+<p>Does not, of course, have to just for music downloads. Could be any digital file.</p>
+<p>This is a nice app for learning in that it can be pretty simple but expanded to be quite complex.</p>
+<p>Name idea: Redeemy; would make a potentially useful open source app for someone to deploy and host themselves!</p>
+<h2 id="features-basic-ver"><a class="header" href="#features-basic-ver">Features (Basic Ver)</a></h2>
+<ul>
+<li>Web page for redeeming a code</li>
+<li>If the code matches what you hard code in the back-end, then download the file</li>
+</ul>
+<h2 id="feature-complex-ver"><a class="header" href="#feature-complex-ver">Feature (Complex Ver)</a></h2>
+<ul>
+<li>Build out an admin for musicians to sign into to upload their albums</li>
+<li>Add ability to generate codes</li>
+<li>Expire codes after use</li>
+<li>Display multiple files for download</li>
+</ul>
+<h2 id="concepts-9"><a class="header" href="#concepts-9">Concepts</a></h2>
+<ul>
+<li>Delivering files</li>
+<li>Checking input</li>
+</ul>
+<h2 id="examples-2"><a class="header" href="#examples-2">Examples</a></h2>
+<p>https://bandcamp.com/yum</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="web-comic-publishing-platform"><a class="header" href="#web-comic-publishing-platform">Web Comic Publishing Platform</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="website-builder"><a class="header" href="#website-builder">Website Builder</a></h1>
+<h2 id="the-gist"><a class="header" href="#the-gist">The Gist</a></h2>
+<p>Build out a web app that lets users create simple web pages graphically with no coding knowledge. This allows people to build web pages with a variety of content to meet their needs.</p>
+<p>Blocks to start with:</p>
+<ul>
+<li>Header</li>
+<li>Text</li>
+<li>Image</li>
+<li>YouTube Embed</li>
+</ul>
+<p>Ideally blocks would be able to be reordered within a given page.</p>
+<p>The selected blocks for the page would get persisted in a database associated with the user's site.</p>
+<p>And then, finally, that page would be able to be rendered and viewable in the browser.</p>
+<h2 id="scope-1"><a class="header" href="#scope-1">Scope</a></h2>
+<p>This is an entire app! It's large in scope. It'd really have a lot going on. The web interface for building. The renderer. The data model for the blocks. The user and site with (minimal) management. </p>
+<p>[wireframes]</p>
+<p>[assets]</p>
+<h2 id="concepts-10"><a class="header" href="#concepts-10">Concepts</a></h2>
+<p>There's so much here!</p>
+<ul>
+<li>Defining a data model for the blocks, which is decently complex</li>
+<li>Storing the built pages which have a pretty complex data model</li>
+<li>Building a complex UI</li>
+<li>Rendering a complex page from stored data that needs to be processed properly</li>
+</ul>
+<h2 id="technology"><a class="header" href="#technology">Technology</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wishlist"><a class="header" href="#wishlist">Wishlist</a></h1>
+<p>A web app and/or API for adding products across various online shops to a common wishlist. Would be neat to have a browser extension too.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-2"><a class="header" href="#introduction-2">Introduction</a></h1>
+<p>I find the idea of portable web components to be particular compelling because they could be used and loaded on an as-needed basis and be much easier to integrate into a web page. In the past, when libraries would be primarily loaded via a JS <code>&lt;script&gt;</code> tag and then be available globally, you had to ensure you set them up and configured and structured the DOM appropriately. Otherwise it would break. This is pretty brittle. </p>
+<p>But with web components, the styles, logic, and DOM structure can be quite a bit more contained. How data gets passed into the component can vary and does require knowing the DOM strucutre, but I find it to be quite a bit more clear and simpler.</p>
+<p>There are lots of web component libraries out there, but some primary ones to look at would be React, Vue, Lit, and Stencil. Or even just use what the DOM gives you natively without any sort of library.</p>
+<p>These projects in particular would have you dealing with state, data, browser APIs, user interactions, etc.</p>
+<h2 id="technologies-1"><a class="header" href="#technologies-1">Technologies</a></h2>
+<ul>
+<li>Vanilla JS! [TODO: link to mdn]</li>
+<li>Stencil.js -- thin wrapper of the native component API</li>
+<li>Vue</li>
+<li>Lit</li>
+<li>Svelte</li>
+<li>React</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="image-gallery"><a class="header" href="#image-gallery">Image Gallery</a></h1>
+<p>The idea here is to take a folder of images or a collection of links to images and render them in a grid and then be able to tap a given image to view a large version of it.</p>
+<p>When viewing a single image, the user could use the left and right arrows to progress through the images in the gallery.</p>
+<p>Learning areas:</p>
+<ul>
+<li>Rendering images</li>
+<li>Grid rendering</li>
+<li>State changing from grid to single image viewing</li>
+<li>Handling user input, from tapping to keyboard</li>
+</ul>
+<p>Platforms/Tools/Technology:</p>
+<ul>
+<li>Web would be good! You could take a collection of URLs. I think it'd make a particular good web component that anyone could drop in and use. Something like:</li>
+</ul>
+<pre><code class="language-html">&lt;image-gallery&gt;
+  &lt;img src=&quot;https://example.com/foo.jpg&quot;/&gt;
+  &lt;img src=&quot;https://example.com/bar.jpg&quot;/&gt;
+&lt;/image-gallery&gt;
+</code></pre>
+<p>Or the data could be passed in through a property. Really up to you there.</p>
+<ul>
+<li>Desktop/mobile -- desktop would prob be a little easier since accessing the file system isn't as cumbersome as on mobile apps, but still possible on things like iOS and Android for sure!</li>
+</ul>
+<p>[wireframes]</p>
+<p>[examples]</p>
+<p>Need a zip of images? Okay, here ya' go!</p>
+<h2 id="stretch-goals-10"><a class="header" href="#stretch-goals-10">Stretch Goals</a></h2>
+<ul>
+<li>Support a bunch of different image formats like .TIFF, .PNG, .JPG, .BMP, .WEBP, the iPhone one</li>
+<li>Play / pause to cycle through the images on an interval, maybe someone wants to display their favorite photos on rotation like a digital picture frame</li>
+<li>Web
+<ul>
+<li>Support captions and alt text</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="music-player---web-component"><a class="header" href="#music-player---web-component">Music Player - Web Component</a></h1>
+<p>HTML5 has some rich APIs for interacting with audio. A web component that takes children that are audio files and then can play through them and handle common functionality like:</p>
+<ul>
+<li>Play</li>
+<li>Pause</li>
+<li>Volume</li>
+<li>Next/previous song</li>
+<li>Pick and play a track</li>
+<li>Play the next song in the list</li>
+</ul>
+<p>[audio files]
+[wire frames]
+[icons]</p>
+<h2 id="concepts-11"><a class="header" href="#concepts-11">Concepts</a></h2>
+<ul>
+<li>HTML5 audio API</li>
+<li>Rendering the GUI for listing the tracks</li>
+<li>Rendering the GUI for the actual player</li>
+<li>Callbacks for various audio events</li>
+</ul>
+<h2 id="spec-3"><a class="header" href="#spec-3">Spec</a></h2>
+<p>This could be something like this:</p>
+<pre><code class="language-html">&lt;music-player&gt;
+  &lt;mp-song&gt;
+    &lt;source src=&quot;horse.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+    &lt;source src=&quot;horse.mp3&quot; type=&quot;audio/mp3&quot;&gt;
+  &lt;/mp-song&gt;
+&lt;/music-player&gt;
+</code></pre>
+<h2 id="tech"><a class="header" href="#tech">Tech</a></h2>
+<p>Lit and Stencil and Svetle interest me in particular for this. I think it'd need to be easy to load into any given web page or app.</p>
+<h2 id="stretch-goals-11"><a class="header" href="#stretch-goals-11">Stretch Goals</a></h2>
+<ul>
+<li>Easy download for the files if someone enjoys them</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="prose-renderer"><a class="header" href="#prose-renderer">Prose Renderer</a></h1>
+<p>I tend to think of this as a library or component called <code>Prose.js</code> or <code>Reader.js</code> that is concerned with taking a nested collection of <code>&lt;p&gt;</code> elements in partidular and rendering them in a way that gives the user fine grain control over how it's rendered. Their preferences would be stored in <code>localstorage</code> so upon refresh their settings would load and be used across web pages (like chapters in a book).</p>
+<p>Essentially Kindle's reading options</p>
+<p>Configuration options:</p>
+<ul>
+<li>Text size</li>
+<li>Text weight</li>
+<li>Font</li>
+<li>Text alignment -- justified or left aligned or right aligned</li>
+<li>Line spacing</li>
+<li>Margins</li>
+</ul>
+<p>[wireframe]
+[icons/elements]</p>
+<h2 id="spec-4"><a class="header" href="#spec-4">Spec</a></h2>
+<p>Usage:</p>
+<ol>
+<li>include the script to load the source</li>
+<li>just use the component! wrap the output for the prose in the component:</li>
+</ol>
+<pre><code class="language-html">&lt;Prose&gt;
+  &lt;p&gt;It was a dark and stormy night...&lt;/p&gt;
+  &lt;p&gt;More stuff! More stuff!&lt;/p&gt;
+&lt;/Prose&gt;
+</code></pre>
+<h2 id="tech-1"><a class="header" href="#tech-1">Tech</a></h2>
+<p>Any of the major web component libraries are appealing for this, in particular ones that can generate a portable component that can be easily loaded and dropped in like Stencil. Svelte and Lit appeal to me too.</p>
+<h2 id="concepts-12"><a class="header" href="#concepts-12">Concepts</a></h2>
+<ul>
+<li>Working with <code>localstorage</code> -- writing and reading</li>
+<li>Building out a non-intruisive UI</li>
+<li>Overriding/applying styles to nested content</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="responsive-youtube-video-embed"><a class="header" href="#responsive-youtube-video-embed">Responsive YouTube Video Embed</a></h1>
+<p>This is a really simple little project and component. It's basically just a way to take a YouTube video and embed it in a resilient way that can be responsive since that tends to be an issue when it comes to their default embed. It usually requires a CSS snippet, but it'd be nice to not need that. </p>
+<p>Also, it'd make it possible to take the YT video URL or just the ID and render it accordingly.</p>
+<p>Could support the various embed options too, like whether or not to have cookies. Starting at a certain time, etc.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="video-player"><a class="header" href="#video-player">Video Player</a></h1>
+<p>I picture this as building a UI for dealing with a video, a lot like YouTube's or Vimeo's player. It would allow you to pause the video, change the volume, scrub to a specific timestamp, and make the video fullscreen.</p>
+<p>The native video player is fine in most operating systems and browsers, but that doesn't mean more functionality couldn't be added.</p>
+<p>[wireframes]</p>
+<p>[icons]</p>
+<h2 id="stretch-goals-12"><a class="header" href="#stretch-goals-12">Stretch Goals</a></h2>
+<ul>
+<li>10 s back, 10 s forward</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-3"><a class="header" href="#introduction-3">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="book-authoring-tool"><a class="header" href="#book-authoring-tool">Book Authoring Tool</a></h1>
+<p>A desktop and/or mobile app that allows users to enter in rich-ish text for writing prose and poetry, organize it into chapters, and then export it in a variety of formats like PDF, ePub, HTML, etc.</p>
+<p>Would/could use some sort of sync</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="book-library"><a class="header" href="#book-library">Book Library</a></h1>
+<p>Essentially Calibre!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="calculator"><a class="header" href="#calculator">Calculator</a></h1>
+<p>Ah, yes, the old calculator. The TI-98. Well, that's pretty advanced. But here the goal is to build a simple calculator that can do the basic mathematical functions. Ideally it'd be able to add, subtract, multiple, divide.</p>
+<p>In a very simplistic way, what this project is doing is:</p>
+<ul>
+<li>Taking user input and sanitizing it</li>
+<li>Passing it along to the math library in the language you're using</li>
+<li>Displaying the result</li>
+</ul>
+<p>The platform for this could be really just about anything!</p>
+<ul>
+<li>Command line math tool that parses a string with an equation and prints the results</li>
+<li>Desktop or mobile app GUI</li>
+<li>Little web app or component using TypeScript or JavaScript</li>
+</ul>
+<p>This is a good project for trying out all sorts of languages and libraries. It doesn't require a data store or networking. It doesn't require an overly complex UI. But it's also not extremely trivial. There's some state to manage and data to sanitize.</p>
+<p>[screenshots of examples]</p>
+<h2 id="stretch-goals-13"><a class="header" href="#stretch-goals-13">Stretch Goals</a></h2>
+<ul>
+<li>Add more advanced mathematical computations like sine, log, square roots, etc. </li>
+<li></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="comic-reader"><a class="header" href="#comic-reader">Comic Reader</a></h1>
+<p>The gist: build a program that opens up a zip file of images (without extracting them) and allows the user to flip to the next page until the end of the archive.</p>
+<p>DRM-free comic files are generally found in a few different archive formats:</p>
+<ul>
+<li><code>.zip</code> -- just a zip collection of images</li>
+<li><code>.cbz</code> -- just a zip file, from my understanding</li>
+<li>[rar one???]</li>
+</ul>
+<p>And then within could be any number of image formats. JPGs, PNGs, even TIFFs.</p>
+<p>What this project exercises:</p>
+<ul>
+<li>Inspecting the contents of an archive file</li>
+<li>Rendering images potentially in a variety of formats</li>
+<li>Handling user input to go the next page or previous page</li>
+</ul>
+<p>[link to examples of free comics in the format]</p>
+<p>[examples of the UI or wireframes]</p>
+<p>This project is pretty GUI heavy but has the added complexity of viewing the image files within the archive.</p>
+<p>Some ideas for tooling, technology, and platforms:</p>
+<ul>
+<li>iOS/iPad OS/MacOS -- a really good project for learning Swift on those platforms</li>
+<li>Android -- I think a pretty good project for that, like learning Kotlin</li>
+<li>Desktop GUI app -- something like GTK or QT would make a good fit or even Vala or rust-gtk (check name)</li>
+<li>Electron -- this would be a pretty fun little desktop project for Electron if you're a web dev interested in learning how to use it. You could leverage your web skills while learning that.</li>
+</ul>
+<p>You could leverage a library to open up an archive and view the files or you could code that yourself using the language's standard library. There's lots of deep dives that could be done here.</p>
+<h2 id="edge-cases"><a class="header" href="#edge-cases">Edge Cases</a></h2>
+<ul>
+<li>What happens if the archive doesn't contain any images?</li>
+</ul>
+<h2 id="optimizations"><a class="header" href="#optimizations">Optimizations</a></h2>
+<ul>
+<li>Is the archive being loaded into memory or is there a way to load only the current image into memory?</li>
+</ul>
+<h2 id="stretch-goals-14"><a class="header" href="#stretch-goals-14">Stretch Goals</a></h2>
+<ul>
+<li>Support PDFs since some comics and books are in PDF format</li>
+<li>Make the UI be able to be changed in size while maintaining the original aspect ratio of the page</li>
+<li>Browse mode that renders thumbnails of all of the pages for easy browsing</li>
+<li>Displaying a prompt to open the next archive in the directory when the end of the current file is reached (i.e., read the next issue)</li>
+<li>Single page view vs side-by-side spread view</li>
+<li>Support reading right to left instead of left to right for comics like manga</li>
+<li>Big stretch goal: library that manages comics that have been imported or that exist within a directory and keep track of those that have been read and those that haven't</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="file-sync"><a class="header" href="#file-sync">File Sync</a></h1>
+<p>Basically Dropbox</p>
+<p>Would have many components:</p>
+<ul>
+<li>File storage location</li>
+<li>Client tool that manages downloading and uploading, w/ GUI to manage this process</li>
+<li>Server tool that keeps track of files; likely with web GUI too</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="flash-cards"><a class="header" href="#flash-cards">Flash Cards</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="notebook"><a class="header" href="#notebook">Notebook</a></h1>
+<h2 id="references-7"><a class="header" href="#references-7">References</a></h2>
+<ul>
+<li>Bear for Mac and iOS</li>
+<li>Simple Note</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="password-manager"><a class="header" href="#password-manager">Password Manager</a></h1>
+<p>Okay! Heads up here. This is obviously a risky one. I probably wouldn't release this as open source unless you're knowledgable and confident. Maybe keep this one closed source and be wary. Just because wow! There seems like there's some risk here with sensitive info.</p>
+<p>Also, I'm not a security or crytopgraphic expert. So, like, wow! There's a lot to consider here and learn. But that's the point of these. </p>
+<p>All right, enough caveats. Do and share your own risk!</p>
+<p>But the gist of the idea is to build an app that can do the following:</p>
+<ul>
+<li>Generate secure password of varying length and complexity</li>
+<li>Keep track of generated passwords</li>
+<li>Be able to associate a username, email, URL, etc. for the password</li>
+<li>Encrypt all the stored info</li>
+<li>Be able to decrypt to get the data for yourself to use</li>
+</ul>
+<p>What you'll learn:</p>
+<ul>
+<li>UI for creating, managing, and viewing the generated passwords</li>
+<li>Storing the data</li>
+<li>Crytography with securely storing the data so others can't view the data</li>
+</ul>
+<p>[screenshot examples]
+[wireframes]</p>
+<p>Technologies for potential exploration:</p>
+<ul>
+<li>GTK for desktop building</li>
+<li>Native desktop libraries for Windows and Mac</li>
+<li>Electron could be good for this I think! Just to learn and experiment and leverage existing web knowledge</li>
+</ul>
+<h2 id="stretch-goals-15"><a class="header" href="#stretch-goals-15">Stretch Goals</a></h2>
+<ul>
+<li>Oh gosh I mean this is basically building out an entire app</li>
+<li>Browser extension</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="photo-viewer"><a class="header" href="#photo-viewer">Photo Viewer</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="video-library"><a class="header" href="#video-library">Video Library</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-4"><a class="header" href="#introduction-4">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contributing"><a class="header" href="#contributing">Contributing</a></h1>
+<p>Do you have ideas for projects that'd make a good candidate for those learning how to code? Additions by the community are more than welcome!</p>
+<p>[TODO: add notes on how to contribute]</p>
+<h2 id="contributors"><a class="header" href="#contributors">Contributors</a></h2>
+<p>I hope one day I'll be able to add others who have contributed to this!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="license"><a class="header" href="#license">License</a></h1>
+<p>[TODO: CC0 this and make clear in Intro too / https://creativecommons.org/choose/zero/waiver]</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+                        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+                
+    </body>
+</html>

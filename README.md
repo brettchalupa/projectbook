@@ -1,20 +1,30 @@
-# Project Book — Learn By Doing
+# Projectbook
 
-A collection of over 50+ projects idea for learning new programming languages, frameworks, and libraries.
+**Learn By Doing**
+
+A collection of over 50+ project ideas for learning new programming languages, frameworks, and libraries.
+
+Browse around, dig in, make something, and share it!
+
+👀📖 [Browse the book!](https://projectbook.code.brettchalupa.com)
+
+---
+
+## Writing & Development Guide
 
 Authored in Markdown with [mdBook](https://rust-lang.github.io/mdBook/).
 
-## Running the Dev Server
+### Running the Dev Server
 
-Install:
+[Follow the mdBook instructions.](https://rust-lang.github.io/mdBook/guide/installation.html)
+
+Or install via Cargo if you have Rust installed:
 
 1. [Rust](https://www.rust-lang.org/tools/install)
 2. mdbook - `cargo install mdbook`
 
 Run the book server with : `mdbook serve --open`
 
-[TODO: make install via binary simpler and more clear]
-
-## Hosting
+### Hosting
 
 Hosted on GitHub Pages, deployed via [GitHub Action](https://github.com/peaceiris/actions-mdbook) when pushed to `main` branch.

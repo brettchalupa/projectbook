@@ -67,13 +67,13 @@ Want to connect or follow along with other things I do?
 - [Follow me on Twitter @brett_codes](https://twitter.com/brett_codes)
 - [Watch my screencasts](https://www.youtube.com/channel/UCQXaIyeRqHjK9EK41b8J3yQ)
 
-## Rights & Such
+## Rights
 
-These ideas are in the public domain. Anyone is welcome to use them to build software and try to make money if that's your aim. Best of luck! I hope most you have fun and learn most of all. But if you build the Next Big App or whatever from one of these ideas, kudos to you! Most of the ideas are clones, anyway, so it's not like there's anything too good!
+Anyone is welcome to use the project ideas in this book to build software and try to make money if that's your aim. Best of luck.
+
+I hope most of all that you have fun and learn with these ideas. But if you build the Next Big App or whatever from one of these ideas, kudos to you.
 
 Also, ideas aren't worth much. What matters is what you make from those ideas!
-
-[TODO: license]
 
 ## Contributing
 

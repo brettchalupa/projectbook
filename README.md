@@ -2,7 +2,7 @@
 
 **Learn By Doing**
 
-![Cover](src/cover-landscape.webp)
+[![Cover](src/cover-landscape.webp)](https://projectbook.code.brettchalupa.com)
 
 A collection of over 50+ project ideas for learning new programming languages, frameworks, and libraries.
 

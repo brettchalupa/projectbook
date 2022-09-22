@@ -1,4 +1,6 @@
-# Project Book -- Learn By Doing
+# Project Book — Learn By Doing
+
+A collection of over 50+ projects idea for learning new programming languages, frameworks, and libraries.
 
 Authored in Markdown with [mdBook](https://rust-lang.github.io/mdBook/).
 

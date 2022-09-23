@@ -5,14 +5,15 @@
 # Command Line Interfaces (CLIs)
 
 - [Introduction](./command-line-interfaces/_introduction.md)
-- [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
-- [Find and Replace](./command-line-interfaces/find-and-replace.md)
-- [Markdown Processor](./command-line-interfaces/markdown-processor.md)
-- [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
+- [Unix Utilities](./command-line-interfaces/unix-utilities.md)
 - [Spell Checker](./command-line-interfaces/spell-checker.md)
+- [Find and Replace](./command-line-interfaces/find-and-replace.md)
+- [HTTPal](./command-line-interfaces/httpal.md)
+- [Markdown Processor](./command-line-interfaces/markdown-processor.md)
+- [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
+- [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
 - [Static Site Generator](./command-line-interfaces/static-site-generator.md)
 - [Text Editor](./command-line-interfaces/text-editor.md)
-- [Unix Utilities](./command-line-interfaces/unix-utilities.md)
 
 # Websites
 
@@ -71,6 +72,11 @@
 - [Photo Viewer](./general-graphical-apps/photo-viewer.md)
 - [RSS Reeder](./general-graphical-apps/rss-reader.md)
 - [Video Library](./general-graphical-apps/video-library.md)
+
+# Libraries
+
+- [Introduction](./libraries/_introduction.md)
+- [HTTP Client](./libraries/http-client.md)
 
 # Games
 

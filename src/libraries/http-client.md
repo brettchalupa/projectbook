@@ -67,6 +67,10 @@ In the case of Ruby, if this was published as a Gem, people would install it in 
 
 ## Extra Credit
 
+- Add support for POST, PUT, and DELETE methods
+- Support specifying authentication headers
+- Raise errors when the HTTP response is not successful
+- Follow redirects
 - An HTTP library is quite nice. Something even neater would be a library that specifically makes making GraphQL requests easier since they're always to the same endpoint but the request body varies. Seems like a good case for a library!
 
 ## See Also

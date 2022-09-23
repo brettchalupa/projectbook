@@ -13,3 +13,10 @@ Writing an open source library can be a lot of fun and quite rewarding. Instead 
 You’ll want to have well thoughtout functions and sensible naming. And you’ll want to have thorough documentation to make it clear to use. But don't worry if there are issues as you're starting out, you'll get better the more you build libraries and APIs.
 
 Whether or not you open source the code you write is up to you. Consider how finished your code is and if it's stable enough for others to use. Writing your own version of a popular library can be a great way to learn a language.
+
+What writing libraries are great for:
+
+- Writing focused code that accomplishes one thing (or a few related things) really well
+- Learning API design and documentation
+- Writing well-tested code
+- Getting more familiar with open source

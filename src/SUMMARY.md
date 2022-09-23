@@ -77,6 +77,10 @@
 
 - [Introduction](./libraries/_introduction.md)
 - [HTTP Client](./libraries/http-client.md)
+- [Authorization Lib](./libraries/authorization-lib.md)
+- [ORM](./libraries/orm.md)
+- [Unit Testing Lib](./libraries/unit-testing-lib.md)
+- [Background Job Processor](./libraries/background-job-processor.md)
 
 # Games
 

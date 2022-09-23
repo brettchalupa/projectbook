@@ -8,7 +8,7 @@ If you use a lot of command line apps, then I imagine you'll be drawn to coding 
 
 ## Mindset / Targets
 
-Pretty much any language you want to work will have some way of writing command line apps, from Ruby to Python to Node.js to C to Rust to Go. **Especially when it comes to learning, you can just go for it and not worry much about technology choices.**
+Pretty much any language you want to work will have some way of writing command line apps, from Ruby to Python to Node.js to C to Rust to Go. Especially when it comes to learning, you can just go for it and not worry much about technology choices.
 
 But I think certain languages are better candidates for command line apps than others. Specifically languages that compile to a small, portable binary that's easy to install for users.
 

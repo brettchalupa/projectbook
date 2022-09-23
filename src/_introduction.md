@@ -10,7 +10,7 @@
 
 _Projectbook_ is a collection of over 50 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
 
-My goal with this collection is to provide detailed enough specifications for what could exist to complete a project or gibe enough detail to get started.
+My goal with this collection is to provide detailed enough specifications to get you started on project.
 
 I've found that a lot of software tutorials are too simple and basic and that I only really learn through building something.
 
@@ -37,9 +37,11 @@ When it comes to the user experience (UX) (the flow through your program) and us
 
 ## Reading Order
 
-Command Line Interfaces (CLIs) are first because I think they're generally a nice place to start because they don't require graphic rendering and a GUI. This makes their interfaces quite a bit simpler since there are only so many forms of input and output.
+The order of the chapters in each section is loosely based on my perceived difficulty of them. My judgement may be off in some cases, but I think that's a pretty good bet.
 
-Some types of projects won't make sense for certain technologies. If you want to learn HTML, then ideas for CLIs won't be much help for you.
+[Command Line Interfaces (CLIs)](./command-line-interfaces/_introduction.md) are first because I think they're generally a nice place to start because they don't require graphic rendering and a GUI. This makes their interfaces quite a bit simpler since there are only so many forms of input and output.
+
+Some types of projects won't make sense for certain technologies. If you want to learn HTML, then ideas for CLIs won't be much help for you. Check out [Websites](./websites/_introduction.md) instead.
 
 However, don't read this book as you would a normal linear book. It's instead meant to be a place to browse around, experiment, find inspiration, and start hacking away and learning.
 

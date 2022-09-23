@@ -63,6 +63,7 @@
 - [Diff Comparison](./general-graphical-apps/diff-comparison.md)
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Flash Cards](./general-graphical-apps/flash-cards.md)
+- [Habit Tracker](./general-graphical-apps/habit-tracker.md)
 - [Journal](./general-graphical-apps/journal.md)
 - [Music Player](./general-graphical-apps/music-player.md)
 - [Notebook](./general-graphical-apps/notebook.md)

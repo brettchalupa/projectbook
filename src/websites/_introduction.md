@@ -12,7 +12,7 @@ With these projects, you'll learn about semantic structure, organizing informati
 
 ## Resources
 
-Once your comfortable with the bare basics of HTML and CSS, the best resource is your web browser's Developer Tools for inspecting the source and seeing how other sites do it. Any website that loads in your browser has source code you can look at to understand the elements being used and the styles that are applied to it.
+Once you're comfortable with the bare basics of HTML and CSS, the best resource is your web browser's Developer Tools for inspecting the source and seeing how other sites do it. Any website that loads in your browser has source code you can look at to understand the elements being used and the styles that are applied to it.
 
 ### Tutorials
 

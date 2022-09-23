@@ -10,12 +10,20 @@ A great fansite makes use of text and images and even videos. What sets it apart
 
 Things I want to make fansites for:
 
-- Bright Eyes / Conor Oberst -- my favorite band! I'd review each album and write about why I love his music so much
-- Twin Peaks -- my favorite show! I guess maybe even just a David Lynch fansite would do
-- Haruki Murakami -- my favorite author! I've read most of his books, and I'd be happy to write about him and what they mean to me
+- Bright Eyes / Conor Oberst — my favorite band! I'd review each album and write about why I love his music so much
+- Twin Peaks — my favorite show! I guess maybe even just a David Lynch fansite would do
+- Haruki Murakami — my favorite author! I've read most of his books, and I'd be happy to write about him and what they mean to me
 
 ## Reference
 
-- [The GBVSongbook](https://gbvsongbook.neocities.org) -- fansite for Guided By Voices song tabs
-- [Digital Emelas](https://www.digitalemelas.com) -- _Ys_ game series fansite
-- [Distant Skies](https://distantskies.neocities.org) -- a _Crystalis_ game fansite
+[The GBVSongbook](https://gbvsongbook.neocities.org) — fansite for Guided By Voices song tabs
+
+![GBVSongbook screenshot](./img/gbvsongbook-screenshot.webp)
+
+[Distant Skies](https://distantskies.neocities.org) — a _Crystalis_ game fansite
+
+![Distant Skies screenshot](./img/distant-skies-screenshot.webp)
+
+Other examples:
+
+- [Digital Emelas](https://www.digitalemelas.com) — _Ys_ game series fansite

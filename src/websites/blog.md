@@ -17,4 +17,8 @@ Create a blog where you write your pages by hand.
 
 ## See Also
 
-- [Blogging Platform](../web-apps/blogging-platform.md) -- build out your own blog authoring web app
+- [Blogging Platform](../web-apps/blogging-platform.md) — build out your own blog authoring web app
+
+## Reference
+
+[Ruby on Rails blog](https://rubyonrails.org/blog/) 

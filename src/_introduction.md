@@ -33,6 +33,8 @@ Please, please, please don't go into these projects thinking, "Wow, this idea is
 
 If you were to learn how to play guitar and you're playing simplified covers of your favorite songs, which is basically what we're doing here, would you start by thinking about how you'll record, mix, master, and release your cover album to make you rich? No! You'd practice them, play them for friends, maybe record them. Maybe one day you'd be in a cover band. Or even start writing your own original music. But don't concern yourself with anything other than learning and having fun right now.
 
+When it comes to the user experience (UX) (the flow through your program) and user interface (UI) (the look of your program), look at similar programs and how they work. Your best bet is to take some time to do research and gather reference. Pay attention, take screenshots, and make note of how the apps work.
+
 ## Reading Order
 
 Command Line Interfaces (CLIs) are first because I think they're generally a nice place to start because they don't require graphic rendering and a GUI. This makes their interfaces quite a bit simpler since there are only so many forms of input and output.

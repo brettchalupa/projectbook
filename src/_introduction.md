@@ -81,6 +81,8 @@ I hope most of all that you have fun and learn with these ideas. But if you buil
 
 Also, ideas aren't worth much. What matters is what you make from those ideas!
 
+[Read more about the specific license aspects of the book.](https://github.com/brettchalupa/projectbook/blob/main/LICENSE.md)
+
 ## Contributing
 
 Do you have an idea for a project? Contribute it!

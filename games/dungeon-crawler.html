@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Dungeon Crawler - Projectbook</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../_introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Command Line Interfaces (CLIs)</li><li class="chapter-item expanded "><a href="../command-line-interfaces/_introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/unix-utilities.html"><strong aria-hidden="true">2.</strong> Unix Utilities</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/spell-checker.html"><strong aria-hidden="true">3.</strong> Spell Checker</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/find-and-replace.html"><strong aria-hidden="true">4.</strong> Find and Replace</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/httpal.html"><strong aria-hidden="true">5.</strong> HTTPal</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/markdown-processor.html"><strong aria-hidden="true">6.</strong> Markdown Processor</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/custom-markup-language.html"><strong aria-hidden="true">7.</strong> Custom Markup Language</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/simple-podcast-hosting.html"><strong aria-hidden="true">8.</strong> Simple Podcast Hosting</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/static-site-generator.html"><strong aria-hidden="true">9.</strong> Static Site Generator</a></li><li class="chapter-item expanded "><a href="../command-line-interfaces/text-editor.html"><strong aria-hidden="true">10.</strong> Text Editor</a></li><li class="chapter-item expanded affix "><li class="part-title">Websites</li><li class="chapter-item expanded "><a href="../websites/_introduction.html"><strong aria-hidden="true">11.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../websites/link-list.html"><strong aria-hidden="true">12.</strong> Link List</a></li><li class="chapter-item expanded "><a href="../websites/homepage.html"><strong aria-hidden="true">13.</strong> Personal Home Page</a></li><li class="chapter-item expanded "><a href="../websites/media-log.html"><strong aria-hidden="true">14.</strong> Media Log</a></li><li class="chapter-item expanded "><a href="../websites/product-page.html"><strong aria-hidden="true">15.</strong> Product Page</a></li><li class="chapter-item expanded "><a href="../websites/fansite.html"><strong aria-hidden="true">16.</strong> Fansite</a></li><li class="chapter-item expanded "><a href="../websites/blog.html"><strong aria-hidden="true">17.</strong> Blog</a></li><li class="chapter-item expanded affix "><li class="part-title">Web Apps</li><li class="chapter-item expanded "><a href="../web-apps/_introduction.html"><strong aria-hidden="true">18.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../web-apps/blogging-platform.html"><strong aria-hidden="true">19.</strong> Blogging Platform</a></li><li class="chapter-item expanded "><a href="../web-apps/class-scheduler.html"><strong aria-hidden="true">20.</strong> Class Scheduler</a></li><li class="chapter-item expanded "><a href="../web-apps/content-management-system.html"><strong aria-hidden="true">21.</strong> Content Management System</a></li><li class="chapter-item expanded "><a href="../web-apps/help-site-manager.html"><strong aria-hidden="true">22.</strong> Help Site Manager</a></li><li class="chapter-item expanded "><a href="../web-apps/linkbud.html"><strong aria-hidden="true">23.</strong> Linkbud</a></li><li class="chapter-item expanded "><a href="../web-apps/recipehub.html"><strong aria-hidden="true">24.</strong> Recipe Hub</a></li><li class="chapter-item expanded "><a href="../web-apps/restaurant-ordering-platform.html"><strong aria-hidden="true">25.</strong> Restaurant Ordering Platform</a></li><li class="chapter-item expanded "><a href="../web-apps/simple-commerce.html"><strong aria-hidden="true">26.</strong> Simple Commerce</a></li><li class="chapter-item expanded "><a href="../web-apps/social-network.html"><strong aria-hidden="true">27.</strong> Social Network</a></li><li class="chapter-item expanded "><a href="../web-apps/story-publishing-platform.html"><strong aria-hidden="true">28.</strong> Story Publishing Platform</a></li><li class="chapter-item expanded "><a href="../web-apps/url-shortener.html"><strong aria-hidden="true">29.</strong> URL Shortener</a></li><li class="chapter-item expanded "><a href="../web-apps/videotube.html"><strong aria-hidden="true">30.</strong> VideoTube</a></li><li class="chapter-item expanded "><a href="../web-apps/vinyl-code-redeemer.html"><strong aria-hidden="true">31.</strong> Vinyl Code Redeemer</a></li><li class="chapter-item expanded "><a href="../web-apps/web-comic-platform.html"><strong aria-hidden="true">32.</strong> Web Comic Publishing Platform</a></li><li class="chapter-item expanded "><a href="../web-apps/website-builder.html"><strong aria-hidden="true">33.</strong> Website Builder</a></li><li class="chapter-item expanded "><a href="../web-apps/wishlist.html"><strong aria-hidden="true">34.</strong> Wishlist</a></li><li class="chapter-item expanded affix "><li class="part-title">Web Components</li><li class="chapter-item expanded "><a href="../web-components/_introduction.html"><strong aria-hidden="true">35.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../web-components/image-gallery.html"><strong aria-hidden="true">36.</strong> Image Gallery</a></li><li class="chapter-item expanded "><a href="../web-components/music-player.html"><strong aria-hidden="true">37.</strong> Music Player</a></li><li class="chapter-item expanded "><a href="../web-components/prose-renderer.html"><strong aria-hidden="true">38.</strong> Prose Renderer</a></li><li class="chapter-item expanded "><a href="../web-components/responsive-youtube-embed.html"><strong aria-hidden="true">39.</strong> Responsive YouTube Embed</a></li><li class="chapter-item expanded "><a href="../web-components/video-player.html"><strong aria-hidden="true">40.</strong> Video Player</a></li><li class="chapter-item expanded affix "><li class="part-title">General Graphical Apps</li><li class="chapter-item expanded "><a href="../general-graphical-apps/_introduction.html"><strong aria-hidden="true">41.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/book-authoring-tool.html"><strong aria-hidden="true">42.</strong> Book Authoring Tool</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/book-library.html"><strong aria-hidden="true">43.</strong> Book Library</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/calculator.html"><strong aria-hidden="true">44.</strong> Calculator</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/comic-reader.html"><strong aria-hidden="true">45.</strong> Comic Reader</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/diff-comparison.html"><strong aria-hidden="true">46.</strong> Diff Comparison</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/file-sync.html"><strong aria-hidden="true">47.</strong> File Sync</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/flash-cards.html"><strong aria-hidden="true">48.</strong> Flash Cards</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/habit-tracker.html"><strong aria-hidden="true">49.</strong> Habit Tracker</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/journal.html"><strong aria-hidden="true">50.</strong> Journal</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/music-player.html"><strong aria-hidden="true">51.</strong> Music Player</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/notebook.html"><strong aria-hidden="true">52.</strong> Notebook</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/password-manager.html"><strong aria-hidden="true">53.</strong> Password Manager</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/photo-viewer.html"><strong aria-hidden="true">54.</strong> Photo Viewer</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/rss-reader.html"><strong aria-hidden="true">55.</strong> RSS Reeder</a></li><li class="chapter-item expanded "><a href="../general-graphical-apps/video-library.html"><strong aria-hidden="true">56.</strong> Video Library</a></li><li class="chapter-item expanded affix "><li class="part-title">Libraries</li><li class="chapter-item expanded "><a href="../libraries/_introduction.html"><strong aria-hidden="true">57.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../libraries/http-client.html"><strong aria-hidden="true">58.</strong> HTTP Client</a></li><li class="chapter-item expanded "><a href="../libraries/authorization-lib.html"><strong aria-hidden="true">59.</strong> Authorization Lib</a></li><li class="chapter-item expanded "><a href="../libraries/orm.html"><strong aria-hidden="true">60.</strong> ORM</a></li><li class="chapter-item expanded "><a href="../libraries/unit-testing-lib.html"><strong aria-hidden="true">61.</strong> Unit Testing Lib</a></li><li class="chapter-item expanded "><a href="../libraries/background-job-processor.html"><strong aria-hidden="true">62.</strong> Background Job Processor</a></li><li class="chapter-item expanded affix "><li class="part-title">Games</li><li class="chapter-item expanded "><a href="../games/_introduction.html"><strong aria-hidden="true">63.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">64.</strong> Pong</div></li><li class="chapter-item expanded "><a href="../games/snake.html"><strong aria-hidden="true">65.</strong> Snake</a></li><li class="chapter-item expanded "><a href="../games/rock-paper-scissors.html"><strong aria-hidden="true">66.</strong> Rock, Paper, Scissors!</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">67.</strong> Brick Break</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">68.</strong> Tic Tac Toe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">69.</strong> Othello</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">70.</strong> Sokobon</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">71.</strong> Space Invaders</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">72.</strong> Solataire</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">73.</strong> Tetris</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">74.</strong> 2048</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">75.</strong> Gradius</div></li><li class="chapter-item expanded "><a href="../games/turn-based-battle-system.html"><strong aria-hidden="true">76.</strong> Turn-Based Battle System</a></li><li class="chapter-item expanded "><a href="../games/dungeon-crawler.html" class="active"><strong aria-hidden="true">77.</strong> Dungeon Crawler</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">78.</strong> Infinite Runner</div></li><li class="chapter-item expanded "><a href="../games/2d-platformer.html"><strong aria-hidden="true">79.</strong> 2D Platformer</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">80.</strong> Metroidvania</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">81.</strong> Action Adventure</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">82.</strong> Level Editor</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">83.</strong> Match 3</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">84.</strong> Dogfight</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">85.</strong> Tower Defense</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">86.</strong> Visual Novel</div></li><li class="chapter-item expanded "><a href="../games/alien-invasion.html"><strong aria-hidden="true">87.</strong> Alien Invasion</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">88.</strong> Strategy RPG</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">89.</strong> Shmup</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">90.</strong> Frogger</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">91.</strong> Pacman</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">92.</strong> Wordle</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">93.</strong> Flappy Bird</div></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../contributing.html"><strong aria-hidden="true">94.</strong> Contributing</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Projectbook</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="dungeon-crawler"><a class="header" href="#dungeon-crawler">Dungeon Crawler</a></h1>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<ul>
+<li><em>Shiren the Wanderer</em></li>
+<li><em>Hack, Slash, Loot</em></li>
+<li><em>The Binding of Isaac</em></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../games/turn-based-battle-system.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../games/2d-platformer.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../games/turn-based-battle-system.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../games/2d-platformer.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>

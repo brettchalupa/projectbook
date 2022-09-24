@@ -4,7 +4,7 @@ a.k.a. _PodBud_
 
 a.k.a. _Bring Your Own Hosting Podcast Tool_
 
-Podcasts are a truly wonderfully simple format. They leverage a feed, usually RSS, that can be consumed by clients who check regularly for new episodes and then add them to a library for a user to listen to.
+Podcasts are a wonderfully simple format. They leverage a feed, usually RSS, that can be consumed by clients who check regularly for new episodes and then add them to a library for a user to listen to.
 
 The RSS feed contains the episodes and a link to the audio file and a bunch of metadata.
 
@@ -39,7 +39,7 @@ The program would then have support for something like `podbud deploy` that woul
 
 The process and flow would be ideal for using with some sort of CI service that builds and deploys whenever the show source is pushed somewhere or an episode is marked as published.
 
-`show.toml`:
+Here's what `podcast.toml` could look like for [Roderick on the Line](http://www.merlinmann.com/roderick/):
 
 ``` toml
 title = "Roderick on the Line"
@@ -47,10 +47,11 @@ description = "Merlin Mann's frank & candid weekly phone call with John Roderick
 url = "http://www.merlinmann.com/roderick/"
 artwork = "assets/images/artwork.jpg" # defaults to this
 language = "en"
-# more of the required ones
 ```
 
-an `episode.toml`:
+There are more required ones details for a show, these are just some of them.
+
+Imagine an `episode.toml`:
 
 ``` toml
 title = "Episode 00: Suit of Vomit"
@@ -64,7 +65,7 @@ Pretty much what you’d expect.
 """ # supports Markdown, HTML, or just plain ole text
 ```
 
-[TODO: add all of the details and those that are supported]
+There may be more required fields for episides too. These are just some.
 
 ## References
 

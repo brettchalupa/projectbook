@@ -61,10 +61,10 @@ And they'd be rendered with the proper semantic HTML with support for speciying 
 
 ## References
 
-- Jekyll
-- Zola
-- Hugo
-- That JAMStack website
+- [Jekyll](https://jekyllrb.com)
+- [Zola](https://www.getzola.org)
+- [Hugo](https://gohugo.io)
+- [Jamstack directory](https://jamstack.org/generators/)
 
 ## Examples
 

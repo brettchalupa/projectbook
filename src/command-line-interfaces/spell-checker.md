@@ -1,6 +1,6 @@
 # Spell Checker
 
-CLI for checking a document or given folder of documents of plain text for typos.
+**The gist:** CLI for checking a document or given folder of documents of plain text for typos.
 
 An exercise in leveraging an existing dictionary and then reading files, checking them, and letting the user know about the issue and where it is.
 

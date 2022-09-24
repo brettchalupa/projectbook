@@ -2,7 +2,9 @@
 
 Do you have ideas for projects that'd make a good candidate for those learning how to code? Additions by the community are more than welcome!
 
-[TODO: add notes on how to contribute]
+Did you work on a project inspired by the book? Add links to your source code to the project to help others.
+
+[View the _Projectbook_ source on GitHub.](https://github.com/brettchalupa/projectbook)
 
 ## Contributors
 

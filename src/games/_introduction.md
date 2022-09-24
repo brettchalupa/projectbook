@@ -19,6 +19,7 @@ What follows is a non-exhaustive list of game libraries I've used in a variety o
 - [HaxeFlixel](https://haxeflixel.com) — Haxe
 - [LÖVE](https://love2d.org) — Lua
 - [MonoGame](https://www.monogame.net) - C#
+- [Phaser](https://github.com/photonstorm/phaser) — JS
 - [Pixel](https://github.com/faiface/pixel) — Go
 - [pygame](https://www.pygame.org/news) — Python
 

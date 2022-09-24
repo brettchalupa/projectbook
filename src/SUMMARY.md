@@ -25,6 +25,16 @@
 - [Fansite](./websites/fansite.md)
 - [Blog](./websites/blog.md)
 
+# Web Components
+
+- [Introduction](./web-components/_introduction.md)
+- [Image Gallery](./web-components/image-gallery.md)
+- [Music Player](./web-components/music-player.md)
+- [Prose Renderer](./web-components/prose-renderer.md)
+- [Responsive YouTube Embed](./web-components/responsive-youtube-embed.md)
+- [Video Player](./web-components/video-player.md)
+- [Component Library]()
+
 # Web Apps
 
 - [Introduction](./web-apps/_introduction.md)
@@ -44,15 +54,6 @@
 - [Web Comic Publishing Platform](./web-apps/web-comic-platform.md)
 - [Website Builder](./web-apps/website-builder.md)
 - [Wishlist](./web-apps/wishlist.md)
-
-# Web Components
-
-- [Introduction](./web-components/_introduction.md)
-- [Image Gallery](./web-components/image-gallery.md)
-- [Music Player](./web-components/music-player.md)
-- [Prose Renderer](./web-components/prose-renderer.md)
-- [Responsive YouTube Embed](./web-components/responsive-youtube-embed.md)
-- [Video Player](./web-components/video-player.md)
 
 # General Graphical Apps
 

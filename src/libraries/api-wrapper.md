@@ -55,8 +55,8 @@ There is a fine line to walk when developing an API wrapper. You want to remain 
 
 ## Examples
 
+- One of the first open source projects I ever made was [a Ruby wrapper for the Phaxio faxing API](https://rubygems.org/gems/phaxio) because I needed it for a freelance project.
 - [sferik/twitter](https://github.com/sferik/twitter) — Twitter API wrapper written in Ruby
-- TODO: add more!
 
 ## Extra Credit
 

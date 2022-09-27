@@ -76,3 +76,4 @@ In the case of Ruby, if this was published as a Gem, people would install it in 
 ## See Also
 
 - [HTTPal](../command-line-interfaces/httpal.md) — write a CLI for making HTTP requests; could use the library written here!
+- [API Wrapper](./api-wrapper.md) — write wrapper for an API to make it easier to consume the API

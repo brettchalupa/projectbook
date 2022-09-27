@@ -43,6 +43,7 @@
 - [Content Management System](./web-apps/content-management-system.md)
 - [Help Site Manager](./web-apps/help-site-manager.md)
 - [Linkbud](./web-apps/linkbud.md)
+- [Read-Only API](./web-apps/read-only-api.md)
 - [Recipe Hub](./web-apps/recipehub.md)
 - [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)
 - [Simple Commerce](./web-apps/simple-commerce.md)
@@ -66,6 +67,7 @@
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Flash Cards](./general-graphical-apps/flash-cards.md)
 - [Habit Tracker](./general-graphical-apps/habit-tracker.md)
+- [Client App](./general-graphical-apps/client-app.md)
 - [Journal](./general-graphical-apps/journal.md)
 - [Music Player](./general-graphical-apps/music-player.md)
 - [Notebook](./general-graphical-apps/notebook.md)
@@ -78,6 +80,7 @@
 
 - [Introduction](./libraries/_introduction.md)
 - [HTTP Client](./libraries/http-client.md)
+- [API Wrapper](./libraries/api-wrapper.md)
 - [Authorization Lib](./libraries/authorization-lib.md)
 - [ORM](./libraries/orm.md)
 - [Unit Testing Lib](./libraries/unit-testing-lib.md)

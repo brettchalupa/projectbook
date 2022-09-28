@@ -1,4 +1,6 @@
-# Introduction
+# Web Components
+
+Web components are a modern way to define custom HTML elements that can encapsulate mark-up, styles, and JavaScript.
 
 I find the idea of portable web components to be particularly compelling because they could be used and loaded on an as-needed basis and be much easier to integrate into a web page. In the past, when libraries would be primarily loaded via a JS `<script>` tag and then be available globally, you had to ensure you set them up and configured and structured the DOM appropriately. Otherwise it would break. This is pretty brittle. 
 
@@ -10,9 +12,13 @@ These projects cover dealing with state, data, browser APIs, user interactions, 
 
 ## Technologies
 
-- Vanilla JS! [TODO: link to mdn]
+- Vanilla JS! There's [an API for custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) that modern browsers support.
 - Stencil.js — thin wrapper of the native component API
 - Vue
 - Lit
 - Svelte
 - React
+
+## Resources
+
+- [MDN docs on Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)

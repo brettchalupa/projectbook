@@ -14,6 +14,7 @@ Here are some simpler utilities that would be good candidates for building:
 - `less` — read-only file viewer, particulary useful for longer files
 - `sort` — order lines alphanumerically
 - `tail` — print last n lines of a file, can follow output with `-f`, useful for logs
+- `wc` — displays the number of lines, words, and bytes in a file
 
 ## Resources
 

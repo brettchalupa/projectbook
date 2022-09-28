@@ -72,3 +72,7 @@ Lit and Stencil and Svetle interest me in particular for this. I think it'd need
 - Loop through the playlist
 - Shuffle
 - Easy download for the files if someone enjoys them
+
+## See Also
+
+- [Video Player](./video-player.md)

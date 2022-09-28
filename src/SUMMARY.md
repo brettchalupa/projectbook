@@ -33,7 +33,7 @@
 - [Prose Renderer](./web-components/prose-renderer.md)
 - [Music Player](./web-components/music-player.md)
 - [Video Player](./web-components/video-player.md)
-- [Component Library]()
+- [Component Library](./web-components/component-library.md)
 
 # Web Apps
 

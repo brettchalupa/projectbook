@@ -28,10 +28,10 @@
 # Web Components
 
 - [Introduction](./web-components/_introduction.md)
-- [Image Gallery](./web-components/image-gallery.md)
-- [Music Player](./web-components/music-player.md)
-- [Prose Renderer](./web-components/prose-renderer.md)
 - [Responsive YouTube Embed](./web-components/responsive-youtube-embed.md)
+- [Image Gallery](./web-components/image-gallery.md)
+- [Prose Renderer](./web-components/prose-renderer.md)
+- [Music Player](./web-components/music-player.md)
 - [Video Player](./web-components/video-player.md)
 - [Component Library]()
 

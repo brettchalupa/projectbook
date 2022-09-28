@@ -15,6 +15,16 @@
 - [Static Site Generator](./command-line-interfaces/static-site-generator.md)
 - [Text Editor](./command-line-interfaces/text-editor.md)
 
+# Libraries
+
+- [Introduction](./libraries/_introduction.md)
+- [HTTP Client](./libraries/http-client.md)
+- [API Wrapper](./libraries/api-wrapper.md)
+- [Authorization Lib](./libraries/authorization-lib.md)
+- [ORM](./libraries/orm.md)
+- [Unit Testing Lib](./libraries/unit-testing-lib.md)
+- [Background Job Processor](./libraries/background-job-processor.md)
+
 # Websites
 
 - [Introduction](./websites/_introduction.md)
@@ -38,53 +48,43 @@
 # Web Apps
 
 - [Introduction](./web-apps/_introduction.md)
-- [Blogging Platform](./web-apps/blogging-platform.md)
-- [Class Scheduler](./web-apps/class-scheduler.md)
-- [Content Management System](./web-apps/content-management-system.md)
-- [Help Site Manager](./web-apps/help-site-manager.md)
 - [Linkbud](./web-apps/linkbud.md)
+- [Vinyl Code Redeemer](./web-apps/vinyl-code-redeemer.md)
+- [URL Shortener](./web-apps/url-shortener.md)
 - [Read-Only API](./web-apps/read-only-api.md)
 - [Recipe Hub](./web-apps/recipehub.md)
-- [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)
-- [Simple Commerce](./web-apps/simple-commerce.md)
-- [Social Network](./web-apps/social-network.md)
-- [Story Publishing Platform](./web-apps/story-publishing-platform.md)
-- [URL Shortener](./web-apps/url-shortener.md)
-- [VideoTube](./web-apps/videotube.md)
-- [Vinyl Code Redeemer](./web-apps/vinyl-code-redeemer.md)
-- [Web Comic Publishing Platform](./web-apps/web-comic-platform.md)
-- [Website Builder](./web-apps/website-builder.md)
 - [Wishlist](./web-apps/wishlist.md)
+- [Blogging Platform](./web-apps/blogging-platform.md)
+- [Web Comic Publishing Platform](./web-apps/web-comic-platform.md)
+- [Help Site Manager](./web-apps/help-site-manager.md)
+- [Content Management System](./web-apps/content-management-system.md)
+- [Story Publishing Platform](./web-apps/story-publishing-platform.md)
+- [Social Network](./web-apps/social-network.md)
+- [Class Scheduler](./web-apps/class-scheduler.md)
+- [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)
+- [VideoTube](./web-apps/videotube.md)
+- [Simple Commerce](./web-apps/simple-commerce.md)
+- [Website Builder](./web-apps/website-builder.md)
 
 # General Graphical Apps
 
 - [Introduction](./general-graphical-apps/_introduction.md)
-- [Book Authoring Tool](./general-graphical-apps/book-authoring-tool.md)
-- [Book Library](./general-graphical-apps/book-library.md)
 - [Calculator](./general-graphical-apps/calculator.md)
-- [Comic Reader](./general-graphical-apps/comic-reader.md)
-- [Diff Comparison](./general-graphical-apps/diff-comparison.md)
-- [File Sync](./general-graphical-apps/file-sync.md)
 - [Flash Cards](./general-graphical-apps/flash-cards.md)
 - [Habit Tracker](./general-graphical-apps/habit-tracker.md)
-- [Client App](./general-graphical-apps/client-app.md)
+- [Diff Comparison](./general-graphical-apps/diff-comparison.md)
 - [Journal](./general-graphical-apps/journal.md)
-- [Music Player](./general-graphical-apps/music-player.md)
 - [Notebook](./general-graphical-apps/notebook.md)
-- [Password Manager](./general-graphical-apps/password-manager.md)
-- [Photo Viewer](./general-graphical-apps/photo-viewer.md)
-- [RSS Reeder](./general-graphical-apps/rss-reader.md)
+- [Book Authoring Tool](./general-graphical-apps/book-authoring-tool.md)
+- [Music Player](./general-graphical-apps/music-player.md)
+- [Book Library](./general-graphical-apps/book-library.md)
 - [Video Library](./general-graphical-apps/video-library.md)
-
-# Libraries
-
-- [Introduction](./libraries/_introduction.md)
-- [HTTP Client](./libraries/http-client.md)
-- [API Wrapper](./libraries/api-wrapper.md)
-- [Authorization Lib](./libraries/authorization-lib.md)
-- [ORM](./libraries/orm.md)
-- [Unit Testing Lib](./libraries/unit-testing-lib.md)
-- [Background Job Processor](./libraries/background-job-processor.md)
+- [Comic Reader](./general-graphical-apps/comic-reader.md)
+- [Photo Viewer](./general-graphical-apps/photo-viewer.md)
+- [Client App](./general-graphical-apps/client-app.md)
+- [RSS Reeder](./general-graphical-apps/rss-reader.md)
+- [File Sync](./general-graphical-apps/file-sync.md)
+- [Password Manager](./general-graphical-apps/password-manager.md)
 
 # Games
 
@@ -104,6 +104,7 @@
 - [Turn-Based Battle System](./games/turn-based-battle-system.md)
 - [Dungeon Crawler](./games/dungeon-crawler.md)
 - [Infinite Runner]()
+- [Flappy Bird]()
 - [2D Platformer](./games/2d-platformer.md)
 - [Metroidvania]()
 - [Action Adventure]()
@@ -117,8 +118,6 @@
 - [Shmup]()
 - [Frogger]()
 - [Pacman]()
-- [Wordle]()
-- [Flappy Bird]()
 
 ----------
 

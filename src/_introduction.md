@@ -91,4 +91,12 @@ Did you code an open source version of one of the projects and are comfortable s
 
 ## Dig In!
 
-View the projects in the sidebar or browse through. Make some cool things. Learn a lot. And share along the way.
+View the projects in the sidebar or browse through the sections below to find a project that catches your interest. Then hack away and make some cool things! Learn a lot. And share what you make.
+
+- [CLIs](./command-line-interfaces/_introduction.md)
+- [Libraries](./libraries/_introduction.md)
+- [Websites](./websites/_introduction.md)
+- [Web Components](./web-components/_introduction.md)
+- [Web Apps](./web-apps/_introduction.md)
+- [General GUIs](./general-graphical-apps/_introduction.md)
+- [Games](./games/_introduction.md)

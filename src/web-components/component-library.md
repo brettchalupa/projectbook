@@ -8,7 +8,7 @@ Historically, Bootstrap or Foundation accomplish similar tasks: provide styles a
 
 What if instead all someone had to do to get an image gallery was use the `<cl-gallery>` tag or to get a card display they use `<cl-card>`? That'd allow the component library (cl) to provide the needed defaults with the ability for them to be overriden or themed as needed.
 
-In many ways, this project is about creating a generic-ish design system for building websites and web applications.
+In many ways, this project is about creating a generic-ish design system for building websites and web applications. It will help you learn a component library and think about user interfaces in small, composable pieces.
 
 ## Spec
 

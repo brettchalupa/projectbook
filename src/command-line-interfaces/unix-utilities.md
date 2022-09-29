@@ -20,3 +20,7 @@ Here are some simpler utilities that would be good candidates for building:
 
 - [Learning Rust by Writing a Command Line App in 15 Minutes](https://rust-cli.github.io/book/tutorial/index.html#learning-rust-by-writing-a-command-line-app-in-15-minutes)
 - [Grep from First Principles, in Golang](https://willdemaine.ghost.io/grep-from-first-principles-in-golang/)
+
+## Examples
+
+- [brettchalupa/werds](https://github.com/brettchalupa/werds) — a (poor) clone of `wc` I made to help learn Rust

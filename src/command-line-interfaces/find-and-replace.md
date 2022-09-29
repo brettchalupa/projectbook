@@ -8,7 +8,16 @@ I call it `far` in my head, for "(f)ind (a)nd (r)eplace".
 
 I think about it as a command-line app, but I think it could also have a graphical desktop wrapper too for those who would want that.
 
-## Example Usage
+## Spec
+
+- globs
+- targeting specific files
+- confirm interface
+- respect the existing capitalization, like `far foo bar --respect-caps` would do both upper and lowercase variations of the words
+- support regex
+- do a dry run that outputs what would have changed but without doing it
+
+### Example Usage
 
 Replace all instances of "Foo" with "Bar" in the current directory (and its children):
 
@@ -22,15 +31,6 @@ Or specify a glob of files in a given directory:
 far Foo Bar src/**/*.rs
 ```
 
-## Spec
-
-- globs
-- targeting specific files
-- confirm interface
-- respect the existing capitalization, like `far foo bar --respect-caps` would do both upper and lowercase variations of the words
-- support regex
-- do a dry run that outputs what would have changed but without doing it
-
 ## Tech On My Mind
 
 Really any programming language would work that can all out to the system IO. But what would make this project really ideal would be the abiliy to compile it easily into a dependency-free cross-platform binary that's easy to distribute.
@@ -41,7 +41,7 @@ These are my top runners:
 
 tk-rs for the GUI would, in particular, match well with Rust for the library aspect of this.
 
-## GUI Find and Replace
+## Reference
 
 Here's a screenshot of Sublime's Find and Replace interface:
 

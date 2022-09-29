@@ -13,7 +13,7 @@ You'd want to:
 - Processing text by converting from one language to another
 - File IO
 
-## An Example
+## Spec
 
 Let's pretend that Markdown doesn't exist. Poof! It's gone. Who's Mark Down? Never met 'em.
 

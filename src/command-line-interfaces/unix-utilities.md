@@ -1,5 +1,7 @@
 # Unix Utilities
 
+**The gist**: clone simple, tried and true Unix commands.
+
 When working with the command line, it's likely you have used of the core Unix programs like `grep`, `cat`, `less`, `tail`, or `sort`.
 
 A great learning exercise is to rewrite those existing tools. Who knows, you might end up making a faster or better version.

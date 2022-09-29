@@ -27,6 +27,19 @@ Often a simple todo app is the non-trivial example project that people point to.
 - Clear in what it does and doesn't do
 - Something you understand from using yourself so you can more easily map the domain into code
 
+## Project Schema
+
+The projects in _Projectbook_ attempt to conform to a similar shape:
+
+- **The gist**: a quick introduction to the project
+- **Spec**: short for specifications; the functionality written out
+- **Concepts**: aspects of development the project exercises
+- **Resources**: anything that might be helpful, from assets to tutorials
+- **Mock-Ups**: low fidelity designs for the project
+- **Examples**: open source projects similar to the project
+- **Extra Credit**: ideas for where to take the project beyond the initial specs
+- **See Also**: related projects in _Projectbook_
+
 ## Mindset
 
 Please, please, please don't go into these projects thinking, "Wow, this idea is going to make me rich! It's the next start-up! It's the next big thing! Get those angel investors on the line!" I fall into this trap from time to time, especially when I'm dreaming big. I start thinking about monetization and hosting and the viability of something existing as a business. What you're trying to do is learn! Not start a business. Don't burden yourself with the responsibiity of doing anything other than experimenting at the beginning.
@@ -85,7 +98,7 @@ Also, ideas aren't worth much. What matters is what you make from those ideas!
 
 ## Contributing
 
-Do you have an idea for a project? Contribute it!
+Do you have an idea for a project? [Contribute it!](https://github.com/brettchalupa/projectbook) _Projectbook_ is open source and editing its contents is easy. Just find the project's Markdown file it, edit it, and open up a Pull Request on [the project's GitHub repository](https://github.com/brettchalupa/projectbook).
 
 Did you code an open source version of one of the projects and are comfortable sharing the source? Well, add it! That'll help people who are stuck or what to take it further or contribute.
 

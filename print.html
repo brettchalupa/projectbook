@@ -825,6 +825,26 @@ authorized_to_like?(user, post)
 <li><a href="https://github.com/onsi/ginkgo">Ginkgo</a> — for Go</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="background-job-processor"><a class="header" href="#background-job-processor">Background Job Processor</a></h1>
+<p><strong>The gist</strong>: build a library that allows clients to define jobs that get processed on an asyncronous queue seperate from their application.</p>
+<p>A really common need in an application is to offload long processing tasks to a background job queue. The job queue could be for something like sending an email where it doesn't need to happen immediately. Or it could be for processing something really important, like an order, that needs to call out to a variety of APIs and has many side effects. Maybe a large export file needs to be generated.</p>
+<p>Whatever the need is, background job processors are critical to building back-end applications.</p>
+<p>Don't expect to make something in a few hours that's stable and ready for the limelight. As always with these projects, this is for learning!</p>
+<h2 id="spec-8"><a class="header" href="#spec-8">Spec</a></h2>
+<p>This project is fairly complex, as you'll have to:</p>
+<ul>
+<li>Define the libraries API for building jobs</li>
+<li>Keep track of the jobs in the queue</li>
+<li>Process the jobs in queue</li>
+<li>Manage their state</li>
+<li>Have some way for checking in on which jobs have been completed, which are waiting, and which failed</li>
+</ul>
+<h2 id="examples-5"><a class="header" href="#examples-5">Examples</a></h2>
+<ul>
+<li><a href="https://github.com/mperham/sidekiq">Sidekiq</a> — solid background processor for Ruby backed by Redis</li>
+<li><a href="https://github.com/OptimalBits/bull/">Bull</a> — background job processor for Node backed by Redis</li>
+<li><a href="https://docs.celeryq.dev/en/stable/getting-started/introduction.html">Celery</a> — Python background processor</li>
+<li><a href="https://github.com/gocraft/work">work</a> — Go background processor</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="websites"><a class="header" href="#websites">Websites</a></h1>
 <p>What follows are ideas for websites that you could build that don't require any back-end. This means there's no need for a database or a server to handle the requests. These are great ideas for getting started with web development by focusing on HTML, CSS, a little JavaScript, and some templating.</p>
 <h2 id="starting-out"><a class="header" href="#starting-out">Starting Out</a></h2>
@@ -907,7 +927,7 @@ authorized_to_like?(user, post)
 <p><strong>The gist</strong>: code a website promoting a product you care about.</p>
 <p>If you're looking for an idea for a website with a bit more focus, build out a page for a particular product you're fascinated with. Maybe it's a video game console or type of cereal. I don't know what you're excited about. I'd probaby make a website dedicated to the core reasons why Saltines are underrated crackers. But that's just me.</p>
 <p>A page specifically meant to feature a product will require you to think a bit more visually to really sell it. While the other website ideas are about building out basic content structures, a product page has a goal! Sell the product.</p>
-<h2 id="spec-8"><a class="header" href="#spec-8">Spec</a></h2>
+<h2 id="spec-9"><a class="header" href="#spec-9">Spec</a></h2>
 <p>What a product page could contain:</p>
 <ul>
 <li>Introduction to the product</li>
@@ -919,7 +939,7 @@ authorized_to_like?(user, post)
 <li>Why ya' need it!</li>
 <li>Link to buy it</li>
 </ul>
-<h2 id="examples-5"><a class="header" href="#examples-5">Examples</a></h2>
+<h2 id="examples-6"><a class="header" href="#examples-6">Examples</a></h2>
 <p><a href="https://play.date">Playdate</a> — charming, polished, visual, clear</p>
 <p><img src="websites/./img/playdate-website.webp" alt="Playdate website screenshot" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="fansite"><a class="header" href="#fansite">Fansite</a></h1>
@@ -993,7 +1013,7 @@ authorized_to_like?(user, post)
 <p>You can see it hardcodes the width and height, which is not what we want. We instead want the video to be as wide as its container or specified width, and then for it to reduce in width on smaller viewports while maintaining its aspect ratio.</p>
 <p>This image illustrates the main problem with YouTube's default embed code with larger sizes:</p>
 <p><img src="web-components/./img/unresponsive-youtube.webp" alt="unresponsive YouTube video diagram" /></p>
-<h2 id="spec-9"><a class="header" href="#spec-9">Spec</a></h2>
+<h2 id="spec-10"><a class="header" href="#spec-10">Spec</a></h2>
 <p>Specifying via just the video ID:</p>
 <pre><code class="language-html">&lt;yt-vid id=&quot;logjpKitcLo&quot; /&gt;
 </code></pre>
@@ -1051,7 +1071,7 @@ authorized_to_like?(user, post)
 <li>Text size</li>
 <li>Text alignment — justified or left aligned or right aligned</li>
 </ul>
-<h2 id="spec-10"><a class="header" href="#spec-10">Spec</a></h2>
+<h2 id="spec-11"><a class="header" href="#spec-11">Spec</a></h2>
 <p>Usage:</p>
 <ol>
 <li>include the script to load the source for the component</li>
@@ -1107,7 +1127,7 @@ authorized_to_like?(user, post)
 <li>Rendering the GUI for the actual player</li>
 <li>Callbacks for various audio events</li>
 </ul>
-<h2 id="spec-11"><a class="header" href="#spec-11">Spec</a></h2>
+<h2 id="spec-12"><a class="header" href="#spec-12">Spec</a></h2>
 <p>The mark-up could be something like this:</p>
 <pre><code class="language-html">&lt;music-player&gt;
   &lt;mp-song&gt;
@@ -1155,7 +1175,7 @@ authorized_to_like?(user, post)
 <p><strong>The gist</strong>: build out a video player component that makes use of the browser APIs to control the video.</p>
 <p>I picture this as building a UI for dealing with a video, a lot like YouTube's or Vimeo's player. It would allow you to pause the video, change the volume, scrub to a specific timestamp, and make the video fullscreen.</p>
 <p>The native video player is fine in most operating systems and browsers, but that doesn't mean more functionality couldn't be added. Also, we're here to learn!</p>
-<h2 id="spec-12"><a class="header" href="#spec-12">Spec</a></h2>
+<h2 id="spec-13"><a class="header" href="#spec-13">Spec</a></h2>
 <pre><code class="language-html">&lt;video-player src=&quot;/path/to/video.mp4&quot; /&gt;
 </code></pre>
 <h2 id="concepts-13"><a class="header" href="#concepts-13">Concepts</a></h2>
@@ -1188,7 +1208,7 @@ authorized_to_like?(user, post)
 <p>Historically, Bootstrap or Foundation accomplish similar tasks: provide styles and JS for commonly used patterns in websites. They work fine and are widely used, but they're pretty brittle. You have to rely on having just the right DOM structure and classes for it to work.</p>
 <p>What if instead all someone had to do to get an image gallery was use the <code>&lt;cl-gallery&gt;</code> tag or to get a card display they use <code>&lt;cl-card&gt;</code>? That'd allow the component library (cl) to provide the needed defaults with the ability for them to be overriden or themed as needed.</p>
 <p>In many ways, this project is about creating a generic-ish design system for building websites and web applications. It will help you learn a component library and think about user interfaces in small, composable pieces.</p>
-<h2 id="spec-13"><a class="header" href="#spec-13">Spec</a></h2>
+<h2 id="spec-14"><a class="header" href="#spec-14">Spec</a></h2>
 <p>Here are some of the foundational components I'd add:</p>
 <ul>
 <li>The other components in the Web Components section of <em>Projectbook</em>, of course!</li>
@@ -1309,7 +1329,7 @@ authorized_to_like?(user, post)
 <li>Delivering files</li>
 <li>Checking input</li>
 </ul>
-<h2 id="examples-6"><a class="header" href="#examples-6">Examples</a></h2>
+<h2 id="examples-7"><a class="header" href="#examples-7">Examples</a></h2>
 <p>https://bandcamp.com/yum</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="url-shortener"><a class="header" href="#url-shortener">URL Shortener</a></h1>
 <p>Allow users to create short versions of links to make them easier to speak and share. For example, https://some.place.example.com/foo/bar/biz being shorted to https://short.ly/abc123</p>
@@ -1321,7 +1341,7 @@ authorized_to_like?(user, post)
 <p><strong>The gist</strong>: build out a public, read-only API that serves a variety of requests.</p>
 <p>When first learning how to build an HTTP API, it can be helpful to just focus on the structure of the requests and responding with data. This project is focused on fetching data from a database and responding to HTTP requests with that data, in whatever format you want. It could be a GraphQL API or a JSON API you design yourself.</p>
 <p>Then, once you have this read-only API, you can build clients that render the data returned from the API. That's a great way to learn how to build GUIs driven by data from an API.</p>
-<h2 id="spec-14"><a class="header" href="#spec-14">Spec</a></h2>
+<h2 id="spec-15"><a class="header" href="#spec-15">Spec</a></h2>
 <ul>
 <li>Have some way to load the data that your API serves. Maybe you ingest the data into the data</li>
 <li>Define read-only API endpoints to fetch and return the data</li>
@@ -1480,7 +1500,7 @@ GitHub for stories!</p>
 <li>View a profile</li>
 <li>Follow a user to see their posts in your timeline</li>
 </ul>
-<h2 id="examples-7"><a class="header" href="#examples-7">Examples</a></h2>
+<h2 id="examples-8"><a class="header" href="#examples-8">Examples</a></h2>
 <ul>
 <li>micro.blog</li>
 <li>twitter.com</li>
@@ -1658,7 +1678,7 @@ GitHub for stories!</p>
 <p>I find it helpful to track any new habit I want to start. Maybe it's practice guitar or meditate. Maybe it's go for a walk.</p>
 <p>This project could be coded for any platform really—from a simple mobile app to a desktop app to a web app with a back-end. It's non-trivial while still being simple.</p>
 <p>How you store the data is totally up to you and how ambitious you want to get. If you build this for the web, you could initially use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API"><code>localStorage</code></a>. For mobile, use whatever the native API is for data storage.</p>
-<h2 id="spec-15"><a class="header" href="#spec-15">Spec</a></h2>
+<h2 id="spec-16"><a class="header" href="#spec-16">Spec</a></h2>
 <ul>
 <li>Add habits</li>
 <li>Mark habit as complete for a given day</li>
@@ -1745,7 +1765,7 @@ GitHub for stories!</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="client-app"><a class="header" href="#client-app">Client App</a></h1>
 <p><strong>The gist</strong>: build out a graphical interface for reading and rendering data from a public API.</p>
 <p>Whether building a desktop app, a native app, or a web app, a really common need is being able to fetch data from an HTTP API and render that data.</p>
-<h2 id="spec-16"><a class="header" href="#spec-16">Spec</a></h2>
+<h2 id="spec-17"><a class="header" href="#spec-17">Spec</a></h2>
 <ul>
 <li>Stand-up your GUI app</li>
 <li>Fetch data from the API</li>

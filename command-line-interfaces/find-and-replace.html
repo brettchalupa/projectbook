@@ -148,13 +148,6 @@
 <p>But you know what? I'm over that! Well, I want to be over that. That's where this project comes into play.</p>
 <p>I call it <code>far</code> in my head, for &quot;(f)ind (a)nd (r)eplace&quot;.</p>
 <p>I think about it as a command-line app, but I think it could also have a graphical desktop wrapper too for those who would want that.</p>
-<h2 id="example-usage"><a class="header" href="#example-usage">Example Usage</a></h2>
-<p>Replace all instances of &quot;Foo&quot; with &quot;Bar&quot; in the current directory (and its children):</p>
-<pre><code>far Foo Bar
-</code></pre>
-<p>Or specify a glob of files in a given directory:</p>
-<pre><code>far Foo Bar src/**/*.rs
-</code></pre>
 <h2 id="spec"><a class="header" href="#spec">Spec</a></h2>
 <ul>
 <li>globs</li>
@@ -164,6 +157,13 @@
 <li>support regex</li>
 <li>do a dry run that outputs what would have changed but without doing it</li>
 </ul>
+<h3 id="example-usage"><a class="header" href="#example-usage">Example Usage</a></h3>
+<p>Replace all instances of &quot;Foo&quot; with &quot;Bar&quot; in the current directory (and its children):</p>
+<pre><code>far Foo Bar
+</code></pre>
+<p>Or specify a glob of files in a given directory:</p>
+<pre><code>far Foo Bar src/**/*.rs
+</code></pre>
 <h2 id="tech-on-my-mind"><a class="header" href="#tech-on-my-mind">Tech On My Mind</a></h2>
 <p>Really any programming language would work that can all out to the system IO. But what would make this project really ideal would be the abiliy to compile it easily into a dependency-free cross-platform binary that's easy to distribute.</p>
 <p>These are my top runners:</p>
@@ -172,7 +172,7 @@
 <li>Rust</li>
 </ul>
 <p>tk-rs for the GUI would, in particular, match well with Rust for the library aspect of this.</p>
-<h2 id="gui-find-and-replace"><a class="header" href="#gui-find-and-replace">GUI Find and Replace</a></h2>
+<h2 id="reference"><a class="header" href="#reference">Reference</a></h2>
 <p>Here's a screenshot of Sublime's Find and Replace interface:</p>
 <p><img src="./img/subllime-find-and-replace.webp" alt="screenshot of Sublime's find and replace" /></p>
 <h2 id="stretch-goals"><a class="header" href="#stretch-goals">Stretch Goals</a></h2>

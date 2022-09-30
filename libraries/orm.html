@@ -144,6 +144,43 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="orm"><a class="header" href="#orm">ORM</a></h1>
+<p><strong>The gist</strong>: build a library that makes it easy to read and create data in a database from objects in your code.</p>
+<p>ORM stands for Object-Relational Mapping, and it's usually the glue between your application code and the database. So instead of writing SQL directly, <code>SELECT * FROM users WHERE email='foo@example.com' LIMIT 1</code>, and instantiating an object with that data, you'd use the ORM to do that. It might look something like <code>User.find_by(email: &quot;foo@example.com&quot;)</code>, which would return an instance of the <code>User</code> class.</p>
+<p>ORMs are great for a variety of reasons:</p>
+<ul>
+<li>Generally a friendlier API than the database underneath</li>
+<li>Can help protect your application from running harmful queries</li>
+<li>You can craft queries in the language you're working in</li>
+<li>Easier to mock and stub when testing</li>
+</ul>
+<p>What database you use is up to. <a href="https://www.sqlite.org/index.html">SQLite</a> is a small, portable SQL database that is great for developing against.</p>
+<h2 id="specs"><a class="header" href="#specs">Specs</a></h2>
+<ul>
+<li>Ability to find a record by ID or a given table column</li>
+<li>Create an object or struct in the language that you can then work with</li>
+<li>Ability to update a database record</li>
+<li>Ability to delete a database record</li>
+</ul>
+<h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
+<ul>
+<li>API design</li>
+<li>Databases</li>
+</ul>
+<h2 id="extra-credit"><a class="header" href="#extra-credit">Extra Credit</a></h2>
+<ul>
+<li>Support additional queries</li>
+<li>Support advanced queries like multiple <code>WHERE</code> clauses</li>
+<li>Try to make your ORM usable with a different flavor of SQL and see if it works</li>
+</ul>
+<h2 id="examples"><a class="header" href="#examples">Examples</a></h2>
+<ul>
+<li><a href="https://github.com/jeremyevans/sequel">sequel</a> — Ruby ORM</li>
+<li><a href="https://github.com/rails/rails/tree/main/activerecord">activerecord</a> — Rails ORM</li>
+<li><a href="https://www.prisma.io">prisma</a> — Node.js ORM</li>
+<li><a href="https://www.sqlalchemy.org">sqlalchemy</a> — Python ORM</li>
+<li><a href="https://diesel.rs">diesel</a> — Rust ORM</li>
+<li><a href="https://gorm.io">gorm</a> — Go ORM</li>
+</ul>
 
                     </main>
 

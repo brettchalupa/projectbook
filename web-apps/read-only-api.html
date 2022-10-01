@@ -149,7 +149,8 @@
 <p>Then, once you have this read-only API, you can build clients that render the data returned from the API. That's a great way to learn how to build GUIs driven by data from an API.</p>
 <h2 id="spec"><a class="header" href="#spec">Spec</a></h2>
 <ul>
-<li>Have some way to load the data that your API serves. Maybe you ingest the data into the data</li>
+<li>Set up your database and sceham for your application to read from</li>
+<li>Have some way to load the data that your API serves; maybe you ingest the data from a spreadsheet</li>
 <li>Define read-only API endpoints to fetch and return the data</li>
 </ul>
 <h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
@@ -158,12 +159,8 @@
 <li>API design</li>
 <li>Building an API</li>
 </ul>
-<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
-<ul>
-<li><a href="https://github.com/public-apis/public-apis">public-apis List on GitHub</a> — helpful reference for similar examples</li>
-</ul>
 <h2 id="example"><a class="header" href="#example">Example</a></h2>
-<p>I'd like to build out a GQL API that returns the albums with songs by <em>Guided By Voices</em>. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.</p>
+<p>I'd like to build out a GraphQL API that returns the albums with songs by <em>Guided By Voices</em>. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.</p>
 <pre><code class="language-graphql">query albumsWithSongs {
   albums {
     title
@@ -219,11 +216,19 @@
 </code></pre>
 <p>I could imagine there also being support for:</p>
 <ul>
-<li>an arg that returns the albums released in a given year</li>
+<li>an argument that returns the albums released in a given year</li>
 <li>searching by album name and song name and returning results</li>
 <li>sorting results alphabetically or by release year</li>
 </ul>
 <p>I've been interested in Rust and TypeScript lately, so I'd probably use one of those for building out this API.</p>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<ul>
+<li><a href="https://graphql.org">GraphQL</a></li>
+<li><a href="https://spec.openapis.org/oas/v3.1.0">Open API Spec</a></li>
+<li><a href="https://json-schema.org/specification.html">JSON Schema Spec</a></li>
+<li><a href="https://jsonapi.org">JSON API Spec</a></li>
+<li><a href="https://github.com/public-apis/public-apis">public-apis List on GitHub</a> — helpful reference for similar examples</li>
+</ul>
 <h2 id="extra-credit"><a class="header" href="#extra-credit">Extra Credit</a></h2>
 <ul>
 <li>Support pagination for large data sets</li>

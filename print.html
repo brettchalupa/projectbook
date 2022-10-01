@@ -1405,7 +1405,8 @@ authorized_to_like?(user, post)
 <p>Then, once you have this read-only API, you can build clients that render the data returned from the API. That's a great way to learn how to build GUIs driven by data from an API.</p>
 <h2 id="spec-17"><a class="header" href="#spec-17">Spec</a></h2>
 <ul>
-<li>Have some way to load the data that your API serves. Maybe you ingest the data into the data</li>
+<li>Set up your database and sceham for your application to read from</li>
+<li>Have some way to load the data that your API serves; maybe you ingest the data from a spreadsheet</li>
 <li>Define read-only API endpoints to fetch and return the data</li>
 </ul>
 <h2 id="concepts-17"><a class="header" href="#concepts-17">Concepts</a></h2>
@@ -1414,12 +1415,8 @@ authorized_to_like?(user, post)
 <li>API design</li>
 <li>Building an API</li>
 </ul>
-<h2 id="resources-9"><a class="header" href="#resources-9">Resources</a></h2>
-<ul>
-<li><a href="https://github.com/public-apis/public-apis">public-apis List on GitHub</a> — helpful reference for similar examples</li>
-</ul>
 <h2 id="example-1"><a class="header" href="#example-1">Example</a></h2>
-<p>I'd like to build out a GQL API that returns the albums with songs by <em>Guided By Voices</em>. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.</p>
+<p>I'd like to build out a GraphQL API that returns the albums with songs by <em>Guided By Voices</em>. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.</p>
 <pre><code class="language-graphql">query albumsWithSongs {
   albums {
     title
@@ -1475,11 +1472,19 @@ authorized_to_like?(user, post)
 </code></pre>
 <p>I could imagine there also being support for:</p>
 <ul>
-<li>an arg that returns the albums released in a given year</li>
+<li>an argument that returns the albums released in a given year</li>
 <li>searching by album name and song name and returning results</li>
 <li>sorting results alphabetically or by release year</li>
 </ul>
 <p>I've been interested in Rust and TypeScript lately, so I'd probably use one of those for building out this API.</p>
+<h2 id="resources-9"><a class="header" href="#resources-9">Resources</a></h2>
+<ul>
+<li><a href="https://graphql.org">GraphQL</a></li>
+<li><a href="https://spec.openapis.org/oas/v3.1.0">Open API Spec</a></li>
+<li><a href="https://json-schema.org/specification.html">JSON Schema Spec</a></li>
+<li><a href="https://jsonapi.org">JSON API Spec</a></li>
+<li><a href="https://github.com/public-apis/public-apis">public-apis List on GitHub</a> — helpful reference for similar examples</li>
+</ul>
 <h2 id="extra-credit-13"><a class="header" href="#extra-credit-13">Extra Credit</a></h2>
 <ul>
 <li>Support pagination for large data sets</li>
@@ -1493,7 +1498,9 @@ authorized_to_like?(user, post)
 <li><a href="web-apps/../libraries/api-wrapper.html">API Wrapper</a> — write a wrapper for consuming the API you just built in a given language to make it easy for others to integrate with</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="recipehub"><a class="header" href="#recipehub">RecipeHub</a></h1>
-<p>GitHub for recipes! Open source recipes. But for food, not software.</p>
+<p><strong>The gist</strong>: GitHub for recipes! But for food, not software.</p>
+<p>I love cooking and baking. It's seriously so fun and creative. I love taking recipes and adjusting and tweaking them to my liking. The neat thing about recipes is that they're not observed by copyright! The photos, the descriptions, etc. are, but the actual ingredients and steps aren't. That always gets me thinking about how awesome it would be if there was a web application for people to share their recipes on. It would be centered around loading quickly, browsing by tags, collecting your favorites, and copying and modifying others' recipes.</p>
+<p>I'm hungry and excited just writing this!</p>
 <h2 id="specs-4"><a class="header" href="#specs-4">Specs</a></h2>
 <ul>
 <li>User accounts (authentication)</li>
@@ -1510,15 +1517,24 @@ authorized_to_like?(user, post)
 </ul>
 </li>
 <li>Viewing another user's recipes</li>
-<li>Fork a recipe (make a copy to edit and adjust to your liking)</li>
+<li>Fork a recipe (make a copy to edit and adjust to your liking, but maintain an association to the original)</li>
 </ul>
+<h2 id="concepts-18"><a class="header" href="#concepts-18">Concepts</a></h2>
+<ul>
+<li>Authentication</li>
+<li>Permissions</li>
+<li>Data management</li>
+<li>Network graph</li>
+</ul>
+<h2 id="mock-up-5"><a class="header" href="#mock-up-5">Mock-Up</a></h2>
+<p>There are a lot of features that could exist for this app, and mocking them all up would be a lot, but here's a gist of what some of the key elements of the UI could be like (viewing your recipes, viewing a recipe, and the recipe form):</p>
+<p><img src="web-apps/./img/recipehub.webp" alt="RecipeHub mock-up" /></p>
 <h2 id="extra-credit-14"><a class="header" href="#extra-credit-14">Extra Credit</a></h2>
 <ul>
-<li>Favoriting another user's recipes</li>
+<li>Add ability to favorite another user's recipes &amp; view your favorites</li>
 <li>More metadata like prep time and cooking time (and thus total time)</li>
 <li>Image upload for a recipe</li>
-<li>Tags for things like vegan, breakfast, etc.</li>
-<li>Private vs public recipes</li>
+<li>Tags for things like vegan, breakfast, etc. where you can discover similar recipes</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="wishlist"><a class="header" href="#wishlist">Wishlist</a></h1>
 <p>A web app and/or API for adding products across various online shops to a common wishlist. Would be neat to have a browser extension too.</p>
@@ -1568,7 +1584,7 @@ GitHub for stories!</p>
 <li>twitter.com</li>
 <li>Mastadon</li>
 </ul>
-<h2 id="concepts-18"><a class="header" href="#concepts-18">Concepts</a></h2>
+<h2 id="concepts-19"><a class="header" href="#concepts-19">Concepts</a></h2>
 <h2 id="stretch-goals-7"><a class="header" href="#stretch-goals-7">Stretch Goals</a></h2>
 <ul>
 <li>Reply to posts to notify other user</li>
@@ -1581,7 +1597,7 @@ GitHub for stories!</p>
 <p>This would then notify the patron their food is ready for pick up.</p>
 <p>I'd call this GrubBud, or maybe that's too close to the real thing. How about iMenu and get all 2000s Steve Jobs on it??? Call it what ya' want!</p>
 <h2 id="wireframes"><a class="header" href="#wireframes">Wireframes</a></h2>
-<h2 id="concepts-19"><a class="header" href="#concepts-19">Concepts</a></h2>
+<h2 id="concepts-20"><a class="header" href="#concepts-20">Concepts</a></h2>
 <ul>
 <li>Admin for restuarant to manage their menu</li>
 <li>Public website for ordering w/ a cart with line items</li>
@@ -1605,7 +1621,7 @@ GitHub for stories!</p>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="videotube"><a class="header" href="#videotube">VideoTube</a></h1>
 <p>Essentially a YouTube clone! Allow users to sign up for an account and upload videos to their account.</p>
-<h2 id="concepts-20"><a class="header" href="#concepts-20">Concepts</a></h2>
+<h2 id="concepts-21"><a class="header" href="#concepts-21">Concepts</a></h2>
 <ul>
 <li>Processing large files, specifically videos</li>
 <li>Hosting files, then rendering them</li>
@@ -1635,7 +1651,7 @@ GitHub for stories!</p>
 <li>Accept payment to pay for items, <a href="https://stripe.com">Stripe</a> is great for this!</li>
 <li>Create an order for the purchased products that's visible in the admin</li>
 </ul>
-<h2 id="concepts-21"><a class="header" href="#concepts-21">Concepts</a></h2>
+<h2 id="concepts-22"><a class="header" href="#concepts-22">Concepts</a></h2>
 <ul>
 <li>Non-trivial data models</li>
 <li>Storing data in the database</li>
@@ -1684,7 +1700,7 @@ GitHub for stories!</p>
 <p>This is an entire app! It's large in scope. It'd really have a lot going on. The web interface for building. The renderer. The data model for the blocks. The user and site with (minimal) management. </p>
 <p>[wireframes]</p>
 <p>[assets]</p>
-<h2 id="concepts-22"><a class="header" href="#concepts-22">Concepts</a></h2>
+<h2 id="concepts-23"><a class="header" href="#concepts-23">Concepts</a></h2>
 <p>There's so much here!</p>
 <ul>
 <li>Defining a data model for the blocks, which is decently complex</li>
@@ -1748,7 +1764,7 @@ GitHub for stories!</p>
 <li>Show number of days in a row without missing</li>
 <li>Ability to delete habits that are no longer relevant</li>
 </ul>
-<h2 id="concepts-23"><a class="header" href="#concepts-23">Concepts</a></h2>
+<h2 id="concepts-24"><a class="header" href="#concepts-24">Concepts</a></h2>
 <ul>
 <li>GUI for interactions</li>
 <li>Dealing with some light time series data</li>
@@ -1838,7 +1854,7 @@ GitHub for stories!</p>
 <li><a href="general-graphical-apps/../web-apps/read-only-api.html">Read-Only API project</a> — if you built a read-only API, even one you just run locally, you could build your client app to read that data</li>
 <li><a href="https://github.com/public-apis/public-apis">public-apis List on GitHub</a> — helpful reference for similar examples</li>
 </ul>
-<h2 id="concepts-24"><a class="header" href="#concepts-24">Concepts</a></h2>
+<h2 id="concepts-25"><a class="header" href="#concepts-25">Concepts</a></h2>
 <ul>
 <li>Consuming an HTTP API</li>
 <li>Data-driven UI</li>

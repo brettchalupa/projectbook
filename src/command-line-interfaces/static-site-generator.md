@@ -69,3 +69,7 @@ And they'd be rendered with the proper semantic HTML with support for speciying 
 ## Examples
 
 - [Soy](https://github.com/brettchalupa/soy) — a functional but barebones static site generator I made in Ruby; I had intentions for it being more finished, but a useful exercise in learning
+
+## See Also
+
+- [SSG GUI](../general-graphical-apps/static-site-generator-gui.md)

@@ -1,4 +1,4 @@
-# Video Player
+# Video Player (Web Component)
 
 **The gist**: build out a video player component that makes use of the browser APIs to control the video.
 

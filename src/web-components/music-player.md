@@ -1,4 +1,4 @@
-# Music Player - Web Component
+# Music Player (Web Component)
 
 **The gist**: build a web component for playing one or more music files.
 

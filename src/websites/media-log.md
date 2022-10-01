@@ -1,5 +1,7 @@
 # Media Log
 
+**The gist**: build a simple website to keep track of shows you've watched or books you've read.
+
 I love keeping track of the books and movies I've watched. Sure, there are sites like Letterboxd and Goodreads to keep track of them, and they have all kinds of information and covers and such. But who needs all that?
 
 For this project, build out a website to keep track of media you've finished. You could have a list of games you played, books you've read, your favorite albums, movies you've watched.

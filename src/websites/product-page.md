@@ -19,7 +19,7 @@ What a product page could contain:
 - Why ya' need it!
 - Link to buy it
 
-## Examples
+## Reference
 
 [Playdate](https://play.date) — charming, polished, visual, clear
 

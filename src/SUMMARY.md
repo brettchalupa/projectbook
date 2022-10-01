@@ -73,6 +73,7 @@
 - [Flash Cards](./general-graphical-apps/flash-cards.md)
 - [Habit Tracker](./general-graphical-apps/habit-tracker.md)
 - [Diff Comparison](./general-graphical-apps/diff-comparison.md)
+- [SSG GUI](./general-graphical-apps/static-site-generator-gui.md)
 - [Journal](./general-graphical-apps/journal.md)
 - [Notebook](./general-graphical-apps/notebook.md)
 - [Book Authoring Tool](./general-graphical-apps/book-authoring-tool.md)

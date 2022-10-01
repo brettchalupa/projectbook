@@ -144,43 +144,48 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="linkbud"><a class="header" href="#linkbud">Linkbud</a></h1>
+<p><strong>The gist</strong>: build an app that allows users to define lists of links that can be viewed publicly on the web.</p>
 <p>A web application for building out a simple list of a links for a given profile. This is useful for people linking to various profiles on social media, sharing an album on multiple streaming services, or even serving as a simple home page for someone.</p>
+<h2 id="specs"><a class="header" href="#specs">Specs</a></h2>
 <p>Users should have the ability to:</p>
 <ul>
 <li>Sign up / sign in</li>
 <li>Create a list of links with a name</li>
 <li>Add, edit, delete, and reorder links on their list</li>
-<li>View their list publicly</li>
+<li>View the list publicly based on account and list slugs</li>
+<li>Support multiple lists for an account</li>
 </ul>
 <h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
 <ul>
 <li>Authentication</li>
-<li>Authorization (access control) -- public vs private</li>
-<li>A non-trivial UI </li>
+<li>Authorization (access control)</li>
+<li>A non-trivial UI</li>
 <li>Data modeling</li>
 <li>Rendering a web page from user entered data</li>
 </ul>
-<h2 id="wireframes"><a class="header" href="#wireframes">Wireframes</a></h2>
-<h2 id="references"><a class="header" href="#references">References</a></h2>
-<ul>
-<li><a href="https://linktr.ee">Linktree</a></li>
-<li>non-dynamic version I made</li>
-</ul>
+<h2 id="mock-ups"><a class="header" href="#mock-ups">Mock-Ups</a></h2>
+<p>Here's what the user inteface and user experience could be like:</p>
+<p><img src="./img/linkbud.webp" alt="linkbud mock-up" /></p>
+<p>When a user is signed in, they can view a list of their Link Lists. They can edit their existing ones or add a new one. The form has fields for everything that'd could be entered. And then when they create (or update) a Link List, they can view the public link on the web with the rendered links.</p>
 <h2 id="stretch-goals--extra-credit"><a class="header" href="#stretch-goals--extra-credit">Stretch Goals / Extra Credit</a></h2>
 <ul>
-<li>Email verification if signing up via email</li>
-<li>Sign up / sign in via a third-party service like Twitter, Facebook, Google, etc.</li>
 <li>Add description with a rich text editor or Markdown support to lists to give more context</li>
 <li>Display icons for links to common locations like YouTube, Twitter, Reddit, etc.</li>
-<li>Support multiple lists</li>
+<li>Upload an image for a list</li>
+<li>Email verification if signing up via email</li>
+<li>Sign up / sign in via a third-party service like Twitter, Facebook, Google, etc.</li>
 <li>Customize the list's display with a photo, colors, font, etc.</li>
 <li>Support deleting a list or making a list private</li>
 <li>Ensuring the URLs are properly formatted</li>
 <li>Sanitizing input for potential non-safe data</li>
 </ul>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<ul>
+<li><a href="https://linktr.ee">Linktree</a></li>
+</ul>
 <h2 id="see-also"><a class="header" href="#see-also">See Also</a></h2>
 <ul>
-<li><a href="../websites/link-list.html">Link List</a> -- not quite ready for a full stack web app? That's okay! What if you instead just build a static website?</li>
+<li><a href="../websites/link-list.html">Link List</a> — not quite ready for a full stack web app? That's okay! What if you instead just build a static website?</li>
 </ul>
 
                     </main>

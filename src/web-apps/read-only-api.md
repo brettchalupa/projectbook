@@ -8,7 +8,8 @@ Then, once you have this read-only API, you can build clients that render the da
 
 ## Spec
 
-- Have some way to load the data that your API serves. Maybe you ingest the data into the data
+- Set up your database and sceham for your application to read from
+- Have some way to load the data that your API serves; maybe you ingest the data from a spreadsheet
 - Define read-only API endpoints to fetch and return the data
 
 ## Concepts
@@ -17,13 +18,9 @@ Then, once you have this read-only API, you can build clients that render the da
 - API design
 - Building an API
 
-## Resources
-
-- [public-apis List on GitHub](https://github.com/public-apis/public-apis) — helpful reference for similar examples
-
 ## Example
 
-I'd like to build out a GQL API that returns the albums with songs by _Guided By Voices_. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.
+I'd like to build out a GraphQL API that returns the albums with songs by _Guided By Voices_. They have such an extensive catalog, that'd it'd be fun to build out a GUI to browse them.
 
 ```graphql
 query albumsWithSongs {
@@ -85,11 +82,19 @@ Which would return something like:
 
 I could imagine there also being support for:
 
-- an arg that returns the albums released in a given year
+- an argument that returns the albums released in a given year
 - searching by album name and song name and returning results
 - sorting results alphabetically or by release year
 
 I've been interested in Rust and TypeScript lately, so I'd probably use one of those for building out this API.
+
+## Resources
+
+- [GraphQL](https://graphql.org)
+- [Open API Spec](https://spec.openapis.org/oas/v3.1.0)
+- [JSON Schema Spec](https://json-schema.org/specification.html)
+- [JSON API Spec](https://jsonapi.org)
+- [public-apis List on GitHub](https://github.com/public-apis/public-apis) — helpful reference for similar examples
 
 ## Extra Credit
 

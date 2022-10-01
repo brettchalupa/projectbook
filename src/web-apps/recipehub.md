@@ -37,3 +37,5 @@ There are a lot of features that could exist for this app, and mocking them all 
 - More metadata like prep time and cooking time (and thus total time)
 - Image upload for a recipe
 - Tags for things like vegan, breakfast, etc. where you can discover similar recipes
+- If you build the back-end with an API, you could then build out a mobile app that consumes it! That would be pretty handy when cooking in the kitchen
+    - Dream feature: when viewing a recipe on the mobile app, prevent the phone from sleeping

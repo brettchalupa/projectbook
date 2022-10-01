@@ -144,7 +144,42 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="wishlist"><a class="header" href="#wishlist">Wishlist</a></h1>
-<p>A web app and/or API for adding products across various online shops to a common wishlist. Would be neat to have a browser extension too.</p>
+<p><strong>The gist</strong>: A web app and/or API for adding products across various online shops to a common wishlist.</p>
+<p>I've done a little online shopping in my life! I've done a little online window shopping too. I like saving things I'm interested in and coming back to it later to see if I'm still interested. But I don't have a good way to maintain that list and mark items as purchased across any given website. Enter: WishIt! ✨</p>
+<p>Okay, that's kind of a silly name. But naming all of these projects is no easy task.</p>
+<h2 id="spec"><a class="header" href="#spec">Spec</a></h2>
+<ul>
+<li>You'll need authentication for this (or just store data in <code>this.localStorage</code>)</li>
+<li>Have a simple form for entering URL to add it to the wishlist</li>
+<li>Validate the URL</li>
+<li>Parse the title from the web page of the URL for the item's name</li>
+<li>Save the item to the user's wishlist</li>
+<li>Allow items to be:
+<ul>
+<li>Marked as purchased</li>
+<li>Deleted</li>
+</ul>
+</li>
+</ul>
+<h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
+<ul>
+<li>Crawling a web page</li>
+<li>A todo app that isn't a todo app</li>
+</ul>
+<h2 id="mock-up"><a class="header" href="#mock-up">Mock-Up</a></h2>
+<p>Here's what the interface could look like:</p>
+<p><img src="./img/wishit.webp" alt="WishIt Mock-Up" /></p>
+<p>As you can see, it's pretty simple to start, which is nice. It's the fetching the data from the web page that's a bit more of a challenge with this project.</p>
+<h2 id="extra-credit"><a class="header" href="#extra-credit">Extra Credit</a></h2>
+<ul>
+<li>Parse out additional info like the title, photo, price, and description from the URL
+<ul>
+<li>Supporting this for any given website can be challenging, so pick one or two to start</li>
+<li>Some pages might have Open Graph tags for products, which would make this a lot easier, <a href="https://developers.facebook.com/docs/payments/product/">reference</a></li>
+</ul>
+</li>
+<li>Build out a browser extension that takes the current URL and submits it to the current user's WishIt ✨</li>
+</ul>
 
                     </main>
 

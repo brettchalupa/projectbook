@@ -55,7 +55,7 @@
 - [Recipe Hub](./web-apps/recipehub.md)
 - [Wishlist](./web-apps/wishlist.md)
 - [Blogging Platform](./web-apps/blogging-platform.md)
-- [Web Comic Publishing Platform](./web-apps/web-comic-platform.md)
+- [Web Comic Platform](./web-apps/web-comic-platform.md)
 - [Help Site Manager](./web-apps/help-site-manager.md)
 - [Content Management System](./web-apps/content-management-system.md)
 - [Story Publishing Platform](./web-apps/story-publishing-platform.md)

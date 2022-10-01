@@ -82,3 +82,4 @@ Here's a simple outline of what the data model could be like:
 ## See Also
 
 - [SSG GUI](../general-graphical-apps/static-site-generator-gui.md) — building an app as an interactive front-end for a static site generator, sort of like the Admin aspect of the blog web app project
+- [Web Comic Platform](./web-comic-publishing-platform.md) — similar in nature but more focused on hosting image content rather than the written word

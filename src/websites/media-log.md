@@ -12,6 +12,11 @@ Here's what a basic website utilizing lists of read books could look like:
 
 ![screenshot of a book log](./img/book-log.webp)
 
+## Extra Credit
+
+- Try out different approaches to layout to see what's most pleasant.
+- Make the website a web application so that you can manage the list of media dynamically.
+
 ## Reference
 
 - [Simple site I made for books I've read](https://brettchalupa.neocities.org/book-log.html)

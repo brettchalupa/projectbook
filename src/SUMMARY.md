@@ -49,7 +49,7 @@
 
 - [Introduction](./web-apps/_introduction.md)
 - [Linkbud](./web-apps/linkbud.md)
-- [Vinyl Code Redeemer](./web-apps/vinyl-code-redeemer.md)
+- [Vinyl Download Code Redeemer](./web-apps/vinyl-code-redeemer.md)
 - [URL Shortener](./web-apps/url-shortener.md)
 - [Read-Only API](./web-apps/read-only-api.md)
 - [Recipe Hub](./web-apps/recipehub.md)

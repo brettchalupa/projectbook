@@ -2,7 +2,7 @@
 
 **The gist**: build an app that allows users to define lists of links that can be viewed publicly on the web.
 
-A web application for building out a simple list of a links for a given profile. This is useful for people linking to various profiles on social media, sharing an album on multiple streaming services, or even serving as a simple home page for someone.
+This is useful for people linking to various profiles on social media, sharing an album on multiple streaming services, or even serving as a simple home page for someone. Sometimes referred to as "Link in Bio" sites, I think they're pretty nifty as simple directories people create for their projects.
 
 ## Specs
 

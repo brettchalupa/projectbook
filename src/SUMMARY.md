@@ -59,7 +59,7 @@
 - [Content Management System](./web-apps/content-management-system.md)
 - [Help Site Manager](./web-apps/help-site-manager.md)
 - [Story Publishing Platform](./web-apps/story-publishing-platform.md)
-- [Game Tracker]()
+- [Game Tracker](./web-apps/game-tracker.md)
 - [Social Network](./web-apps/social-network.md)
 - [Class Scheduler](./web-apps/class-scheduler.md)
 - [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)

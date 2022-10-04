@@ -8,12 +8,12 @@
 - [Unix Utilities](./command-line-interfaces/unix-utilities.md)
 - [Spell Checker](./command-line-interfaces/spell-checker.md)
 - [Find and Replace](./command-line-interfaces/find-and-replace.md)
+- [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [HTTPal](./command-line-interfaces/httpal.md)
 - [Markdown Processor](./command-line-interfaces/markdown-processor.md)
 - [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
 - [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
 - [Static Site Generator](./command-line-interfaces/static-site-generator.md)
-- [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [Text Editor](./command-line-interfaces/text-editor.md)
 
 # Libraries

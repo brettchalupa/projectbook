@@ -13,6 +13,7 @@
 - [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
 - [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
 - [Static Site Generator](./command-line-interfaces/static-site-generator.md)
+- [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [Text Editor](./command-line-interfaces/text-editor.md)
 
 # Libraries

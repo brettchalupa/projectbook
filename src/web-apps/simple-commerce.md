@@ -1,6 +1,6 @@
 # Simple Commerce
 
-The gist: build out a web app that allows sellers to add products that can be purchased on a public website. When a product is purchased, it creates an order for the seller to fulfill.
+**The gist:** build out a web app that allows sellers to add products that can be purchased on a public website. When a product is purchased, it creates an order for the seller to fulfill.
 
 An eCommerce platform is simple to grasp since we use them on the regular, but there's a lot of complexity under the surface. It is certainly possible to build a simplified version, especially for learning purposes.
 
@@ -24,13 +24,14 @@ If you're interested in learning a new web technology, this project covers a lot
 - Admin management area
 - Public rendering of data
 
-## Stretch Goals
+## Extra Credit
 
 - Associate photos with a product
 - Digital file uploading & delivery
 - Inventory management system
 - Emails for both seller and buyer
 - Allow sellers to customize their web storefront
+- Tax, friggin' tax!
 
 ## References
 
@@ -40,3 +41,7 @@ If you're interested in learning a new web technology, this project covers a lot
 - Closed source
     - Big Cartel
     - Shopify
+
+## See Also
+
+- [Restaurant Ordering Platform](./restaurant-ordering-platform.md) — pretty similar in concept and needs

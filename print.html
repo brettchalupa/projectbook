@@ -2029,7 +2029,15 @@ authorized_to_like?(user, post)
 </li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="videotube"><a class="header" href="#videotube">VideoTube</a></h1>
-<p>Essentially a YouTube clone! Allow users to sign up for an account and upload videos to their account.</p>
+<p><strong>The gist</strong>: build an app that allows users to upload videos that others can watch on the web.</p>
+<p>Essentially a YouTube clone! Videos can be challenging because of their large file size and various filetype support needs across browsers and operating systems. Also, hosting them can be expensive. So it's totally okay to just store the uploaded files locally on your computer for this learning project.</p>
+<h2 id="spec-19"><a class="header" href="#spec-19">Spec</a></h2>
+<ul>
+<li>Sign up for an account</li>
+<li>Upload videos with a title, file, and description</li>
+<li>Use ffmpeg or something similar to convert any given video file into a consistently supported one like mp4</li>
+<li>Render web pages for people to watch videos</li>
+</ul>
 <h2 id="concepts-27"><a class="header" href="#concepts-27">Concepts</a></h2>
 <ul>
 <li>Processing large files, specifically videos</li>
@@ -2042,13 +2050,18 @@ authorized_to_like?(user, post)
 <li>YouTube</li>
 <li>TikTok</li>
 </ul>
-<h2 id="stretch-goals-8"><a class="header" href="#stretch-goals-8">Stretch Goals</a></h2>
+<h2 id="extra-credit-23"><a class="header" href="#extra-credit-23">Extra Credit</a></h2>
 <ul>
-<li>Encode a variety of video formats into a consistent one</li>
+<li>Explore and experiment with different approaches to streaming the data (I don't know too much about this but would like to learn!)</li>
+<li>Limit videos to a specific size or length</li>
 <li>Encode videos into multiple resolutions</li>
 </ul>
+<h2 id="see-also-18"><a class="header" href="#see-also-18">See Also</a></h2>
+<ul>
+<li><a href="web-apps/../web-components/video-player.html">Video Player (Web Component)</a></li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="simple-commerce"><a class="header" href="#simple-commerce">Simple Commerce</a></h1>
-<p>The gist: build out a web app that allows sellers to add products that can be purchased on a public website. When a product is purchased, it creates an order for the seller to fulfill.</p>
+<p><strong>The gist:</strong> build out a web app that allows sellers to add products that can be purchased on a public website. When a product is purchased, it creates an order for the seller to fulfill.</p>
 <p>An eCommerce platform is simple to grasp since we use them on the regular, but there's a lot of complexity under the surface. It is certainly possible to build a simplified version, especially for learning purposes.</p>
 <p>If you're interested in learning a new web technology, this project covers a lot of what you'd need to learn. Whether it's a server-rendered web app or a static site that works with an API, there's a lot going on.</p>
 <h2 id="specs-15"><a class="header" href="#specs-15">Specs</a></h2>
@@ -2069,13 +2082,14 @@ authorized_to_like?(user, post)
 <li>Admin management area</li>
 <li>Public rendering of data</li>
 </ul>
-<h2 id="stretch-goals-9"><a class="header" href="#stretch-goals-9">Stretch Goals</a></h2>
+<h2 id="extra-credit-24"><a class="header" href="#extra-credit-24">Extra Credit</a></h2>
 <ul>
 <li>Associate photos with a product</li>
 <li>Digital file uploading &amp; delivery</li>
 <li>Inventory management system</li>
 <li>Emails for both seller and buyer</li>
 <li>Allow sellers to customize their web storefront</li>
+<li>Tax, friggin' tax!</li>
 </ul>
 <h2 id="references-10"><a class="header" href="#references-10">References</a></h2>
 <ul>
@@ -2092,23 +2106,34 @@ authorized_to_like?(user, post)
 </ul>
 </li>
 </ul>
+<h2 id="see-also-19"><a class="header" href="#see-also-19">See Also</a></h2>
+<ul>
+<li><a href="web-apps/./restaurant-ordering-platform.html">Restaurant Ordering Platform</a> — pretty similar in concept and needs</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="website-builder"><a class="header" href="#website-builder">Website Builder</a></h1>
-<h2 id="the-gist"><a class="header" href="#the-gist">The Gist</a></h2>
-<p>Build out a web app that lets users create simple web pages graphically with no coding knowledge. This allows people to build web pages with a variety of content to meet their needs.</p>
+<p><strong>The gist</strong>: Build out a web app that lets users create simple web pages graphically with no coding knowledge. This allows people to build simple web pages with a variety of content to meet their needs.</p>
+<p>This is a complex project with the need for a really rich front-end experience for it to feel smooth. It's a good project for learning a front-end web framework.</p>
 <p>Blocks to start with:</p>
 <ul>
 <li>Header</li>
-<li>Text</li>
+<li>Text with Markdown</li>
 <li>Image</li>
 <li>YouTube Embed</li>
+<li>Button</li>
 </ul>
 <p>Ideally blocks would be able to be reordered within a given page.</p>
 <p>The selected blocks for the page would get persisted in a database associated with the user's site.</p>
 <p>And then, finally, that page would be able to be rendered and viewable in the browser.</p>
-<h2 id="scope"><a class="header" href="#scope">Scope</a></h2>
-<p>This is an entire app! It's large in scope. It'd really have a lot going on. The web interface for building. The renderer. The data model for the blocks. The user and site with (minimal) management. </p>
-<p>[wireframes]</p>
-<p>[assets]</p>
+<h2 id="mock-ups-9"><a class="header" href="#mock-ups-9">Mock-Ups</a></h2>
+<p><img src="web-apps/./img/sitebud.webp" alt="Website Builder Mock-Ups" /></p>
+<h2 id="specs-16"><a class="header" href="#specs-16">Specs</a></h2>
+<ul>
+<li>Sign up for an account</li>
+<li>Create a site</li>
+<li>Add pages</li>
+<li>Add blocks to pages</li>
+<li>Public can view pages rendered from the configured blocks</li>
+</ul>
 <h2 id="concepts-29"><a class="header" href="#concepts-29">Concepts</a></h2>
 <p>There's so much here!</p>
 <ul>
@@ -2116,8 +2141,38 @@ authorized_to_like?(user, post)
 <li>Storing the built pages which have a pretty complex data model</li>
 <li>Building a complex UI</li>
 <li>Rendering a complex page from stored data that needs to be processed properly</li>
+<li>Authentication</li>
+<li>Authorization</li>
 </ul>
-<h2 id="technology"><a class="header" href="#technology">Technology</a></h2>
+<h2 id="extra-credit-25"><a class="header" href="#extra-credit-25">Extra Credit</a></h2>
+<ul>
+<li>Configurable menus</li>
+<li>Add more block types
+<ul>
+<li>Audio</li>
+<li>Rich text editor</li>
+<li>List
+<ul>
+<li>Ordered</li>
+<li>Unordered</li>
+</ul>
+</li>
+<li>Code</li>
+<li>Contact form</li>
+<li>Image gallery</li>
+<li>Other embeds</li>
+</ul>
+</li>
+<li>Page visibility like public, draft, password protected</li>
+</ul>
+<h2 id="reference-9"><a class="header" href="#reference-9">Reference</a></h2>
+<ul>
+<li><a href="https://wordpress.org/gutenberg/">Gutenberg, Wordpress's editor</a></li>
+</ul>
+<h2 id="see-also-20"><a class="header" href="#see-also-20">See Also</a></h2>
+<ul>
+<li><a href="web-apps/./content-management-system.html">Content Management System</a> — similar in concept</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="general-graphical-apps"><a class="header" href="#general-graphical-apps">General Graphical Apps</a></h1>
 <p>The following projects are apps that require a graphical user interface (GUI). They're platform agnostic, so whether you want to build an app for Android phones or Linux desktops, hopefully you'll find something to dig into.</p>
 <p>While you could certainly build web applications for these projects, there's something different about building desktop and mobile apps that's appealing.</p>
@@ -2154,7 +2209,7 @@ authorized_to_like?(user, post)
 </ul>
 <p>This is a good project for trying out all sorts of languages and libraries. It doesn't require a data store or networking. It doesn't require an overly complex UI. But it's also not extremely trivial. There's some state to manage and data to sanitize.</p>
 <p>[screenshots of examples]</p>
-<h2 id="stretch-goals-10"><a class="header" href="#stretch-goals-10">Stretch Goals</a></h2>
+<h2 id="stretch-goals-8"><a class="header" href="#stretch-goals-8">Stretch Goals</a></h2>
 <ul>
 <li>Add more advanced mathematical computations like sine, log, square roots, etc. </li>
 <li></li>
@@ -2165,7 +2220,7 @@ authorized_to_like?(user, post)
 <p>I find it helpful to track any new habit I want to start. Maybe it's practice guitar or meditate. Maybe it's go for a walk.</p>
 <p>This project could be coded for any platform really—from a simple mobile app to a desktop app to a web app with a back-end. It's non-trivial while still being simple.</p>
 <p>How you store the data is totally up to you and how ambitious you want to get. If you build this for the web, you could initially use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API"><code>localStorage</code></a>. For mobile, use whatever the native API is for data storage.</p>
-<h2 id="spec-19"><a class="header" href="#spec-19">Spec</a></h2>
+<h2 id="spec-20"><a class="header" href="#spec-20">Spec</a></h2>
 <ul>
 <li>Add habits</li>
 <li>Mark habit as complete for a given day</li>
@@ -2180,13 +2235,13 @@ authorized_to_like?(user, post)
 <li>Simple data modeling</li>
 <li>Data storage</li>
 </ul>
-<h2 id="mock-ups-9"><a class="header" href="#mock-ups-9">Mock-Ups</a></h2>
+<h2 id="mock-ups-10"><a class="header" href="#mock-ups-10">Mock-Ups</a></h2>
 <p><img src="general-graphical-apps/./img/habit-tracker.webp" alt="Habit Tracker Mock-Up" /></p>
-<h2 id="reference-9"><a class="header" href="#reference-9">Reference</a></h2>
+<h2 id="reference-10"><a class="header" href="#reference-10">Reference</a></h2>
 <ul>
 <li><a href="https://streaksapp.com">Streaks app on iOS</a></li>
 </ul>
-<h2 id="stretch-goals-11"><a class="header" href="#stretch-goals-11">Stretch Goals</a></h2>
+<h2 id="stretch-goals-9"><a class="header" href="#stretch-goals-9">Stretch Goals</a></h2>
 <ul>
 <li>Calendar view showing when which days a given habit was completed</li>
 <li>Reminders / notifications</li>
@@ -2196,12 +2251,12 @@ authorized_to_like?(user, post)
 <p><strong>The gist</strong>: build an app that allows you to manage a library of HTTP requests with response display.</p>
 <p>When building or integrating with an API, it's helpful to be able to organize a collection of API requests and view the responses to see how the API is behaving. This app would allow users to create request objects with a URL, relevant header information, and any body contents that then get sent along. The response, including the body, is then rendered.</p>
 <p>I think this would be ideal as a desktop GUI app.</p>
-<h2 id="mock-ups-10"><a class="header" href="#mock-ups-10">Mock-Ups</a></h2>
+<h2 id="mock-ups-11"><a class="header" href="#mock-ups-11">Mock-Ups</a></h2>
 <p>The GUI, especially for a basic version, could be as simple as:</p>
 <p><img src="general-graphical-apps/./img/reqbud-gui.webp" alt="Reqbud GUI mock-up" /></p>
 <p>The left column has the requests displayed. You select one and it renders the details in the main pane. There the request details can be specified and the response can be rendered.</p>
 <p>Grouping similar requests could be as simple as having different project files that get opened, closed, saved, etc.</p>
-<h2 id="specs-16"><a class="header" href="#specs-16">Specs</a></h2>
+<h2 id="specs-17"><a class="header" href="#specs-17">Specs</a></h2>
 <p>A very basic version would be to handle just GET requests:</p>
 <ul>
 <li>Create request objects</li>
@@ -2216,7 +2271,7 @@ authorized_to_like?(user, post)
 <li>HTTP</li>
 <li>Desktop GUI</li>
 </ul>
-<h2 id="extra-credit-23"><a class="header" href="#extra-credit-23">Extra Credit</a></h2>
+<h2 id="extra-credit-26"><a class="header" href="#extra-credit-26">Extra Credit</a></h2>
 <ul>
 <li>Support other HTTP verbs (PUT, POST, DELETE, etc.)</li>
 <li>Specify headers</li>
@@ -2231,7 +2286,7 @@ authorized_to_like?(user, post)
 <li><a href="https://paw.cloud">Paw</a></li>
 <li><a href="https://www.postman.com">Postman</a></li>
 </ul>
-<h2 id="see-also-18"><a class="header" href="#see-also-18">See Also</a></h2>
+<h2 id="see-also-21"><a class="header" href="#see-also-21">See Also</a></h2>
 <ul>
 <li><a href="general-graphical-apps/../libraries/http-client.html">HTTP Client</a></li>
 <li><a href="general-graphical-apps/../command-line-interfaces/httpal.html">httpal</a></li>
@@ -2251,7 +2306,7 @@ authorized_to_like?(user, post)
 <p>But command line SSGs aren't the most friendly thing in the world, even though I think a lot of people would be interested in authoring content in Markdown and publishing their website using one. What if it was possible to do that without the need for the command line?</p>
 <p>I think wrapping a static site generator in a GUI would be possible <em>and</em> valuable. The GUI would essentially be a Markdown editor that sites on top of the sites files. The app could use Git under the hood for creating and managing versions. Hosting and deploying could be configured for the host of choice, all within the GUI. Image uploads would be as simple as copying the selected into the proper directory and referencing it with Markdown. And! If the person ever wants to look under the hood and modify things directly, they could, since I think this GUI would aim to maintain full compatibility with whatever SSG it sits on top of.</p>
 <p>There's a lot here to process! Maybe something like this already exists. I sort of don't want to know. Even if it does, it'd still be a great learning exercise.</p>
-<h2 id="mock-ups-11"><a class="header" href="#mock-ups-11">Mock-Ups</a></h2>
+<h2 id="mock-ups-12"><a class="header" href="#mock-ups-12">Mock-Ups</a></h2>
 <p>TODO</p>
 <h2 id="concepts-32"><a class="header" href="#concepts-32">Concepts</a></h2>
 <ul>
@@ -2259,11 +2314,11 @@ authorized_to_like?(user, post)
 <li>A mildly complex GUI</li>
 <li>Publishing</li>
 </ul>
-<h2 id="spec-20"><a class="header" href="#spec-20">Spec</a></h2>
+<h2 id="spec-21"><a class="header" href="#spec-21">Spec</a></h2>
 <p>TODO</p>
 <h2 id="tech-of-interest"><a class="header" href="#tech-of-interest">Tech of Interest</a></h2>
 <p>gtk-rs + Zola</p>
-<h2 id="see-also-19"><a class="header" href="#see-also-19">See Also</a></h2>
+<h2 id="see-also-22"><a class="header" href="#see-also-22">See Also</a></h2>
 <ul>
 <li><a href="general-graphical-apps/../command-line-interfaces/static-site-generator.html">Static Site Generator</a></li>
 </ul>
@@ -2307,7 +2362,7 @@ authorized_to_like?(user, post)
 <ul>
 <li>Is the archive being loaded into memory or is there a way to load only the current image into memory?</li>
 </ul>
-<h2 id="stretch-goals-12"><a class="header" href="#stretch-goals-12">Stretch Goals</a></h2>
+<h2 id="stretch-goals-10"><a class="header" href="#stretch-goals-10">Stretch Goals</a></h2>
 <ul>
 <li>Support PDFs since some comics and books are in PDF format</li>
 <li>Make the UI be able to be changed in size while maintaining the original aspect ratio of the page</li>
@@ -2321,7 +2376,7 @@ authorized_to_like?(user, post)
 <div style="break-before: page; page-break-before: always;"></div><h1 id="client-app"><a class="header" href="#client-app">Client App</a></h1>
 <p><strong>The gist</strong>: build out a graphical interface for reading and rendering data from a public API.</p>
 <p>Whether building a desktop app, a native app, or a web app, a really common need is being able to fetch data from an HTTP API and render that data.</p>
-<h2 id="spec-21"><a class="header" href="#spec-21">Spec</a></h2>
+<h2 id="spec-22"><a class="header" href="#spec-22">Spec</a></h2>
 <ul>
 <li>Stand-up your GUI app</li>
 <li>Fetch data from the API</li>
@@ -2348,12 +2403,12 @@ authorized_to_like?(user, post)
 <li><a href="https://flutter.dev">Flutter</a> with <a href="https://dart.dev">Dart</a></li>
 <li>Swift for Apple platforms</li>
 </ul>
-<h2 id="extra-credit-24"><a class="header" href="#extra-credit-24">Extra Credit</a></h2>
+<h2 id="extra-credit-27"><a class="header" href="#extra-credit-27">Extra Credit</a></h2>
 <ul>
 <li>Cache (store) the results locally so the application can work offline</li>
 <li>Make your UI handle long strings nicely, this is a common issue</li>
 </ul>
-<h2 id="see-also-20"><a class="header" href="#see-also-20">See Also</a></h2>
+<h2 id="see-also-23"><a class="header" href="#see-also-23">See Also</a></h2>
 <ul>
 <li><a href="general-graphical-apps/../web-apps/read-only-api.html">Read-Only API</a> — building out an API that could be consumed</li>
 <li><a href="general-graphical-apps/../libraries/api-wrapper.html">API Wrapper</a> — writing a wrapper for an API (your API if you want) to make it easier to work with</li>
@@ -2392,7 +2447,7 @@ authorized_to_like?(user, post)
 <li>Native desktop libraries for Windows and Mac</li>
 <li>Electron could be good for this I think! Just to learn and experiment and leverage existing web knowledge</li>
 </ul>
-<h2 id="stretch-goals-13"><a class="header" href="#stretch-goals-13">Stretch Goals</a></h2>
+<h2 id="stretch-goals-11"><a class="header" href="#stretch-goals-11">Stretch Goals</a></h2>
 <ul>
 <li>Oh gosh I mean this is basically building out an entire app</li>
 <li>Browser extension</li>
@@ -2430,7 +2485,7 @@ authorized_to_like?(user, post)
 <li><em>The Binding of Isaac</em></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="2d-platformer"><a class="header" href="#2d-platformer">2D Platformer</a></h1>
-<h2 id="extra-credit-25"><a class="header" href="#extra-credit-25">Extra Credit</a></h2>
+<h2 id="extra-credit-28"><a class="header" href="#extra-credit-28">Extra Credit</a></h2>
 <ul>
 <li>A fun alternative to this idea is an auto-running platform where the only input is to jump. This works especially well for mobile devices where input for precise platforming is slightly limited.</li>
 </ul>

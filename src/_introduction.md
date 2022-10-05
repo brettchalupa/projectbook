@@ -86,13 +86,33 @@ Want to connect or follow along with other things I do?
 - [Follow me on Twitter @brett_codes](https://twitter.com/brett_codes)
 - [Watch my screencasts](https://www.youtube.com/channel/UCQXaIyeRqHjK9EK41b8J3yQ)
 
-## Rights
+## Rights & License
 
 Anyone is welcome to use the project ideas in this book to build software and try to make money if that's your aim. Best of luck.
 
 I hope most of all that you have fun and learn with these ideas. But if you build the Next Big App or whatever from one of these ideas, kudos to you.
 
-Also, ideas aren't worth much. What matters is what you make from those ideas!
+Ideas aren't worth much. What matters is what you make from those ideas!
+
+
+There are three aspects of _Projectbook_ that fall under different usage rights and licensing.
+
+### Content
+
+The written text and visual assets (mock-ups) of the book is licensed under:
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+### The Project Ideas
+
+Anyone is welcome to use the project ideas in this book to build software without any credit needed to _Projectbook_.
+
+### Code Snippets in the Book
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute software containing the code snippets included within the book, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+### See LICENSE
 
 [Read more about the specific license aspects of the book.](https://github.com/brettchalupa/projectbook/blob/main/LICENSE.md)
 

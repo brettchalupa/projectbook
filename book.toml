@@ -4,3 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Projectbook"
+description = "Over 100 free project ideas for learning how to program with detailed specifications and mock-ups."
+
+[output.html]
+git-repository-url = "https://github.com/brettchalupa/projectbook"
+edit-url-template = "https://github.com/brettchalupa/projectbook/edit/main/{path}"
+
+[output.html.print]
+enable = false
+page-break = true

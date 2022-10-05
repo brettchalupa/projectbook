@@ -62,7 +62,7 @@
 - [Help Site Manager](./web-apps/help-site-manager.md)
 - [Game Tracker](./web-apps/game-tracker.md)
 - [Social Network](./web-apps/social-network.md)
-- [Class Scheduler](./web-apps/class-scheduler.md)
+- [Event Platform](./web-apps/event-platform.md)
 - [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)
 - [VideoTube](./web-apps/videotube.md)
 - [Simple Commerce](./web-apps/simple-commerce.md)

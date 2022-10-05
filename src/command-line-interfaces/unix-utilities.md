@@ -26,3 +26,4 @@ Here are some simpler utilities that would be good candidates for building:
 ## Examples
 
 - [brettchalupa/werds](https://github.com/brettchalupa/werds) — a (poor) clone of `wc` I made to help learn Rust
+- [demfabris/rmx](https://github.com/demfabris/rmx) — Multiplatform GNU rm

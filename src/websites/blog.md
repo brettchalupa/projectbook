@@ -22,4 +22,8 @@ Blog is short for web log. It's a way to write updates, like a journal, and publ
 ## Reference
 
 - [Zonelets](https://zonelets.net) — a simple blogging engine built upon a similar premise
-- [Ruby on Rails blog](https://rubyonrails.org/blog/) — just an example of a blog, for reference
+
+![zonelets screenshot](./img/zonelets.webp)
+
+- [The Big Takeover](http://bigtakeover.com/news) — an example of a real blog
+- [Ruby on Rails blog](https://rubyonrails.org/blog/) — another example

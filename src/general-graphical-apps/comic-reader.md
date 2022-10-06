@@ -47,3 +47,8 @@ You could leverage a library to open up an archive and view the files or you cou
 - Single page view vs side-by-side spread view
 - Support reading right to left instead of left to right for comics like manga
 - Big stretch goal: library that manages comics that have been imported or that exist within a directory and keep track of those that have been read and those that haven't
+
+## See Also
+
+- [Photo Viewer](./photo-viewer.md) — simpler
+- [Photo Library](./photo-library.md) — similar concepts

@@ -8,6 +8,10 @@ This project could be coded for any platform really—from a simple mobile app t
 
 How you store the data is totally up to you and how ambitious you want to get. If you build this for the web, you could initially use [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API). For mobile, use whatever the native API is for data storage.
 
+## Mock-Ups
+
+![Habit Tracker Mock-Up](./img/habit-tracker.webp)
+
 ## Spec
 
 - Add habits
@@ -22,10 +26,6 @@ How you store the data is totally up to you and how ambitious you want to get. I
 - Dealing with some light time series data
 - Simple data modeling
 - Data storage
-
-## Mock-Ups
-
-![Habit Tracker Mock-Up](./img/habit-tracker.webp)
 
 ## Reference
 

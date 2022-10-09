@@ -10,7 +10,7 @@
 
 _Projectbook_ is a collection of over 50 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
 
-My goal with this collection is to provide detailed enough specifications to get you started on project.
+My goal with this collection is to provide detailed enough specifications to get you started on a project.
 
 I've found that a lot of software tutorials are too simple and basic and that I only really learn through building something.
 
@@ -99,10 +99,9 @@ There are three aspects of _Projectbook_ that fall under different usage rights 
 
 ### Content
 
-The written text and visual assets (mock-ups) of the book is licensed under:
+The written text and visual assets (mock-ups) of the book is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### The Project Ideas
 

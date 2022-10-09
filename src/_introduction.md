@@ -1,6 +1,6 @@
 # Projectbook Introduction
 
-![Cover](./cover-landscape.webp)
+![Cover, which reads "Projectbook: 50+ project ideas for learning any new programming language. Brett Chalupa"](./cover-landscape.webp)
 
 **Learn By Doing**
 

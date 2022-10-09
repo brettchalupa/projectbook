@@ -95,7 +95,7 @@
 # Games
 
 - [Introduction](./games/_introduction.md)
-- [Pong]()
+- [Pong](./games/pong.md)
 - [Snake](./games/snake.md)
 - [Rock, Paper, Scissors!](./games/rock-paper-scissors.md)
 - [Brick Break]()

@@ -10,4 +10,4 @@ Did you find a friggin' typo? Jeez, I'm sorry. A fix would be more than welcome.
 
 ## Contributors
 
-I hope one day I'll be able to add others who have contributed to this!
+- [@yndajas](https://github.com/yndajas) — improved clarity, feedback, typo fixes, better image alt text

@@ -51,7 +51,7 @@ Due to limitations in the mock-up tool, I can't easily change the font or make t
 
 Here's a screenshot of [Instapaper](https://instapaper.com)'s web text settings:
 
-![instapaper text settings](./img/instapaper-text-settings.webp)
+![Screenshot of Instapaper's text settings](./img/instapaper-text-settings.webp)
 
 ## Extra Credit
 

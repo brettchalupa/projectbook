@@ -117,9 +117,10 @@ Anyone is free to copy, modify, publish, use, compile, sell, or distribute softw
 
 ## Contributing
 
-Do you have an idea for a project? [Contribute it!](https://github.com/brettchalupa/projectbook) _Projectbook_ is open source and editing its contents is easy. Just find the project's Markdown file it, edit it, and open up a Pull Request on [the project's GitHub repository](https://github.com/brettchalupa/projectbook).
+Do you have an idea for a project? [Contribute it!](https://github.com/brettchalupa/projectbook) _Projectbook_ is open source and editing its contents is easy. Just find the project's Markdown file, edit it, and open up a Pull Request on [the project's GitHub repository](https://github.com/brettchalupa/projectbook).
 
-Did you code an open source version of one of the projects and are comfortable sharing the source? Well, add it! That'll help people who are stuck or what to take it further or contribute.
+
+Did you code an open source version of one of the projects and want to share the source to help others? Well, add it in a pull request! Your project will be a helpful reference for those that are stuck. Who knows, you might find some people to contribute and help you out.
 
 ## Dig In!
 

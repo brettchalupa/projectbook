@@ -72,7 +72,7 @@ Don't worry too much about it looking generic or boring when you're learning, un
 
 ## Who the Heck Am I?
 
-![animated gif of rotating cartoon head that looks like brett in the style of Nintendo's Mii](./brett-mii.png)
+![animated gif of rotating cartoon head that looks like brett in the style of Nintendo's Mii](./brett-mii.gif)
 
 I am Brett! Nice to meet you. Thanks for checking this out. I'm a software programmer who has been doing some form of coding since I was 13. Professionally, I build web applications and APIs with Ruby, Rails, TypeScript, GraphQL, and web components. Personally, I dabble with all sorts of programming, from CLIs to game dev. I like checking out new languages and frameworks on the regular.
 

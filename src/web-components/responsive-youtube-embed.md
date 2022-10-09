@@ -14,7 +14,7 @@ You can see it hardcodes the width and height, which is not what we want. We ins
 
 This image illustrates the main problem with YouTube's default embed code with larger sizes:
 
-![unresponsive YouTube video diagram](./img/unresponsive-youtube.webp)
+![Unresponsive YouTube video diagram. On a wide screen, the embed is shown in full, whereas on a narrow screen the embed is cut off around halfway](./img/unresponsive-youtube.webp)
 
 ## Spec
 
@@ -38,7 +38,7 @@ Supporting the embed URL just because:
 
 This would output a responsive YouTube embed that resizes with the browser. Here's a diagram:
 
-![responsive YouTube video diagram](./img/responsive-youtube.webp)
+![Responsive YouTube video diagram. On the narrow screen, the embed shrinks to fit the window width](./img/responsive-youtube.webp)
 
 ## Concepts
 

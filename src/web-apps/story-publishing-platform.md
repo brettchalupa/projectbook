@@ -10,7 +10,7 @@ I call this idea **StoryHub**.
 
 ## Mock-Ups
 
-![StoryHub mock-ups](./img/storyhub.webp)
+![StoryHub mobile mock-ups. First view: create story form, with "Create Story" heading, inputs for title, description and publishing status, and a "Create" button. Second view: list of chapters with links and an edit button for each, plus an "Add Chapter" button. Third view: chapter form, with title and body inputs, plus a "Save Chapter" button. Fourth view: public view, with title, author, read status and list of chapter links. Fifth view: single chapter, with story title, chapter title, body and link to next chapter](./img/storyhub.webp)
 
 ## Specs
 

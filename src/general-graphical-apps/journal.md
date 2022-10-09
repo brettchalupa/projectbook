@@ -10,7 +10,7 @@ How the data is stored is up to you. It could be as simple as `txt` files on the
 
 Here's what a simple version of the UI could look like:
 
-![Journal mock-up](./img/journal.webp)
+![Journal mock-up. In the left third, a list of datetimes, with the first shaded to indicate selection. Above the list, an "Add entry" button. In the remaining two-thirds, the datetime as a heading followed by the entry content](./img/journal.webp)
 
 ## Specs
 

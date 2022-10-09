@@ -26,7 +26,7 @@ Okay, that's kind of a silly name. But naming all of these projects is no easy t
 
 Here's what the interface could look like:
 
-![WishIt Mock-Up](./img/wishit.webp)
+![WishIt mobile mock-up. App title/logo at the top, product URL field with "Add" button below, followed by a list of added items, each with a link, delete button and purchased button](./img/wishit.webp)
 
 As you can see, it's pretty simple to start, which is nice. It's the fetching the data from the web page that's a bit more of a challenge with this project.
 

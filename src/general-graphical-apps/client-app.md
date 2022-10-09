@@ -25,7 +25,7 @@ Whether building a desktop app, a native app, or a web app, a really common need
 
 To continue with the _Guided By Voices_ discography example from the Read-Only API project, the client app would render the album details and allow the songs to be viewed. Here's a mock-up of what that could be like:
 
-![GBV album mock-up](./img/client-app-mock.webp)
+![GBV album mobile mock-ups. First view: "GBV Albums" heading followed by a two-column grid of cover art, album titles and release years. Second view: back button, album title heading, larger cover art, release year, and numbered track list](./img/client-app-mock.webp)
 
 ## Technologies of Interest
 

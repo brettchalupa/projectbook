@@ -10,7 +10,7 @@ Okay, yeah, I'd probably call this **EventBud**. I'm sorry, I can't think of bet
 
 Here's what the UI could look like. Top row is the Admin view. Bottom is the public attendee view.
 
-![EventBud mock-up](./img/eventbud.webp)
+![EventBud mock-ups. First view: index of your upcoming created events, including heading, "Add event" button, list of events with title, date, number of attendees and "View" button, plus a "View Past Events" link. Second view: "Add Event" form with heading and fields for name, description, datetime and location, plus a "Create Event" button. Third view: public upcoming events, much like the first view but without the "Add Event" button or past events link. Fourth view: event view, including the title, host, date, description and register button](./img/eventbud.webp)
 
 ## Specs
 

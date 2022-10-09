@@ -22,7 +22,7 @@ When viewing a single image, the user could use the left and right arrows to pro
 
 ## Mock-Ups
 
-![mock-up of image gallery grid and single image display](./img/image-gallery.webp)
+![Mock-ups of image gallery grid and single image display. The former has a heading and a two-column grid of images with captions. The latter a larger image, caption and previous/next buttons](./img/image-gallery.webp)
 
 ## Resources
 

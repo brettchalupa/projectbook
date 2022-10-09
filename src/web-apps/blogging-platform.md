@@ -14,7 +14,7 @@ If I were to build this project, I'd call it **Blogbud** or something like that.
 
 Here's what a simple interface for managing posts and then viewing a post could look like:
 
-![Blogbud mock-up](./img/blogbud.webp)
+![Blogbud mobile mock-ups. First view: top row with platform title, blog title and a button containing the user's initials; a "Posts" heading and "Create post" button horizontally aligned; a list of posts including title, date, word count and edit button. Second view: same top row; aligned "Edit post" heading and "Save" button; edit form with title and body fields. Third view: blog name and subtitle in top row; post title, author and date just below; main content](./img/blogbud.webp)
 
 ## Specs
 

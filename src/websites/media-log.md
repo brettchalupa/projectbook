@@ -10,7 +10,7 @@ Would a table be nice for rendering columnar data like when you finished it, you
 
 Here's what a basic website utilizing lists of read books could look like:
 
-![screenshot of a book log](./img/book-log.webp)
+![Screenshot of a book log, including a title, subtitle/description, and lists of books currently being read and that have been read in the current year](./img/book-log.webp)
 
 ## Extra Credit
 

@@ -6,7 +6,7 @@ The scope of this could really vary in its breadth! But the gist is to create a 
 
 ## Mock-Ups
 
-![PickMeUp Mock-Up](./img/pickmeup.webp)
+![PickMeUp mock-ups. First view: logo/title; user button; "Dashboard" heading; list of unfulfilled orders with customer name and number, ordered items, price, and time since order; "Modify Menu" button. Second view: menu breakdown, with product descriptions and prices, plus buttons to edit items or add a new one. Third view: new item form, with name, description and price fields. Fourth view: public view with store description; list of items with descriptions, prices and "Add to Order" buttons; right column with order summary and "Place Order" button. Fifth view: mobile view of order with name, phone and credit card inputs, plus a "Pay" button. Sixth view: order confirmation page, with store description, thank you message, pick-up instructions, order summary, address and parking instructions](./img/pickmeup.webp)
 
 ## Specs
 

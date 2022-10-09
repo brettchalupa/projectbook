@@ -39,7 +39,7 @@ Any of the major web component libraries are appealing for this, in particular o
 
 I've put together a simple mock-up of what this could be like:
 
-![mock-up of a prose text setting UI](./img/prose.js.webp)
+![Mobile mock-ups of a prose text setting UI. On the left, the title, author, a "Font Settings" button, the chapter number and title, and the prose. On the right, the button has changed colour and a panel has appeared below with buttons to change the font size and text alignment - left or justified](./img/prose.js.webp)
 
 When the Text Settings button is pressed, it opens the widget. When it's pressed again, it closes it.
 

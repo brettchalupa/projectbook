@@ -10,7 +10,7 @@ I think this would be ideal as a desktop GUI app.
 
 The GUI, especially for a basic version, could be as simple as:
 
-![Reqbud GUI mock-up](./img/reqbud-gui.webp)
+![Reqbud GUI mock-up. In the left third, a list of URLs, with the first in bold to indicate selection. Above the list, a "New Request" button. In the remaining two-thirds, a form with URL and method fields, a send request button, and request and response tabs. Response is selected, with the response body acting as the main content](./img/reqbud-gui.webp)
 
 The left column has the requests displayed. You select one and it renders the details in the main pane. There the request details can be specified and the response can be rendered.
 

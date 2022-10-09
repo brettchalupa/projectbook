@@ -10,7 +10,7 @@ No clever names for this project yet!
 
 ## Mock-Ups
 
-![Game Tracker Mock-Up](./img/game-tracker.webp)
+![Game Tracker mobile mock-ups. First view: horizontally-aligned logo/title and "Account" link, "Brett's collection" heading, "Currently Playing" list and "Add Game" button, table with breakdown by platform and various columns. Second view: "Add Game" form with title, platform, play status and notes inputs, plus an "Add Game" button](./img/game-tracker.webp)
 
 ## Specs
 

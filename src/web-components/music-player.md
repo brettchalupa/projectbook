@@ -42,11 +42,11 @@ Here's what the UI could look like.
 
 When no song is selected and nothing is playing:
 
-![music player paused](./img/music-player-paused.webp)
+![Paused music player mock-up. At the top, previous, play and next buttons. Below, two rows with a song each](./img/music-player-paused.webp)
 
 When a song is selected and is currently playing:
 
-![music player playing](./img/music-player-playing.webp)
+![Playing music player mock-up. Much the same, except the play button is replaced with a pause button and the top song is now in bold and prefixed with a carat to indicate it's playing](./img/music-player-playing.webp)
 
 Tapping on the \>\> arrows would play the next song. Tapping \<\< would go back a song.
 
@@ -56,7 +56,7 @@ Here are four SVG icons I made that you can use (or find your own icons):
 
 - Play: [![play icon](./img/play.svg)](./img/play.svg)
 - Next: [![next icon](./img/next.svg)](./img/next.svg)
-- Prev: [![prev icon](./img/prev.svg)](./img/prev.svg)
+- Prev: [![previous icon](./img/prev.svg)](./img/prev.svg)
 - Pause: [![pause icon](./img/pause.svg)](./img/pause.svg)
 
 Use your own audio files or [download public domain Classical music files](https://www.freemusicpublicdomain.com/royalty-free-classical-music/).

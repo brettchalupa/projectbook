@@ -25,7 +25,7 @@ Having a short URL can be nice for making it easier for people to type it in, wh
 
 Here's what the simple interface could look like:
 
-![URL Shortener mock-up](./img/url-shortener.webp)
+![URL shortener mock-ups. First view: logo, instruction, URL input and "Shorten" button. Second view: the same, except a disabled button, a success message, the link and a copy button](./img/url-shortener.webp)
 
 ## Extra Credit
 

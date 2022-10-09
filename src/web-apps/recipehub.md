@@ -29,7 +29,7 @@ I'm hungry and excited just writing this!
 
 There are a lot of features that could exist for this app, and mocking them all up would be a lot, but here's a gist of what some of the key elements of the UI could be like (viewing your recipes, viewing a recipe, and the recipe form):
 
-![RecipeHub mock-up](./img/recipehub.webp)
+![RecipeHub mobile mock-ups. First view: site title/logo, "Your Recipe Box" heading with "Add Recipe" button horizontally aligned and a two-column grid of recipes with a placeholder image and title each. Second view: placeholder image, recipe title and author with horizontally-aligned like/save and fork buttons, followed by the body of the recipe (description, tags, ingredients and instructions). Third view: "Add Recipe" heading followed by inputs for name, description, tags, photo, ingredients and instructions](./img/recipehub.webp)
 
 ## Extra Credit
 

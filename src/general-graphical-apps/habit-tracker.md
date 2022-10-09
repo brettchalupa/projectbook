@@ -10,7 +10,7 @@ How you store the data is totally up to you and how ambitious you want to get. I
 
 ## Mock-Ups
 
-![Habit Tracker Mock-Up](./img/habit-tracker.webp)
+![Habit Tracker mobile mock-ups. First view: "Habit Tracker" heading; two cards featuring a title, done/complete button, and streak information; plus a button to add a new habit. Second view: form with a heading, name field and "Start Habit" button](./img/habit-tracker.webp)
 
 ## Spec
 

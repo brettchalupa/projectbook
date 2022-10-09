@@ -20,7 +20,7 @@ And then, finally, that page would be able to be rendered and viewable in the br
 
 ## Mock-Ups
 
-![Website Builder Mock-Ups](./img/sitebud.webp)
+![Website builder mobile mock-ups. First view: top row with site and platform name; second row with "Add Page" heading and "Save" button; title field; block editor block with title, text and image options; "Add Block" button. Second view: a block has been added after clicking the button. Third view: an image selection input has replaced the top block editor block. Fourth view: rendered page with site name, menu button, page title, image, main content and platform reference](./img/sitebud.webp)
 
 ## Specs
 

@@ -6,6 +6,8 @@ But games can also be challenging because there's so much going on! There's musi
 
 Most languages have a way to program games in them. While there are pros and cons to different languages, don't worry too much about that when you're learning. The skills in one language will apply to another if you so choose to switch.
 
+The best game project for learning is a game you're interested in playing and making. If you're making something just as an exercise to learn but aren't actually enjoying making that game, choose a different one!
+
 ## Game Libraries & Frameworks
 
 I recommend using libraries and frameworks when learning programming via making games. Engines like Unreal, Unity, GameMaker, and Godot are all worthwhile and will help you make games, for sure. But they abstract (hide) a lot of what's happening in a way that isn't always intuitive when learning to code. You certainly can and should use those if you're interested in them! But a lot of the game projects in _Playbook_ are simplistic and geared towards coding outside of a GUI-based game engine.

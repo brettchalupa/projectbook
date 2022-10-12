@@ -28,3 +28,7 @@ What follows is a non-exhaustive list of game libraries I've used in a variety o
 Having to make the assets of a game while learning how to code can be _a lot_. It's tempting to try to take it on all at once, but trying to learn how to make music, sound effects, art, game design, and code all at the same time is a recipe for exhaustion. Trust me, I've tried it.
 
 You can instead make use of assets made by other gamemakers and artists, many of which are free. Check out [OpenGameArt](https://opengameart.org) and [the Game Assets on Itch.io](https://itch.io/game-assets).
+
+## Game Projects in _Projectbook_
+
+Games are often more difficult to describe than it is to see them in action or actually play them. So the game projects that follow rely more heavily on links to videos and versions playable in browsers.

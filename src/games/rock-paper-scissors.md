@@ -23,5 +23,5 @@ While not particularly thrilling, here's a version of RPS I made that uses the a
 
 ## Extra Credit
 
-- Multiplayer support
 - Polished animations with the countdown and the display of the winner
+- Multiplayer support

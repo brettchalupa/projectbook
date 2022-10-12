@@ -99,7 +99,7 @@
 - [Snake](./games/snake.md)
 - [Rock, Paper, Scissors!](./games/rock-paper-scissors.md)
 - [Brick Break](./games/brick-break.md)
-- [Tic Tac Toe](./games/tic-tac-toe.md)
+- [Tic-Tac-Toe](./games/tic-tac-toe.md)
 - [Othello]()
 - [Sokobon]()
 - [Space Invaders]()

@@ -2,7 +2,7 @@
 
 **The gist**: build a game where you move a snake around a field eating apples. The snake grows with each apple eaten. And if the snake collides with itself, its game over.
 
-Snake is great introduction to tile-based gameplay. It's got short play sessions, simple rules, and is quite replayable. I remember playing it on my mom's Nokia smartphone in the car when I was a kid and continually having a blast.
+_Snake_ is great introduction to tile-based gameplay. It's got short play sessions, simple rules, and is quite replayable. I remember playing it on my mom's Nokia smartphone in the car when I was a kid and continually having a blast.
 
 ## Mock-Up
 
@@ -12,7 +12,7 @@ The graphics can be as simple as a square for the snake's parts and the apples. 
 
 ## Specs
 
-- Snake head moves around field automatically
+- _Snake_ head moves around field automatically
 - Loops back to the other side when it goes off screen
 - Arrow keys change the movement direction and the rest of the body follows
 - Apples spawn randomly on the field

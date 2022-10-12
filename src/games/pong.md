@@ -2,11 +2,11 @@
 
 **The gist**: build a game you control a paddle and can hit a ball to bounce it back.
 
-Pong! It goes back decades. It's basically simplified tennis. Pong has basics of most games: input, movement, collision detection.
+_Pong_! It goes back decades. It's basically simplified tennis. _Pong_ has basics of most games: input, movement, collision detection.
 
 ## Mock-Ups
 
-I made a single-player game inspired by Pong called Lonely Paddle:
+I made a single-player game inspired by _Pong_ called _Lonely Paddle_:
 
 ![Screenshot of a game with pixel graphics of a paddle and ball bouncing around a field with smiley face collectibles](./img/lonely-paddle.webp)
 
@@ -34,4 +34,4 @@ I made a single-player game inspired by Pong called Lonely Paddle:
 
 ## References
 
-- [📺 Video of Pong from the 70s](https://www.youtube.com/watch?v=fiShX2pTz9A)
+- [📺 Video of _Pong_ from the 70s](https://www.youtube.com/watch?v=fiShX2pTz9A)

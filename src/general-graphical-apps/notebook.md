@@ -4,10 +4,6 @@
 
 A more advanced [Journal](./journal.md) with a slightly different intention. If a journal is for keeping track of life happenings, then a notebook is for documenting things relating to specific topics—work, personal projects, etc.
 
-## Mock-Ups
-
-TODO
-
 ## Specs
 
 - Pick a mark-up approach to use (rich text, Markdown, etc.)

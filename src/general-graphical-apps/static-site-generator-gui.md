@@ -16,19 +16,11 @@ I think wrapping a static site generator in a GUI would be possible _and_ valuab
 
 There's a lot here to process! Maybe something like this already exists. I sort of don't want to know. Even if it does, it'd still be a great learning exercise.
 
-## Mock-Ups
-
-TODO
-
 ## Concepts
 
 - Integrating with an existing command line tool/library
 - A mildly complex GUI
 - Publishing
-
-## Spec
-
-TODO
 
 ## Tech of Interest
 

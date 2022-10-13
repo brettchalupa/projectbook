@@ -91,6 +91,8 @@
 - [Client App](./general-graphical-apps/client-app.md)
 - [Diff Comparison](./general-graphical-apps/diff-comparison.md)
 - [RSS Reader](./general-graphical-apps/rss-reader.md)
+- [Window Manager](./general-graphical-apps/window-manager.md)
+- [App Launcher](./general-graphical-apps/app-launcher.md)
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Password Manager](./general-graphical-apps/password-manager.md)
 

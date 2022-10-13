@@ -4,6 +4,10 @@ Building something like `nano`, `pico`, or similar that opens a file into a buff
 
 This is a bit of a dream project, as I don't have much of a clue as to how to go about this. This is part of why it's appealing.
 
+Here's what `nano` looks like:
+
+![Screenshot of the Nano editor with the Projectbook README.md open](./img/nano.webp)
+
 ## Spec
 
 - Start the program

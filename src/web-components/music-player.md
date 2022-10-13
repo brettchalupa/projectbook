@@ -52,7 +52,7 @@ Tapping on the \>\> arrows would play the next song. Tapping \<\< would go back 
 
 ## Resources
 
-Here are four SVG icons I made that you can use (or find your own icons):
+Here are four SVG icons (public domain, CC0) I made that you can use (or find your own icons):
 
 - Play: [![play icon](./img/play.svg)](./img/play.svg)
 - Next: [![next icon](./img/next.svg)](./img/next.svg)

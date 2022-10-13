@@ -1,6 +1,6 @@
 # Projectbook Introduction
 
-![Cover, which reads 'Projectbook: 50+ project ideas for learning any new programming language. Brett Chalupa'](./cover-landscape.webp)
+![Cover, which reads 'Projectbook: 100+ project ideas for learning any programming language. Brett Chalupa'](./cover-landscape.webp)
 
 **Learn By Doing**
 
@@ -8,7 +8,7 @@
 
 **The Great Big List of Software Project Ideas**
 
-_Projectbook_ is a collection of over 50 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
+_Projectbook_ is a collection of over 100 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
 
 My goal with this collection is to provide detailed enough specifications to get you started on a project.
 
@@ -66,7 +66,7 @@ Not a designer? That's totally okay!
 
 Throughout the projects, you'll find wireframes, specs, and assets. You're welcome to use them or disregard them. Whatever you want. It's your project! Your learning. I'm just trying to help.
 
-The nice thing about building GUI apps is that there are lots of graphical libraries and toolkits that you can utilize without designing or coding them from scratch, from things like GTK to Apple's platforms' various libraries to Material Design to Bootstrap. 
+The nice thing about building GUI apps is that there are lots of graphical libraries and toolkits that you can utilize without designing or coding them from scratch, from things like GTK to Apple's platforms' various libraries to Material Design to Bootstrap.
 
 Don't worry too much about it looking generic or boring when you're learning, unless what you're learning is how to polish a GUI! It really depends on what you want to get out of your project. Whether you use libraries or existing code or do it all from scratch.
 
@@ -99,7 +99,7 @@ There are three aspects of _Projectbook_ that fall under different usage rights 
 
 ### Content
 
-The written text and visual assets (mock-ups) of the book is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The written text and visual assets (mock-ups) in the book are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) unless otherwise noted.
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 

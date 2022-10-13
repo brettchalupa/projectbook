@@ -4,7 +4,7 @@
 
 [![Cover, which reads "Projectbook: 50+ project ideas for learning any new programming language. Brett Chalupa"](src/cover-landscape.webp)](https://projectbook.code.brettchalupa.com)
 
-A collection of over 50+ project ideas for learning new programming languages, frameworks, and libraries.
+A collection of over 100 project ideas for learning new programming languages, frameworks, and libraries.
 
 Browse around, dig in, make something, and share it!
 

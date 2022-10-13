@@ -1,4 +1,4 @@
-# Alien Invasion
+# Horde Mode
 
 **The gist**: top-down game where waves of aliens swarm towards a colony of people.
 

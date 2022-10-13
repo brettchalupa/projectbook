@@ -23,3 +23,7 @@ Well, that's what's called compiling down to a binary. The binary file is a pack
 So, it's not that Ruby isn't good for writing CLIs. I think the opposite! It's got a great standard library for it, and I find it quite intuitive and fun, especially for smaller scripts. Using Ruby for a CLI is great if you want to learn Ruby and that sort of programming. But it's not great for building programs you want to distrubte to others unless you know they will also have Ruby installed.
 
 If I wanted to start a CLI project right now, I'd likely choose Rust or Go because I know it'd be possible to build and distribute the compiled version cross-platform.
+
+## Resources
+
+If you're new to building CLIs, I recommend reading through [Command Line Interface Guidelines (clig)](https://clig.dev/)—it's a helpful walkthrough of what to do and not to do when building command-line programs.

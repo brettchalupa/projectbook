@@ -95,6 +95,7 @@
 - [App Launcher](./general-graphical-apps/app-launcher.md)
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Password Manager](./general-graphical-apps/password-manager.md)
+- [Vector Design Tool](./general-graphical-apps/vector-design-tool.md)
 
 # Games
 

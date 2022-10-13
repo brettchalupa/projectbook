@@ -128,3 +128,4 @@
 ----------
 
 - [Contributing](./contributing.md)
+- [Outro](./outro.md)

@@ -62,6 +62,7 @@
 - [Story Publishing Platform](./web-apps/story-publishing-platform.md)
 - [Help Site Manager](./web-apps/help-site-manager.md)
 - [Game Tracker](./web-apps/game-tracker.md)
+- [Forum](./web-apps/forum.md)
 - [Social Network](./web-apps/social-network.md)
 - [Event Platform](./web-apps/event-platform.md)
 - [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)

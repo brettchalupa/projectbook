@@ -32,6 +32,7 @@
 - [Link List](./websites/link-list.md)
 - [Personal Home Page](./websites/homepage.md)
 - [Media Log](./websites/media-log.md)
+- [Press Page](./websites/press-page.md)
 - [Product Page](./websites/product-page.md)
 - [Fansite](./websites/fansite.md)
 - [Blog](./websites/blog.md)

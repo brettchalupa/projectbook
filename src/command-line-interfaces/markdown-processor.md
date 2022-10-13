@@ -2,7 +2,7 @@
 
 **The gist:** Build a library and command-line tool that takes a Markdown file, converts it to HTML, and outputs it to stdout.
 
-There will definitely be libraries out there that already do this for a given language, usually many of them. But the fun here is in taking a pretty manageable specification like Common Mark [TODO: check name] and writing your own parser and translator to HTML.
+There will definitely be libraries out there that already do this for a given language, usually many of them. But the fun here is in taking a pretty manageable specification like [CommonMark](https://commonmark.org/) and writing your own parser and translator to HTML.
 
 ## Spec
 

@@ -33,6 +33,10 @@ No clever names for this project yet!
 - Badges based on collection size, completion rate, etc.
 - Expand game metadata (playtime, region, ownership status, etc.)
 - Steam import
+- Make this for things other than games
+  - Books
+  - TV Shows
+  - Movies
 
 ## Tech Thoughts
 

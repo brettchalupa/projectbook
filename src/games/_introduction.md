@@ -1,4 +1,4 @@
-# Introduction
+# Games
 
 Games are a great way to learn programming because they contain a lot of concepts that vary in complexity, from loops to arrays to input to rendering graphics to data modeling. Game rules often translate nicely to programming logic.
 

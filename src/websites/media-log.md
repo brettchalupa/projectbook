@@ -8,6 +8,8 @@ For this project, build out a website to keep track of media you've finished. Yo
 
 Would a table be nice for rendering columnar data like when you finished it, your rating, the author, etc.? Or maybe just a simple list?
 
+## Mock-Up
+
 Here's what a basic website utilizing lists of read books could look like:
 
 ![Screenshot of a book log, including a title, subtitle/description, and lists of books currently being read and that have been read in the current year](./img/book-log.webp)

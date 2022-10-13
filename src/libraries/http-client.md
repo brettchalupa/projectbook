@@ -4,7 +4,7 @@
 
 Many programming languages come with libraries for making HTTP requests since it's such a common need for programmers. Sometimes the interfaces that the standard libraries provides aren't that intuitive.
 
-## An Example
+## Mock-Up
 
 Let's look at what this could be like with Ruby. Ruby provides the [`net/http` library](https://ruby-doc.org/stdlib-3.0.3/libdoc/net/http/rdoc/Net/HTTP.html) for making HTTP requests.
 

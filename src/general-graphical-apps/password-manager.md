@@ -1,5 +1,7 @@
 # Password Manager
 
+**The gist**: build an app to generate and manage secure passwords.
+
 Okay! Heads up here. This is obviously a risky one. I probably wouldn't release this as open source unless you're knowledgable and confident. Maybe keep this one closed source and be wary. Just because wow! There seems like there's some risk here with sensitive info.
 
 Also, I'm not a security or crytopgraphic expert. So, like, wow! There's a lot to consider here and learn. But that's the point of these. 

@@ -4,6 +4,15 @@
 
 This is useful for people linking to various profiles on social media, sharing an album on multiple streaming services, or even serving as a simple home page for someone. Sometimes referred to as "Link in Bio" sites, I think they're pretty nifty as simple directories people create for their projects.
 
+## Mock-Ups
+
+Here's what the user inteface and user experience could be like:
+
+![Linkbud mobile mock-ups. First view: horizontally-aligned title/logo and user button; list of link lists each with a view link, edit link and visibility indicator; "Add a Link List" button. Second view: "Create a Link List" form; inputs for name, description and slug, plus a repeatable group of inputs for each link (name and URL); "Add a Link" and "Create" buttons. Third view: public view with the list title, a short description, a list of styled links, a reference to the platform and a link to follow the list creator on the platform](./img/linkbud.webp)
+
+When a user is signed in, they can view a list of their Link Lists. They can edit their existing ones or add a new one. The form has fields for everything that'd could be entered. And then when they create (or update) a Link List, they can view the public link on the web with the rendered links.
+
+
 ## Specs
 
 Users should have the ability to:
@@ -21,14 +30,6 @@ Users should have the ability to:
 - A non-trivial UI
 - Data modeling
 - Rendering a web page from user entered data
-
-## Mock-Ups
-
-Here's what the user inteface and user experience could be like:
-
-![Linkbud mobile mock-ups. First view: horizontally-aligned title/logo and user button; list of link lists each with a view link, edit link and visibility indicator; "Add a Link List" button. Second view: "Create a Link List" form; inputs for name, description and slug, plus a repeatable group of inputs for each link (name and URL); "Add a Link" and "Create" buttons. Third view: public view with the list title, a short description, a list of styled links, a reference to the platform and a link to follow the list creator on the platform](./img/linkbud.webp)
-
-When a user is signed in, they can view a list of their Link Lists. They can edit their existing ones or add a new one. The form has fields for everything that'd could be entered. And then when they create (or update) a Link List, they can view the public link on the web with the rendered links.
 
 ## Stretch Goals / Extra Credit
 

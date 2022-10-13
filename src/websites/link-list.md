@@ -4,6 +4,8 @@ A Link List is a website that's just a list of links. Pretty simple! It's useful
 
 A Link List is an ideal candidate for a learning project because it's simple (only one page and a few elements) and it's actually useful. You could build this and host it and actually use it for your own needs.
 
+## Mock-Up
+
 Here's a screenshot of https://brettchalupa.neocities.org — a Link List I build for myself as an example.
 
 ![Screenshot of a link list website showing four links, preceded by an avatar, title and mini bio](./img/link-list-example.webp)

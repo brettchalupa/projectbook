@@ -6,6 +6,12 @@ For example, https://some.place.example.com/foo/bar/biz being shorted to https:/
 
 Having a short URL can be nice for making it easier for people to type it in, whether hearing it on a podcast or reading it on a poster. Sure, QR codes sort of stole the show for the latter usecase, but it's still a good learning project!
 
+## Mock-Ups
+
+Here's what the simple interface could look like:
+
+![URL shortener mock-ups. First view: logo, instruction, URL input and "Shorten" button. Second view: the same, except a disabled button, a success message, the link and a copy button](./img/url-shortener.webp)
+
 ## Spec
 
 - Build a web page with a form for entering a URL
@@ -20,12 +26,6 @@ Having a short URL can be nice for making it easier for people to type it in, wh
 - Algorithm design
 - Storing & fetching data
 - Responding to requests & redirecting
-
-## Mock-Up
-
-Here's what the simple interface could look like:
-
-![URL shortener mock-ups. First view: logo, instruction, URL input and "Shorten" button. Second view: the same, except a disabled button, a success message, the link and a copy button](./img/url-shortener.webp)
 
 ## Extra Credit
 

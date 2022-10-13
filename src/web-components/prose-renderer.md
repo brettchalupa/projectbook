@@ -6,12 +6,25 @@ I tend to think of this as a library or component called `Prose.js` or `Reader.j
 
 The Kindle device and apps have decent control settings for this, as does Wattpad.
 
+## Mock-Ups
+
+I've put together a simple mock-up of what this could be like:
+
+![Mobile mock-ups of a prose text setting UI. On the left, the title, author, a "Font Settings" button, the chapter number and title, and the prose. On the right, the button has changed colour and a panel has appeared below with buttons to change the font size and text alignment - left or justified](./img/prose.js.webp)
+
+When the Text Settings button is pressed, it opens the widget. When it's pressed again, it closes it.
+
+When the widget is open, tapping the settings automatically changes the text that's being rendered.
+
+Due to limitations in the mock-up tool, I can't easily change the font or make the text justified, but I think the mock-up covers the gist.
+
+
+## Spec
+
 Configuration options:
 
 - Text size
 - Text alignment — justified or left aligned or right aligned
-
-## Spec
 
 Usage:
 
@@ -34,18 +47,6 @@ Any of the major web component libraries are appealing for this, in particular o
 - Working with `localStorage`—writing and reading
 - Building out a non-intruisive UI
 - Overriding/applying styles to nested content
-
-## Mock-Ups
-
-I've put together a simple mock-up of what this could be like:
-
-![Mobile mock-ups of a prose text setting UI. On the left, the title, author, a "Font Settings" button, the chapter number and title, and the prose. On the right, the button has changed colour and a panel has appeared below with buttons to change the font size and text alignment - left or justified](./img/prose.js.webp)
-
-When the Text Settings button is pressed, it opens the widget. When it's pressed again, it closes it.
-
-When the widget is open, tapping the settings automatically changes the text that's being rendered.
-
-Due to limitations in the mock-up tool, I can't easily change the font or make the text justified, but I think the mock-up covers the gist.
 
 ## Reference
 

@@ -4,14 +4,11 @@ The idea here is to take a folder of images or a collection of links to images a
 
 When viewing a single image, the user could use the left and right arrows to progress through the images in the gallery.
 
-## Concepts
+## Mock-Ups
 
-- Rendering images
-- Grid rendering
-- State changing from grid to single image viewing
-- Handling user input, from tapping to keyboard
+![Mock-ups of image gallery grid and single image display. The former has a heading and a two-column grid of images with captions. The latter a larger image, caption and previous/next buttons](./img/image-gallery.webp)
 
-## Example
+## Spec
 
 ```html
 <ig-gallery>
@@ -20,9 +17,12 @@ When viewing a single image, the user could use the left and right arrows to pro
 </ig-gallery>
 ```
 
-## Mock-Ups
+## Concepts
 
-![Mock-ups of image gallery grid and single image display. The former has a heading and a two-column grid of images with captions. The latter a larger image, caption and previous/next buttons](./img/image-gallery.webp)
+- Rendering images
+- Grid rendering
+- State changing from grid to single image viewing
+- Handling user input, from tapping to keyboard
 
 ## Resources
 

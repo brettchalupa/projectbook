@@ -11,6 +11,20 @@ HTML5 has [rich events](http://developer.mozilla.org/en-US/docs/Web/HTML/Element
 - Pick and play a track
 - Play the next song in the list
 
+## Mock-Ups
+
+Here's what the UI could look like.
+
+When no song is selected and nothing is playing:
+
+![Paused music player mock-up. At the top, previous, play and next buttons. Below, two rows with a song each](./img/music-player-paused.webp)
+
+When a song is selected and is currently playing:
+
+![Playing music player mock-up. Much the same, except the play button is replaced with a pause button and the top song is now in bold and prefixed with a carat to indicate it's playing](./img/music-player-playing.webp)
+
+Tapping on the \>\> arrows would play the next song. Tapping \<\< would go back a song.
+
 ## Concepts
 
 - HTML5 audio API
@@ -35,20 +49,6 @@ The mark-up could be something like this:
   </mp-song>
 </music-player>
 ```
-
-## Mock-Up
-
-Here's what the UI could look like.
-
-When no song is selected and nothing is playing:
-
-![Paused music player mock-up. At the top, previous, play and next buttons. Below, two rows with a song each](./img/music-player-paused.webp)
-
-When a song is selected and is currently playing:
-
-![Playing music player mock-up. Much the same, except the play button is replaced with a pause button and the top song is now in bold and prefixed with a carat to indicate it's playing](./img/music-player-playing.webp)
-
-Tapping on the \>\> arrows would play the next song. Tapping \<\< would go back a song.
 
 ## Resources
 

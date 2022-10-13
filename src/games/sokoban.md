@@ -1,4 +1,4 @@
-# Sokobon
+# Sokoban
 
 ## References
 

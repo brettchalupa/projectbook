@@ -6,6 +6,15 @@ I'd call this project Redeemy! It's make a good open source app.
 
 Redeemy does not just have to for music downloads. It could be any digital file. It's a nice app for learning in that it can be pretty simple to start but expanded to be quite complex.
 
+## Mock-Ups
+
+Here's what the redemption UI could look like for a given item:
+
+![Redeemy vinyl download code redeemer mock-ups. First view: logo, heading with title and author, artwork, instruction, code input and redeem button. Second view: Disabled button, success message and download link. Third view: invalid code message](./img/redeemy.webp)
+
+Now it's worth noting that the redemption page might be generic and not display the item attempting to be redeemed. That all depends on URL structure and how everything works. For the basic version, do whatever you want and have fun with it!
+
+
 ## Spec
 
 - Host a file on your computer or online storage
@@ -17,14 +26,6 @@ Redeemy does not just have to for music downloads. It could be any digital file.
 
 - Validating input
 - Delivering files
-
-## Mock-Up
-
-Here's what the redemption UI could look like for a given item:
-
-![Redeemy vinyl download code redeemer mock-ups. First view: logo, heading with title and author, artwork, instruction, code input and redeem button. Second view: Disabled button, success message and download link. Third view: invalid code message](./img/redeemy.webp)
-
-Now it's worth noting that the redemption page might be generic and not display the item attempting to be redeemed. That all depends on URL structure and how everything works. For the basic version, do whatever you want and have fun with it!
 
 ## Extra Credit
 

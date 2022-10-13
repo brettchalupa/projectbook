@@ -88,7 +88,7 @@
 - [SSG GUI](./general-graphical-apps/static-site-generator-gui.md)
 - [Client App](./general-graphical-apps/client-app.md)
 - [Diff Comparison](./general-graphical-apps/diff-comparison.md)
-- [RSS Reeder](./general-graphical-apps/rss-reader.md)
+- [RSS Reader](./general-graphical-apps/rss-reader.md)
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Password Manager](./general-graphical-apps/password-manager.md)
 
@@ -102,7 +102,7 @@
 - [Brick Break](./games/brick-break.md)
 - [Tic-Tac-Toe](./games/tic-tac-toe.md)
 - [Reversi](./games/reversi.md)
-- [Sokobon](./games/sokoban.md)
+- [Sokoban](./games/sokoban.md)
 - [Pacman](./games/pacman.md)
 - [Solataire](./games/solataire.md)
 - [Gravity Blocks](./games/gravity-blocks.md)

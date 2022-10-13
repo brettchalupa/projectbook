@@ -10,4 +10,5 @@
 
 ## Resources
 
-- TODO: examples
+- _Kingdom Rush_
+- _Orcs Must Die_

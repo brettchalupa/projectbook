@@ -124,6 +124,10 @@ Do you have an idea for a project? [Contribute it!](https://github.com/brettchal
 
 Did you code an open source version of one of the projects and want to share the source to help others? Well, add it in a pull request! Your project will be a helpful reference for those that are stuck. Who knows, you might find some people to contribute and help you out.
 
+## Share
+
+_Projectbook_ uses [GitHub Discussions](https://github.com/brettchalupa/projectbook/discussions) to share projects people have made. Join in, ask for help, and collaborate with others on projects.
+
 ## Dig In!
 
 View the projects in the sidebar or browse through the sections below to find a project that catches your interest. Then hack away and make some cool things! Learn a lot. And share what you make.

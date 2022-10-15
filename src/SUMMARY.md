@@ -89,6 +89,7 @@
 - [Comic Reader](./general-graphical-apps/comic-reader.md)
 - [Photo Library](./general-graphical-apps/photo-library.md)
 - [Internet Radio](./general-graphical-apps/internet-radio.md)
+- [Game Library](./general-graphical-apps/game-library.md)
 - [Music Player](./general-graphical-apps/music-player.md)
 - [Video Library](./general-graphical-apps/video-library.md)
 - [Book Library](./general-graphical-apps/book-library.md)

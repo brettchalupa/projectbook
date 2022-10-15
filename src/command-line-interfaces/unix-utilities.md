@@ -27,3 +27,4 @@ Here are some simpler utilities that would be good candidates for building:
 
 - [brettchalupa/werds](https://github.com/brettchalupa/werds) — a (poor) clone of `wc` I made to help learn Rust
 - [demfabris/rmx](https://github.com/demfabris/rmx) — Multi-platform GNU rm
+- [uutils/coreutils](https://github.com/uutils/coreutils) — Cross-platform Rust rewrite of the GNU coreutils

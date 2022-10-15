@@ -142,5 +142,6 @@
 
 ----------
 
+- [Changelog](./changelog.md)
 - [Contributing](./contributing.md)
 - [Outro](./outro.md)

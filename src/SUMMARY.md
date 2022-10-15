@@ -95,6 +95,7 @@
 - [RSS Reader](./general-graphical-apps/rss-reader.md)
 - [Window Manager](./general-graphical-apps/window-manager.md)
 - [App Launcher](./general-graphical-apps/app-launcher.md)
+- [Chat App](./general-graphical-apps/chat-app.md)
 - [File Sync](./general-graphical-apps/file-sync.md)
 - [Password Manager](./general-graphical-apps/password-manager.md)
 - [Voice Anonymizer](./general-graphical-apps/voice-anonymizer.md)

@@ -132,6 +132,7 @@
 - [Dungeon Crawler](./games/dungeon-crawler.md)
 - [Dogfight](./games/dogfight.md)
 - [Shmup](./games/shmup.md)
+- [Controller Tester](./games/controller-tester.md)
 - [Tower Defense](./games/tower-defense.md)
 - [Horde Mode](./games/horde-mode.md)
 - [Strategy RPG](./games/strategy-rpg.md)

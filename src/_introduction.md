@@ -48,6 +48,8 @@ If you were to learn how to play guitar and you're playing simplified covers of 
 
 When it comes to the user experience (UX) (the flow through your program) and user interface (UI) (the look of your program), look at similar programs and how they work. Your best bet is to take some time to do research and gather reference. Pay attention, take screenshots, and make note of how the apps work.
 
+It is totally normal and okay to start learning projects and never finish them. That's part of the process. Don't be too hard on yourself if you lose interest in a given project. Try another one. But remember: there's value in finishing things. Finished projects, apps, programs, tools, and libraries are of use to yourself and likely others. Completing and launching projects is its own skill set. Try to be a Finisher! That's why working on smaller ideas to start is important because there's a much higher chance you'll finish them.
+
 ## Reading Order
 
 The order of the chapters in each section is loosely based on my perceived difficulty of them. My judgment may be off in some cases, but I think that's a pretty good bet.

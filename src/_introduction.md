@@ -8,7 +8,7 @@
 
 **The Great Big List of Software Project Ideas**
 
-_Projectbook_ is a collection of over 100 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. These projects tend to vary in complexity and what they exercise.
+_Projectbook_ is a collection of over 100 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. The projects vary in complexity and what they exercise. Find inspiration for your next project.
 
 My goal with this collection is to provide detailed enough specifications to get you started on a project.
 
@@ -71,6 +71,10 @@ Throughout the projects, you'll find wireframes, specs, and assets. You're welco
 The nice thing about building GUI apps is that there are lots of graphical libraries and toolkits that you can utilize without designing or coding them from scratch, from things like GTK to Apple's platforms' various libraries to Material Design to Bootstrap.
 
 Don't worry too much about it looking generic or boring when you're learning, unless what you're learning is how to polish a GUI! It really depends on what you want to get out of your project. Whether you use libraries or existing code or do it all from scratch.
+
+## What _Projectbook_ Isn't
+
+_Projectbook_ does not contain step-by-step instructions on how to build each project. It's simply a collection of ideas with specifications. Figuring out how to build aspects of a project is part of the learning and leveling up experience of being a programmer. Search online for a guide, find open source projects to reference, ask for help, etc.! The intent is for as many of the projects to be able to be done in any programming language. So no matter what you're learning, you'll hopefully find something of interest that you can start working on today.
 
 ## Who the Heck Am I?
 

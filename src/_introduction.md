@@ -12,17 +12,17 @@ _Projectbook_ is a collection of over 100 software project ideas for people look
 
 My goal with this collection is to provide detailed enough specifications to get you started on a project.
 
-I've found that a lot of software tutorials are too simple and basic and that I only really learn through building something.
+I've found that a lot of software tutorials are too simple and that I only learn best through actually building something. Exercises are useful for learning a specific syntax or concept, but what's valuable is applying them in a more cohesive, holistic program.
 
-When learning a new programming language or library or technology, there's so much to take in that having to figure out what to build and what it should and shouldn't do can be enough friction to slow down any momentum and fun you're having.
+When learning a new programming language or library or technology, there's so much to take in that having to figure out what to build and what it should and shouldn't do can be enough friction to slow down any momentum and fun you're having. So with the big questions answered, all that there's left to do is build the thing!
 
 In a lot of ways, these projects are just me sharing software and tools that I want to build myself.
 
-Often a simple todo app is the non-trivial example project that people point to. It's a fine one because it has a variety of needs and state management. But it's so boring! And overdone! So these are the ideas beyond the todo list app.
+Often a simple todo app is the non-trivial example project that people point to. It's a fine one because it has a variety of needs and state management. But it's so boring! And overdone! So _Projectbook_ contains ideas for projects beyond the basic todo list app.
 
 ## What Makes a Good Learning Project
 
-- Non-trivial -- more complex than "hello world" but less complex than a video editor
+- Non-trivial — more complex than "hello world" but less complex than a video editor
 - A simple core with additional, more complex functionality to add
 - Clear in what it does and doesn't do
 - Something you understand from using yourself so you can more easily map the domain into code

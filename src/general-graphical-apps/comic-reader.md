@@ -3,9 +3,8 @@
 The gist: build a program that opens up a zip file of images (without extracting them) and allows the user to flip to the next page until the end of the archive.
 
 DRM-free comic files are generally found in a few different archive formats:
-- `.zip` -- just a zip collection of images
-- `.cbz` -- just a zip file, from my understanding
-- [rar one???]
+- `.zip` — just a zip collection of images
+- `.cbz` — just a zip file, from my understanding
 
 And then within could be any number of image formats. JPGs, PNGs, even TIFFs.
 
@@ -23,10 +22,10 @@ What this project exercises:
 This project is pretty GUI heavy but has the added complexity of viewing the image files within the archive.
 
 Some ideas for tooling, technology, and platforms:
-- iOS/iPad OS/MacOS -- a really good project for learning Swift on those platforms
-- Android -- I think a pretty good project for that, like learning Kotlin
-- Desktop GUI app -- something like GTK or QT would make a good fit or even Vala or rust-gtk (check name)
-- Electron -- this would be a pretty fun little desktop project for Electron if you're a web dev interested in learning how to use it. You could leverage your web skills while learning that.
+- iOS/iPad OS/MacOS — a really good project for learning Swift on those platforms
+- Android — I think a pretty good project for that, like learning Kotlin
+- Desktop GUI app — something like GTK or QT would make a good fit or even Vala or rust-gtk (check name)
+- Electron — this would be a pretty fun little desktop project for Electron if you're a web dev interested in learning how to use it. You could leverage your web skills while learning that.
 
 You could leverage a library to open up an archive and view the files or you could code that yourself using the language's standard library. There's lots of deep dives that could be done here.
 

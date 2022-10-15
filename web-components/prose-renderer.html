@@ -147,11 +147,11 @@
                     <main>
                         <h1 id="prose-renderer"><a class="header" href="#prose-renderer">Prose Renderer</a></h1>
 <p><strong>The gist</strong>: build a web component that allows readers to configure text rendering options to make prose easier to read.</p>
-<p>I tend to think of this as a library or component called <code>Prose.js</code> or <code>Reader.js</code> that is concerned with taking a nested collection of <code>&lt;p&gt;</code> elements in partidular and rendering them in a way that gives the user fine grain control over how it's rendered. Their preferences would be stored in <code>localStorage</code> so upon refresh their settings would load and be used across web pages (like chapters in a book).</p>
+<p>I tend to think of this as a library or component called <code>Prose.js</code> or <code>Reader.js</code> that is concerned with taking a nested collection of <code>&lt;p&gt;</code> elements in particular and rendering them in a way that gives the user fine grain control over how it's rendered. Their preferences would be stored in <code>localStorage</code> so upon refresh their settings would load and be used across web pages (like chapters in a book).</p>
 <p>The Kindle device and apps have decent control settings for this, as does Wattpad.</p>
 <h2 id="mock-ups"><a class="header" href="#mock-ups">Mock-Ups</a></h2>
 <p>I've put together a simple mock-up of what this could be like:</p>
-<p><img src="./img/prose.js.webp" alt="Mobile mock-ups of a prose text setting UI. On the left, the title, author, a &quot;Font Settings&quot; button, the chapter number and title, and the prose. On the right, the button has changed colour and a panel has appeared below with buttons to change the font size and text alignment - left or justified" /></p>
+<p><img src="./img/prose.js.webp" alt="Mobile mock-ups of a prose text setting UI. On the left, the title, author, a &quot;Font Settings&quot; button, the chapter number and title, and the prose. On the right, the button has changed color and a panel has appeared below with buttons to change the font size and text alignment - left or justified" /></p>
 <p>When the Text Settings button is pressed, it opens the widget. When it's pressed again, it closes it.</p>
 <p>When the widget is open, tapping the settings automatically changes the text that's being rendered.</p>
 <p>Due to limitations in the mock-up tool, I can't easily change the font or make the text justified, but I think the mock-up covers the gist.</p>
@@ -176,7 +176,7 @@
 <h2 id="concepts"><a class="header" href="#concepts">Concepts</a></h2>
 <ul>
 <li>Working with <code>localStorage</code>—writing and reading</li>
-<li>Building out a non-intruisive UI</li>
+<li>Building out a non-intrusive UI</li>
 <li>Overriding/applying styles to nested content</li>
 </ul>
 <h2 id="reference"><a class="header" href="#reference">Reference</a></h2>

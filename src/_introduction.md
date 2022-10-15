@@ -42,7 +42,7 @@ The projects in _Projectbook_ attempt to conform to a similar shape:
 
 ## Mindset
 
-Please, please, please don't go into these projects thinking, "Wow, this idea is going to make me rich! It's the next start-up! It's the next big thing! Get those angel investors on the line!" I fall into this trap from time to time, especially when I'm dreaming big. I start thinking about monetization and hosting and the viability of something existing as a business. What you're trying to do is learn! Not start a business. Don't burden yourself with the responsibiity of doing anything other than experimenting at the beginning.
+Please, please, please don't go into these projects thinking, "Wow, this idea is going to make me rich! It's the next start-up! It's the next big thing! Get those angel investors on the line!" I fall into this trap from time to time, especially when I'm dreaming big. I start thinking about monetization and hosting and the viability of something existing as a business. What you're trying to do is learn! Not start a business. Don't burden yourself with the responsibility of doing anything other than experimenting at the beginning.
 
 If you were to learn how to play guitar and you're playing simplified covers of your favorite songs, which is basically what we're doing here, would you start by thinking about how you'll record, mix, master, and release your cover album to make you rich? No! You'd practice them, play them for friends, maybe record them. Maybe one day you'd be in a cover band. Or even start writing your own original music. But don't concern yourself with anything other than learning and having fun right now.
 
@@ -50,7 +50,7 @@ When it comes to the user experience (UX) (the flow through your program) and us
 
 ## Reading Order
 
-The order of the chapters in each section is loosely based on my perceived difficulty of them. My judgement may be off in some cases, but I think that's a pretty good bet.
+The order of the chapters in each section is loosely based on my perceived difficulty of them. My judgment may be off in some cases, but I think that's a pretty good bet.
 
 [Command Line Interfaces (CLIs)](./command-line-interfaces/_introduction.md) are first because I think they're generally a nice place to start because they don't require graphic rendering and a GUI. This makes their interfaces quite a bit simpler since there are only so many forms of input and output.
 
@@ -72,11 +72,11 @@ Don't worry too much about it looking generic or boring when you're learning, un
 
 ## Who the Heck Am I?
 
-![animated gif of rotating cartoon head that looks like brett in the style of Nintendo's Mii](./brett-mii.gif)
+![animated gif of rotating cartoon head that looks like Brett in the style of Nintendo's Mii](./brett-mii.gif)
 
 I am Brett! Nice to meet you. Thanks for checking this out. I'm a software programmer who has been doing some form of coding since I was 13. Professionally, I build web applications and APIs with Ruby, Rails, TypeScript, GraphQL, and web components. Personally, I dabble with all sorts of programming, from CLIs to game dev. I like checking out new languages and frameworks on the regular.
 
-Since I'm not, let's say, a software programmer for smart refridgerators, there aren't a ton of ideas related to smart refridgerators. The focus is more on the software I use regularly or have to build. This is great because I understand the needs and functionality, which means I don't have to think too much about why something needs to do something and can instead focus on learning the technology.
+Since I'm not, let's say, a software programmer for smart refrigerators, there aren't a ton of ideas related to smart refrigerators. The focus is more on the software I use regularly or have to build. This is great because I understand the needs and functionality, which means I don't have to think too much about why something needs to do something and can instead focus on learning the technology.
 
 I'd love to have more project ideas for different types of programming, like network programming and embedded hardware and such. Hopefully in the future!
 

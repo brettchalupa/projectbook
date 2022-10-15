@@ -21,6 +21,7 @@
 - [Introduction](./libraries/_introduction.md)
 - [HTTP Client](./libraries/http-client.md)
 - [API Wrapper](./libraries/api-wrapper.md)
+- [Feature Flags](./libraries/feature-flags.md)
 - [Authorization Lib](./libraries/authorization-lib.md)
 - [ORM](./libraries/orm.md)
 - [Unit Testing Lib](./libraries/unit-testing-lib.md)

@@ -20,7 +20,7 @@ It's debatable how much of a "social network" this project is. It's more of a so
 
 ## Concepts
 
-- Authenticaton
+- Authentication
 - Feed aggregation
 - Content publishing
 - Network graph

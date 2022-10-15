@@ -37,7 +37,7 @@ build/
   merch.html
 ```
 
-And they'd be rendered with the proper semantic HTML with support for speciying metadata for the page. Starting with `title` and the meta `description` is enough to get started!
+And they'd be rendered with the proper semantic HTML with support for specifying metadata for the page. Starting with `title` and the meta `description` is enough to get started!
 
 ## Concepts
 
@@ -68,7 +68,7 @@ And they'd be rendered with the proper semantic HTML with support for speciying 
 
 ## Examples
 
-- [Soy](https://github.com/brettchalupa/soy) — a functional but barebones static site generator I made in Ruby; I had intentions for it being more finished, but a useful exercise in learning
+- [Soy](https://github.com/brettchalupa/soy) — a functional but bare-bones static site generator I made in Ruby; I had intentions for it being more finished, but a useful exercise in learning
 
 ## See Also
 

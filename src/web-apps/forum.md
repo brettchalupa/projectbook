@@ -17,7 +17,7 @@ Here's what [a forum thread](https://paulwesterberg.proboards.com/thread/9028/pw
 ## Specs
 
 - Authentication (sign up, log in, log out)
-- Create message threads with an inital post and title
+- Create message threads with an initial post and title
 - Users can respond to the message thread
 - Users can browse posted messages
 

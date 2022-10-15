@@ -8,7 +8,7 @@ While you could certainly build web applications for these projects, there's som
 
 - [Swift UI](https://developer.apple.com/tutorials/swiftui) — for building apps for Apple devices
 - [gtk](https://www.gtk.org) — cross-platform desktop app toolkit with support for many language bindings
-    - [gtk-rs](https://gtk-rs.org) — Rust library for building cross-platform dekstop GUIs with GTK4
+    - [gtk-rs](https://gtk-rs.org) — Rust library for building cross-platform desktop GUIs with GTK4
     - [Vala](https://vala.dev) — a newer language for building apps with GTK
 - [Flutter](https://flutter.dev) — cross-platform app building library in Dart from Google
 - [React Native](https://reactnative.dev) — build mobile apps using React components

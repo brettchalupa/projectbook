@@ -29,7 +29,7 @@ I made a single-player game inspired by _Pong_ called _Lonely Paddle_:
 - Add a second paddle to have another person control to challenge the player
     - Keep track of score
 - Keep track of score in terms of time passed
-- Add collectables
+- Add collectibles
 - Juice it up with animations, sound effects, and music
 
 ## References

@@ -21,7 +21,7 @@ Once you're comfortable with the basics of HTML and CSS, the best resource is yo
 
 ### Hosting
 
-You'll need a host to serve your website code to the world. Start with [Neocities](https://neocities.org). It's a free website host where you can build simple websites and share them with others. It's fun, has a sinmple interface, and won't bog you down with a bunch of extra stuff, which is great when you're just getting started.
+You'll need a host to serve your website code to the world. Start with [Neocities](https://neocities.org). It's a free website host where you can build simple websites and share them with others. It's fun, has a simple interface, and won't bog you down with a bunch of extra stuff, which is great when you're just getting started.
 
 Other options that are free but a bit more advanced to use:
 
@@ -30,9 +30,9 @@ Other options that are free but a bit more advanced to use:
 
 ### Static Site Generators
 
-When you're building more complex websites beyond just a few pages, a static site generator (SSG) will be massively helpful for sharing page HTML across reuseable templates, authoring content in something other than HTML, and organizing the content.
+When you're building more complex websites beyond just a few pages, a static site generator (SSG) will be massively helpful for sharing page HTML across reusable templates, authoring content in something other than HTML, and organizing the content.
 
-There are _so_ many static site generators that it's pretty exhausting. The nice thing is that they usuall y don't require you to know another language aside from whatever templating language they use (usually an extended HTML language).
+There are _so_ many static site generators that it's pretty exhausting. The nice thing is that they usually don't require you to know another language aside from whatever templating language they use (usually an extended HTML language).
 
 Here are some of the ones I've used:
 

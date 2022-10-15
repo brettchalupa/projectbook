@@ -10,7 +10,7 @@ The projects that follow are ideas for projects you could write that others coul
 
 Writing an open source library can be a lot of fun and quite rewarding. Instead of a graphical interface or a command line interface, you’re defining a programming interface (API) for others to use and integrate with.
 
-You’ll want to have well thoughtout functions and sensible naming. And you’ll want to have thorough documentation to make it clear to use. But don't worry if there are issues as you're starting out, you'll get better the more you build libraries and APIs.
+You’ll want to have well thought out functions and sensible naming. And you’ll want to have thorough documentation to make it clear to use. But don't worry if there are issues as you're starting out, you'll get better the more you build libraries and APIs.
 
 Whether or not you open source the code you write is up to you. Consider how finished your code is and if it's stable enough for others to use. Writing your own version of a popular library can be a great way to learn a language.
 

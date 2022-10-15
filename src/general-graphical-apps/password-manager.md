@@ -2,9 +2,9 @@
 
 **The gist**: build an app to generate and manage secure passwords.
 
-Okay! Heads up here. This is obviously a risky one. I probably wouldn't release this as open source unless you're knowledgable and confident. Maybe keep this one closed source and be wary. Just because wow! There seems like there's some risk here with sensitive info.
+Okay! Heads up here. This is obviously a risky one. I probably wouldn't release this as open source unless you're knowledgeable and confident. Maybe keep this one closed source and be wary. Just because wow! There seems like there's some risk here with sensitive info.
 
-Also, I'm not a security or crytopgraphic expert. So, like, wow! There's a lot to consider here and learn. But that's the point of these. 
+Also, I'm not a security or cryptographic expert. So, like, wow! There's a lot to consider here and learn. But that's the point of these. 
 
 All right, enough caveats. Do and share your own risk!
 
@@ -20,7 +20,7 @@ What you'll learn:
 
 - UI for creating, managing, and viewing the generated passwords
 - Storing the data
-- Crytography with securely storing the data so others can't view the data
+- Cryptography with securely storing the data so others can't view the data
 
 [screenshot examples]
 [wireframes]

@@ -2,7 +2,7 @@
 
 **The gist**: allow restaurants to define menu items and then allow patrons to place orders from that menu online for pick-up.
 
-The scope of this could really vary in its breadth! But the gist is to create a web app that allows restuarants to create a website that lets their patrons order online for pick-up. It would allow them to add menu items with their price and optional description.
+The scope of this could really vary in its breadth! But the gist is to create a web app that allows restaurants to create a website that lets their patrons order online for pick-up. It would allow them to add menu items with their price and optional description.
 
 ## Mock-Ups
 
@@ -23,7 +23,7 @@ I'd call this GrubBud, or maybe that's too close to the real thing. How about iM
 
 ## Concepts
 
-- Admin for restuarant to manage their menu
+- Admin for restaurant to manage their menu
 - Public website for ordering w/ a cart with line items
 - Payment processing
 - State managing for the order with effects at various state changes (sounds like a state machine to me!)

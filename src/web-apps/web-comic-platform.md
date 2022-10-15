@@ -8,7 +8,7 @@ The idea here is to build an publishing platform specifically tailored to those 
 
 ## Mock-Ups
 
-Really similar to [Blogging Platform](./blogging-platform.md) but support uploading and assocaiting multiple images with each post.
+Really similar to [Blogging Platform](./blogging-platform.md) but support uploading and associating multiple images with each post.
 
 ## Concepts
 

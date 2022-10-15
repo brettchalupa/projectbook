@@ -1,6 +1,6 @@
 # Habit Tracker
 
-**The gist:** build an app that lets users succcessfully mark when they've completed a daily habit.
+**The gist:** build an app that lets users successfully mark when they've completed a daily habit.
 
 I find it helpful to track any new habit I want to start. Maybe it's practice guitar or meditate. Maybe it's go for a walk.
 

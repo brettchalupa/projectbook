@@ -48,7 +48,7 @@ I think an open-source, community-driven project like this could really thrive.
 
 The desire is instantly there to try to make this platform contain a comprehensive database of games for all platforms, regions, etc. That's a huge project. One of the beautiful things about Backloggery it's so simple and doesn't include that. Sure you have to enter details manually, but having that control is quite nice and I think makes it easier to manage.
 
-Maybe there's some middleground where auto-complete can be used for existing entries? I'm not quite sure. The manual entry is clearly easier for starting out though.
+Maybe there's some middle ground where auto-complete can be used for existing entries? I'm not quite sure. The manual entry is clearly easier for starting out though.
 
 ## References
 

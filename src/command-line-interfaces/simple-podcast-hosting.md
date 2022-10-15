@@ -65,7 +65,7 @@ Pretty much what you’d expect.
 """ # supports Markdown, HTML, or just plain ole text
 ```
 
-There may be more required fields for episides too. These are just some.
+There may be more required fields for episodes too. These are just some.
 
 ## References
 

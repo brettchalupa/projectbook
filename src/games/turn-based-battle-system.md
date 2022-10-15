@@ -12,7 +12,7 @@ I think of this game idea as... what if you had an RPG where you just fought the
 
 ## Mock-Ups
 
-![Game screenshot showing a menu with the optiosn of Attack, Defend, and Flee, with a character's avatar named Kino with 13/16 health, fighting against a smiling blue slime monster with a hilly background](./img/turn-based-battle-system.webp)
+![Game screenshot showing a menu with the options of Attack, Defend, and Flee, with a character's avatar named Kino with 13/16 health, fighting against a smiling blue slime monster with a hilly background](./img/turn-based-battle-system.webp)
 
 ## Specs
 

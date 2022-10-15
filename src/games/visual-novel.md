@@ -1,6 +1,6 @@
 # Visual Novel
 
-**The gist**: build a game that renders text and associated images, à la digital picturebook.
+**The gist**: build a game that renders text and associated images, à la digital picture book.
 
 Visual Novels (VN) are a great genre of game for those looking to make something that's more focused on the story than the gameplay. Visual Novels often make use of anime-style graphics, but the sky's the limit here. You can do what you want. The basic gist is that there's text rendering, image rendering, and usually light forms of player input.
 

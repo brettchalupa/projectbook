@@ -33,7 +33,7 @@ far Foo Bar src/**/*.rs
 
 ## Tech On My Mind
 
-Really any programming language would work that can all out to the system IO. But what would make this project really ideal would be the abiliy to compile it easily into a dependency-free cross-platform binary that's easy to distribute.
+Really any programming language would work that can all out to the system IO. But what would make this project really ideal would be the ability to compile it easily into a dependency-free cross-platform binary that's easy to distribute.
 
 These are my top runners:
 - Go

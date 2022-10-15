@@ -49,9 +49,9 @@ Then in my application, all I would have to do is call `DogApi.random_image_url`
 
 The above code is a bit... naive. It doesn't handle errors, which could certainly happen. What if the API is down or we get rate limited? We'd want something useful to happen for those using the wrapper. That's part of the joy of using an API wrapper. The best API wrappers handle errors and respond in a away appropriate for the language. For Ruby code, it could raise an exception.
 
-Even within just one class and a class method, there are some design decisions I made. I called the wrapper `DogApi` instead of just `Dog` because it's more specific, and `Dog` is too generic of a name in my opinion. I wouldn't want to inadvertantly interfere with it. I also named the method `.random_image_url` because it makes it clear what's returned—a URL to the image. If it was just called `.random`, it wouldn't be clear what's returned—is it a hash, a `Dog` object, or an image URL?
+Even within just one class and a class method, there are some design decisions I made. I called the wrapper `DogApi` instead of just `Dog` because it's more specific, and `Dog` is too generic of a name in my opinion. I wouldn't want to inadvertently interfere with it. I also named the method `.random_image_url` because it makes it clear what's returned—a URL to the image. If it was just called `.random`, it wouldn't be clear what's returned—is it a hash, a `Dog` object, or an image URL?
 
-There is a fine line to walk when developing an API wrapper. You want to remain true to the API you're wrapping so that the patterns and names aren't wildely inconsistent, but you also want to be clear and use the idioms of the language you're using.
+There is a fine line to walk when developing an API wrapper. You want to remain true to the API you're wrapping so that the patterns and names aren't wildly inconsistent, but you also want to be clear and use the idioms of the language you're using.
 
 ## Examples
 

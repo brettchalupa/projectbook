@@ -4,7 +4,7 @@
 
 For example, https://some.place.example.com/foo/bar/biz being shorted to https://short.ly/abc123
 
-Having a short URL can be nice for making it easier for people to type it in, whether hearing it on a podcast or reading it on a poster. Sure, QR codes sort of stole the show for the latter usecase, but it's still a good learning project!
+Having a short URL can be nice for making it easier for people to type it in, whether hearing it on a podcast or reading it on a poster. Sure, QR codes sort of stole the show for the latter use case, but it's still a good learning project!
 
 ## Mock-Ups
 

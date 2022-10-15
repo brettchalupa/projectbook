@@ -14,7 +14,7 @@ I call this idea **StoryHub**.
 
 ## Specs
 
-Even if the accounts are the same, I think there are two distinct usecases here. One for the writer who publishes stories. And one for the reader experience.
+Even if the accounts are the same, I think there are two distinct use cases here. One for the writer who publishes stories. And one for the reader experience.
 
 ### Writer
 
@@ -44,7 +44,7 @@ Because the UI needs are ultimately pretty simple (centered around rendering lon
 - Reorder chapters
 - Generate RSS feeds for a given book and author
 - Easily export epub and PDF versions of stories
-- Reader account feaders
+- Reader account feeds
     - Follow stories and/or authors
     - Feed of new chapters for followed stories
 - Mobile apps for reading (and even authoring)

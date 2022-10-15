@@ -1,6 +1,6 @@
 # Background Job Processor
 
-**The gist**: build a library that allows clients to define jobs that get processed on an asyncronous queue seperate from their application.
+**The gist**: build a library that allows clients to define jobs that get processed on an asynchronous queue separate from their application.
 
 A really common need in an application is to offload long processing tasks to a background job queue. The job queue could be for something like sending an email where it doesn't need to happen immediately. Or it could be for processing something really important, like an order, that needs to call out to a variety of APIs and has many side effects. Maybe a large export file needs to be generated.
 

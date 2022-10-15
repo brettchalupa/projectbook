@@ -2,7 +2,7 @@
 
 **The gist**: build an app that allows users to upload videos that others can watch on the web.
 
-Essentially a YouTube clone! Videos can be challenging because of their large file size and various filetype support needs across browsers and operating systems. Also, hosting them can be expensive. So it's totally okay to just store the uploaded files locally on your computer for this learning project.
+Essentially a YouTube clone! Videos can be challenging because of their large file size and various file type support needs across browsers and operating systems. Also, hosting them can be expensive. So it's totally okay to just store the uploaded files locally on your computer for this learning project.
 
 ## Spec
 

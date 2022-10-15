@@ -4,7 +4,7 @@
 
 Working on non-trivial projects with a team means parallel work streams. Combine that with building functionality that's not ready for everyone yet, and it can get messy managing what functionality is available and what isn't. That's where feature flags come in. They let developers hide functionality behind a gate until it's ready to be launched, thus allowing code to be merged in and shipped without impacting the user until they want it to.
 
-Feature flags enable incremental rollout too. So instead of launching a new feature all at once in a big bang release, you can steadily roll it out and monitor to see how it's going, fix any bugs before they come up, and launch to your entire userbase with more confidence.
+Feature flags enable incremental roll out too. So instead of launching a new feature all at once in a big bang release, you can steadily roll it out and monitor to see how it's going, fix any bugs before they come up, and launch to your entire user base with more confidence.
 
 Introducing and using feature flags was one of the most significant changes to my workflow throughout my entire career. It's also a pretty small and interesting library to build.
 

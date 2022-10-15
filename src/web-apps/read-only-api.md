@@ -8,7 +8,7 @@ Then, once you have this read-only API, you can build clients that render the da
 
 ## Spec
 
-- Set up your database and sceham for your application to read from
+- Set up your database and schema for your application to read from
 - Have some way to load the data that your API serves; maybe you ingest the data from a spreadsheet
 - Define read-only API endpoints to fetch and return the data
 

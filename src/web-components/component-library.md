@@ -6,7 +6,7 @@ When building out websites and web apps, there are some really common needs that
 
 Historically, Bootstrap or Foundation accomplish similar tasks: provide styles and JS for commonly used patterns in websites. They work fine and are widely used, but they're pretty brittle. You have to rely on having just the right DOM structure and classes for it to work.
 
-What if instead all someone had to do to get an image gallery was use the `<cl-gallery>` tag or to get a card display they use `<cl-card>`? That'd allow the component library (cl) to provide the needed defaults with the ability for them to be overriden or themed as needed.
+What if instead all someone had to do to get an image gallery was use the `<cl-gallery>` tag or to get a card display they use `<cl-card>`? That'd allow the component library (cl) to provide the needed defaults with the ability for them to be overridden or themed as needed.
 
 In many ways, this project is about creating a generic-ish design system for building websites and web applications. It will help you learn a component library and think about user interfaces in small, composable pieces.
 
@@ -29,6 +29,6 @@ Here are some of the foundational components I'd add:
 ## Extra Credit
 
 - Add more components, like `<cl-icon>` for easy icons
-- Ensure styles can be overidden easily to customize it. CSS variables would be a good fit for this!
+- Ensure styles can be overridden easily to customize it. CSS variables would be a good fit for this!
 - Write (or auto-gen) documentation for the components
 - Build out some websites and web apps using it! See it feels and what could be improved.

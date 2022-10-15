@@ -6,7 +6,7 @@ This is useful for people linking to various profiles on social media, sharing a
 
 ## Mock-Ups
 
-Here's what the user inteface and user experience could be like:
+Here's what the user interface and user experience could be like:
 
 ![Linkbud mobile mock-ups. First view: horizontally-aligned title/logo and user button; list of link lists each with a view link, edit link and visibility indicator; "Add a Link List" button. Second view: "Create a Link List" form; inputs for name, description and slug, plus a repeatable group of inputs for each link (name and URL); "Add a Link" and "Create" buttons. Third view: public view with the list title, a short description, a list of styled links, a reference to the platform and a link to follow the list creator on the platform](./img/linkbud.webp)
 

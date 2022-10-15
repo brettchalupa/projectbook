@@ -8,7 +8,7 @@ Many programming languages come with libraries for making HTTP requests since it
 
 Let's look at what this could be like with Ruby. Ruby provides the [`net/http` library](https://ruby-doc.org/stdlib-3.0.3/libdoc/net/http/rdoc/Net/HTTP.html) for making HTTP requests.
 
-You would use it like this to fetch the JSON from a URL and retiurn it as a Hash in Ruby:
+You would use it like this to fetch the JSON from a URL and return it as a Hash in Ruby:
 
 ``` ruby
 require 'net/http'

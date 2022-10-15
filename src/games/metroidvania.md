@@ -2,7 +2,7 @@
 
 **The gist**: build a 2D game about exploring with leveling up mechanics.
 
-## Resources
+## References
 
 - _Super Metroid_
 - _Castlevania: Symphony of the Night_

@@ -1,5 +1,12 @@
 # Dungeon Crawler
 
+**The gist**: build out a roguelike game where you descend into the depths of a dungeon fighting monsters and trying to survive.
+
+## Concepts
+
+- Procedural generation
+- Turn-based combat (if you want)
+
 ## References
 
 - [Rust Roguelike Tutorial by Herbert Wolverson](https://bfnightly.bracketproductions.com)

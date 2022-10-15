@@ -69,6 +69,7 @@
 - [Event Platform](./web-apps/event-platform.md)
 - [Restaurant Ordering Platform](./web-apps/restaurant-ordering-platform.md)
 - [VideoTube](./web-apps/videotube.md)
+- [Invoice App](./web-apps/invoice-app.md)
 - [Simple Commerce](./web-apps/simple-commerce.md)
 - [Website Builder](./web-apps/website-builder.md)
 

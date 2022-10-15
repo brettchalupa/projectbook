@@ -28,6 +28,10 @@ To continue with the _Guided By Voices_ discography example from the Read-Only A
 - Data-driven UI
 - Translating API data into data structures in your client language
 
+## Sub-Ideas
+
+- An app that fetches images for a given Subreddit and allows for easy viewing, like an r/cute viewer.
+
 ## Technologies of Interest
 
 - Any web component framework like Svelte, React (Next.js in particular), Lit, Stencil, Vue, etc.

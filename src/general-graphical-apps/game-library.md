@@ -20,4 +20,4 @@ A DRM-free, offline basic version of Steam.
 
 - Track playtime by monitoring the processes
 - Support organizing and group games by play status or platform or genre
-- Support loading ROMs and launching emulators for those games.
+- Support loading ROMs and launching emulators for those games

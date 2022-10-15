@@ -10,6 +10,7 @@
 - [Find and Replace](./command-line-interfaces/find-and-replace.md)
 - [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [HTTPal](./command-line-interfaces/httpal.md)
+- [Tweet Composer](./command-line-interfaces/tweet-composer.md)
 - [Markdown Processor](./command-line-interfaces/markdown-processor.md)
 - [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
 - [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)

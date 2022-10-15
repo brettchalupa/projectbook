@@ -10,6 +10,8 @@ Browse around, dig in, make something, and share it!
 
 👀📖 [Browse the book!](https://projectbook.code.brettchalupa.com)
 
+[Or download a PDF.](https://github.com/brettchalupa/projectbook/releases)
+
 [Or get involved on GitHub Discussions.](https://github.com/brettchalupa/projectbook/discussions)
 
 ---

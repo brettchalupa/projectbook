@@ -132,6 +132,12 @@ Did you code an open source version of one of the projects and want to share the
 
 _Projectbook_ uses [GitHub Discussions](https://github.com/brettchalupa/projectbook/discussions) to share projects people have made. Join in, ask for help, and collaborate with others on projects.
 
+## Offline Version
+
+If you'd prefer to have an offline version of _Projectbook_, you can [download a PDF of the latest release on GitHub](https://github.com/brettchalupa/projectbook/releases).
+
+[Or clone the repository and run mdBook locally.](https://github.com/brettchalupa/projectbook)
+
 ## Dig In!
 
 View the projects in the sidebar or browse through the sections below to find a project that catches your interest. Then hack away and make some cool things! Learn a lot. And share what you make.

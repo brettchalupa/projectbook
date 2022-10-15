@@ -76,7 +76,7 @@ Don't worry too much about it looking generic or boring when you're learning, un
 
 ![animated gif of rotating cartoon head that looks like Brett in the style of Nintendo's Mii](./brett-mii.gif)
 
-I am Brett! Nice to meet you. Thanks for checking this out. I'm a software programmer who has been doing some form of coding since I was 13. Professionally, I build web applications and APIs with Ruby, Rails, TypeScript, GraphQL, and web components. Personally, I dabble with all sorts of programming, from CLIs to game dev. I like checking out new languages and frameworks on the regular.
+I am Brett! Nice to meet you. Thanks for checking this out. I'm a software developer who has been doing some form of coding since I was a teenager. Professionally, I build web applications and APIs with Ruby, Rails, TypeScript, GraphQL, and web components. Personally, I dabble with all sorts of programming, from CLIs to game dev. I like checking out new languages and frameworks on the regular.
 
 Since I'm not, let's say, a software programmer for smart refrigerators, there aren't a ton of ideas related to smart refrigerators. The focus is more on the software I use regularly or have to build. This is great because I understand the needs and functionality, which means I don't have to think too much about why something needs to do something and can instead focus on learning the technology.
 

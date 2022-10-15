@@ -79,6 +79,7 @@
 - [Flash Cards](./general-graphical-apps/flash-cards.md)
 - [Habit Tracker](./general-graphical-apps/habit-tracker.md)
 - [Request Manager](./general-graphical-apps/request-manager.md)
+- [Time Tracker](./general-graphical-apps/time-tracker.md)
 - [Journal](./general-graphical-apps/journal.md)
 - [Notebook](./general-graphical-apps/notebook.md)
 - [Book Authoring Tool](./general-graphical-apps/book-authoring-tool.md)

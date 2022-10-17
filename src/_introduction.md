@@ -20,6 +20,8 @@ In a lot of ways, these projects are just me sharing software and tools that I w
 
 Often a simple todo app is the non-trivial example project that people point to. It's a fine one because it has a variety of needs and state management. But it's so boring! And overdone! So _Projectbook_ contains ideas for projects beyond the basic todo list app.
 
+[📺 Prefer a video introducing all of this?](https://www.youtube.com/watch?v=mrMc7ymm2z0)
+
 ## What Makes a Good Learning Project
 
 - Non-trivial — more complex than "hello world" but less complex than a video editor

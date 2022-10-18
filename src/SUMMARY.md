@@ -8,10 +8,10 @@
 - [Unix Utilities](./command-line-interfaces/unix-utilities.md)
 - [Spell Checker](./command-line-interfaces/spell-checker.md)
 - [Find and Replace](./command-line-interfaces/find-and-replace.md)
-- [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [HTTPal](./command-line-interfaces/httpal.md)
 - [Tweet Composer](./command-line-interfaces/tweet-composer.md)
 - [Conventional Committer](./command-line-interfaces/conventional-committer.md)
+- [Notebook TUI](./command-line-interfaces/notebook-tui.md)
 - [Markdown Processor](./command-line-interfaces/markdown-processor.md)
 - [Custom Markup Language](./command-line-interfaces/custom-markup-language.md)
 - [Simple Podcast Hosting](./command-line-interfaces/simple-podcast-hosting.md)
@@ -21,6 +21,7 @@
 # Libraries
 
 - [Introduction](./libraries/_introduction.md)
+- [.env Loader](./libraries/dotenv-loader.md)
 - [HTTP Client](./libraries/http-client.md)
 - [API Wrapper](./libraries/api-wrapper.md)
 - [Feature Flags](./libraries/feature-flags.md)

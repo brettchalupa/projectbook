@@ -4,6 +4,10 @@ Below is a reverse chronological list of when new projects were added or existin
 
 See [the Git commits](https://github.com/brettchalupa/projectbook/commits/main) for full details on what changed.
 
+## Unversioned Additions
+
+- [.env Loader](./libraries/dotenv-loader.md) — 2022-10-18
+
 ## v1.0 - 2022-10-15
 
 The initial release of _Projectbook_ with 109 projects.

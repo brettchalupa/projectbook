@@ -10,6 +10,20 @@
 
 _Projectbook_ is a collection of over 100 software project ideas for people looking to learn a given language or technology but short on inspiration for what to build. The projects vary in complexity and what they exercise. Find inspiration for your next project.
 
+## Dig In!
+
+View the projects in the sidebar or browse through the sections below to find a project that catches your interest. Then hack away and make some cool things! Learn a lot. And share what you make.
+
+- [CLIs](./command-line-interfaces/_introduction.md)
+- [Libraries](./libraries/_introduction.md)
+- [Websites](./websites/_introduction.md)
+- [Web Components](./web-components/_introduction.md)
+- [Web Apps](./web-apps/_introduction.md)
+- [GUIs](./general-graphical-apps/_introduction.md) (platform agnostic, apps could be for mobile, desktop, or web)
+- [Games](./games/_introduction.md)
+
+## Why I Made This
+
 My goal with this collection is to provide detailed enough specifications to get you started on a project.
 
 I've found that a lot of software tutorials are too simple and that I only learn best through actually building something. Exercises are useful for learning a specific syntax or concept, but what's valuable is applying them in a more cohesive, holistic program.
@@ -139,15 +153,3 @@ _Projectbook_ uses [GitHub Discussions](https://github.com/brettchalupa/projectb
 If you'd prefer to have an offline version of _Projectbook_, you can [download a PDF of the latest release on GitHub](https://github.com/brettchalupa/projectbook/releases).
 
 [Or clone the repository and run mdBook locally.](https://github.com/brettchalupa/projectbook)
-
-## Dig In!
-
-View the projects in the sidebar or browse through the sections below to find a project that catches your interest. Then hack away and make some cool things! Learn a lot. And share what you make.
-
-- [CLIs](./command-line-interfaces/_introduction.md)
-- [Libraries](./libraries/_introduction.md)
-- [Websites](./websites/_introduction.md)
-- [Web Components](./web-components/_introduction.md)
-- [Web Apps](./web-apps/_introduction.md)
-- [General GUIs](./general-graphical-apps/_introduction.md)
-- [Games](./games/_introduction.md)

@@ -148,6 +148,13 @@ Did you code an open source version of one of the projects and want to share the
 
 _Projectbook_ uses [GitHub Discussions](https://github.com/brettchalupa/projectbook/discussions) to share projects people have made. Join in, ask for help, and collaborate with others on projects.
 
+## Similar Resources
+
+Here are some other awesome resources that are similar in nature:
+
+- [Build your own X](https://github.com/codecrafters-io/build-your-own-x) — collection of step-by-step guides
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) — guides organized by programming language
+
 ## Offline Version
 
 If you'd prefer to have an offline version of _Projectbook_, you can [download a PDF of the latest release on GitHub](https://github.com/brettchalupa/projectbook/releases).

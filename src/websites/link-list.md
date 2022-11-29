@@ -6,7 +6,7 @@ A Link List is an ideal candidate for a learning project because it's simple (on
 
 ## Mock-Up
 
-Here's a screenshot of https://brettchalupa.neocities.org — a Link List I build for myself as an example.
+Here's a screenshot of [https://brettchalupa.neocities.org](https://brettchalupa.neocities.org) — a Link List I build for myself as an example.
 
 ![Screenshot of a link list website showing four links, preceded by an avatar, title and mini bio](./img/link-list-example.webp)
 

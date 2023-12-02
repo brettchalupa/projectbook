@@ -17,4 +17,4 @@ While you could certainly build web applications for these projects, there's som
 - [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin) — cross-platform apps built with .NET and C#
 - [Kotlin](https://developer.android.com/kotlin) — Android development
 - [Qt](https://www.qt.io) — cross-platform app toolkit, seems a bit enterprise-y
-- [Kivy Framework](https://kivy.org/) - a free cross platform app development library in python
+- [Kivy Framework](https://kivy.org/) — a free cross platform app development library in python

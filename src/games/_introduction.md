@@ -15,6 +15,7 @@ I recommend using libraries and frameworks when learning programming via making 
 What follows is a non-exhaustive list of game libraries I've used in a variety of capacities and recommend:
 
 - [Bevy](https://bevyengine.org) — Rust
+- [DragonRuby](https://dragonruby.org) - Ruby
 - [Ebitengine](https://ebitengine.org) — Go
 - [Fyrox](https://fyrox.rs) — Rust
 - [Gosu](https://www.libgosu.org) — Ruby

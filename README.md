@@ -12,8 +12,6 @@ Browse around, dig in, make something, and share it!
 
 [Or download a PDF.](https://github.com/brettchalupa/projectbook/releases)
 
-[Or get involved on GitHub Discussions.](https://github.com/brettchalupa/projectbook/discussions)
-
 ---
 
 ## Writing & Development Guide
